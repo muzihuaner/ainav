@@ -1,0 +1,698 @@
+[
+    {
+        "name": "通义千问",
+        "url": "https://www.qianwen.com/",
+        "description": "由阿里云开发的人工智能助手",
+        "logo": "/static/img/nav-ai-tongyi.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.5,
+        "featured": true
+    },
+    {
+        "name": "deepseek",
+        "url": "https://chat.deepseek.com/",
+        "description": "深度求索是一家专注于实现AGI的中国公司。",
+        "logo": "/static/img/nav-ai-deepseek.jpg",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "开源"
+        ],
+        "category": "AI对话",
+        "rating": 4.3
+    },
+    {
+        "name": "文心一言",
+        "url": "https://yiyan.baidu.com/",
+        "description": "百度公司推出的一个AI预训练模型，它主要用于自然语言处理任务，如文本生成、问答系统等",
+        "logo": "/static/img/nav-ai-wxyy.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "图像生成"
+        ],
+        "category": "AI对话",
+        "rating": 4.4,
+        "featured": true
+    },
+    {
+        "name": "豆包",
+        "url": "https://www.doubao.com/chat/",
+        "description": "豆包，一个能解答各种知识疑问，进行文案创作、文本润色，还能处理数理逻辑等问题",
+        "logo": "/static/img/nav-ai-doubao.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "图像生成"
+        ],
+        "category": "AI对话",
+        "rating": 4.2
+    },
+    {
+        "name": "kimi",
+        "url": "https://kimi.moonshot.cn/",
+        "description": "Kimi是由北京月之暗面科技有限公司（Moonshot AI）开发的一款智能助手",
+        "logo": "/static/img/nav-ai-kimi.jpg",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.3,
+        "featured": true
+    },
+    {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "description": "OpenAI开发的最强大AI聊天机器人，支持自然语言对话和各类任务",
+        "logo": "/static/img/nav-ai-ChatGPT.png",
+        "tags": [
+            "AI对话",
+            "语言模型"
+        ],
+        "category": "AI对话",
+        "rating": 4.8,
+        "featured": true
+    },
+    {
+        "name": "Claude",
+        "url": "https://anthropic.com",
+        "description": "Anthropic开发的AI助手，擅长分析和写作，对话更加自然",
+        "logo": "/static/img/nav-ai-claude.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.6
+    },
+    {
+        "name": "小艺",
+        "url": "https://xiaoyi.huawei.com/chat/",
+        "description": "由华为公司开发的AI智能助手，支持多种语言和场景",
+        "logo": "/static/img/nav-ai-xiaoyi.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.1
+    },
+    {
+        "name": "腾讯元宝",
+        "url": "https://yuanbao.tencent.com/",
+        "description": "腾讯元宝，一款人工智能助手，专注于提供问答服务、解决问题、建议和信息检索，致力于帮助用户高效获取所需内容。",
+        "logo": "/static/img/nav-ai-yuanbao.png",
+        "tags": [
+            "AI对话",
+            "图像生成",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.0
+    },
+    {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/app",
+        "description": "通过Discord使用的AI绘画工具，生成的图片艺术感强，操作简单",
+        "logo": "/static/img/nav-ai-midjourney.png",
+        "tags": [
+            "AI绘画",
+            "图像生成",
+            "艺术创作"
+        ],
+        "category": "AI创作",
+        "rating": 4.7,
+        "featured": true
+    },
+    {
+        "name": "DALL-E",
+        "url": "https://labs.openai.com",
+        "description": "OpenAI开发的AI绘画工具，支持文生图和图片编辑功能",
+        "logo": "/static/img/nav-ai-dall.png",
+        "tags": [
+            "AI绘画",
+            "图像生成",
+            "图像编辑"
+        ],
+        "category": "AI创作",
+        "rating": 4.6
+    },
+    {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai",
+        "description": "开源的AI绘画工具，支持本地部署，功能强大，可自定义配置",
+        "logo": "/static/img/nav-ai-stable_diffusion.png",
+        "tags": [
+            "AI绘画",
+            "图像生成",
+            "开源"
+        ],
+        "category": "AI创作",
+        "rating": 4.5
+    },
+    {
+        "name": "Runway",
+        "url": "https://runway.com",
+        "description": "强大的AI视频内容生成和编辑工具，支持多种视频处理功能",
+        "logo": "/static/img/nav-ai-runway.png",
+        "tags": [
+            "AI视频",
+            "视频编辑",
+            "内容创作"
+        ],
+        "category": "AI创作",
+        "rating": 4.4
+    },
+    {
+        "name": "D-ID",
+        "url": "https://d-id.com",
+        "description": "专业的AI数字人视频生成平台，可创建逼真的数字人视频",
+        "logo": "/static/img/nav-ai-d-id.png",
+        "tags": [
+            "AI视频",
+            "数字人",
+            "视频生成"
+        ],
+        "category": "AI创作",
+        "rating": 4.3
+    },
+    {
+        "name": "Mubert",
+        "url": "https://mubert.com",
+        "description": "AI音乐生成平台，支持创作配乐、音乐流媒体和API接入",
+        "logo": "/static/img/nav-ai-mubert.png",
+        "tags": [
+            "AI音频",
+            "音乐生成",
+            "配乐制作"
+        ],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "cursor",
+        "url": "https://www.cursor.com/",
+        "description": "Cursor 是使用 AI 编写代码的最佳方式。",
+        "logo": "/static/img/nav-ai-cursor.png",
+        "tags": [
+            "IDE",
+            "代码助手",
+            "AI编程"
+        ],
+        "category": "AI编程",
+        "rating": 4.4
+    },
+    {
+        "name": "Trae",
+        "url": "https://www.trae.com.cn/",
+        "description": "国内首款 AI 原生 IDE，专为中国开发者打造，让 AI 深度融入编程，带来比插件更流畅、精准的开发体验。",
+        "logo": "/static/img/nav-ai-trae.png",
+        "tags": [
+            "IDE",
+            "代码助手",
+            "AI编程"
+        ],
+        "category": "AI编程",
+        "rating": 4.3
+    },
+    {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "description": "由GitHub和OpenAI合作开发的AI代码助手，实时提供代码建议和自动完成",
+        "logo": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "tags": [
+            "代码助手",
+            "AI编程",
+            "开发工具"
+        ],
+        "category": "AI编程",
+        "rating": 4.6,
+        "featured": true
+    },
+    {
+        "name": "ima",
+        "url": "https://ima.qq.com/",
+        "description": "会思考的知识库，开启读写搜新体验。",
+        "logo": "/static/img/nav-ai-ima.png",
+        "tags": [
+            "知识库",
+            "文档助手",
+            "信息管理"
+        ],
+        "category": "AI工具",
+        "rating": 4.0
+    },
+    {
+        "name": "Perplexity AI",
+        "url": "https://www.perplexity.ai",
+        "description": "智能搜索引擎，结合AI技术提供更准确、更详细的搜索结果",
+        "logo": "https://www.perplexity.ai/favicon.ico",
+        "tags": [
+            "搜索引擎",
+            "AI助手",
+            "信息检索"
+        ],
+        "category": "AI工具",
+        "rating": 4.5
+    },
+    {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/ai",
+        "description": "集成在Notion中的AI助手，帮助用户撰写、编辑和组织文档内容",
+        "logo": "https://www.notion.so/images/favicon.ico",
+        "tags": [
+            "文档助手",
+            "AI写作",
+            "productivity"
+        ],
+        "category": "AI工具",
+        "rating": 4.4
+    },
+    {
+        "name": "Canva AI",
+        "url": "https://www.canva.com/ai/",
+        "description": "Canva的AI设计工具，帮助用户快速创建专业的设计作品",
+        "logo": "https://www.canva.com/favicon.ico",
+        "tags": [
+            "设计工具",
+            "AI创作",
+            "图形设计"
+        ],
+        "category": "AI创作",
+        "rating": 4.3
+    },
+    {
+        "name": "Adobe Firefly",
+        "url": "https://www.adobe.com/sensei/generative-ai/firefly.html",
+        "description": "Adobe的创意生成AI工具，用于生成图像、文本效果和设计素材",
+        "logo": "https://www.adobe.com/favicon.ico",
+        "tags": [
+            "设计工具",
+            "AI创作",
+            "创意生成"
+        ],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "Descript",
+        "url": "https://www.descript.com/",
+        "description": "AI视频编辑工具，支持文本编辑视频、自动字幕和语音克隆",
+        "logo": "https://www.descript.com/favicon.ico",
+        "tags": [
+            "视频编辑",
+            "AI音频",
+            "内容创作"
+        ],
+        "category": "AI创作",
+        "rating": 4.1
+    },
+    {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/",
+        "description": "AI语音生成平台，支持创建逼真的语音合成和语音克隆",
+        "logo": "https://elevenlabs.io/favicon.ico",
+        "tags": [
+            "AI音频",
+            "语音生成",
+            "语音合成"
+        ],
+        "category": "AI创作",
+        "rating": 4.4
+    },
+    {
+        "name": "Otter.ai",
+        "url": "https://otter.ai/",
+        "description": "AI语音转文字工具，实时记录和转录会议、讲座等内容",
+        "logo": "https://otter.ai/favicon.ico",
+        "tags": [
+            "AI音频",
+            "语音转文字",
+            "productivity"
+        ],
+        "category": "AI工具",
+        "rating": 4.0
+    },
+    {
+        "name": "Figma AI",
+        "url": "https://www.figma.com/ai/",
+        "description": "Figma的AI设计助手，帮助用户快速创建和编辑设计作品",
+        "logo": "https://www.figma.com/favicon.ico",
+        "tags": [
+            "设计工具",
+            "AI创作",
+            "协作工具"
+        ],
+        "category": "AI创作",
+        "rating": 4.3
+    },
+    {
+        "name": "Zapier AI",
+        "url": "https://zapier.com/ai",
+        "description": "Zapier的AI自动化工具，帮助用户创建智能工作流和自动化任务",
+        "logo": "https://zapier.com/favicon.ico",
+        "tags": [
+            "自动化",
+            "AI助手",
+            "productivity"
+        ],
+        "category": "AI工具",
+        "rating": 4.2
+    },
+    {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "description": "Google开发的多模态AI助手，支持文本、图像等多种输入方式",
+        "logo": "https://gemini.google.com/favicon.ico",
+        "tags": [
+            "AI对话",
+            "多模态",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.6,
+        "featured": true
+    },
+    {
+        "name": "讯飞星火",
+        "url": "https://xinghuo.ai/",
+        "description": "科大讯飞开发的认知智能大模型，具备深度推理和多语言支持能力",
+        "logo": "https://xinghuo.ai/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "中文优化"
+        ],
+        "category": "AI对话",
+        "rating": 4.4,
+        "featured": true
+    },
+    {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/",
+        "description": "开源大规模语言模型，适用于多种任务，支持本地部署",
+        "logo": "https://mistral.ai/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "开源",
+            "多语言"
+        ],
+        "category": "AI对话",
+        "rating": 4.3
+    },
+    {
+        "name": "DALL-E 3",
+        "url": "https://openai.com/dall-e-3",
+        "description": "OpenAI开发的最新图像生成模型，擅长理解复杂提示并生成高质量图像",
+        "logo": "https://openai.com/favicon.ico",
+        "tags": [
+            "AI绘画",
+            "图像生成",
+            "文生图"
+        ],
+        "category": "AI创作",
+        "rating": 4.7,
+        "featured": true
+    },
+    {
+        "name": "Stable Diffusion XL",
+        "url": "https://stability.ai/stable-diffusion",
+        "description": "开源的高级图像生成模型，支持本地部署和高度自定义配置",
+        "logo": "https://stability.ai/favicon.ico",
+        "tags": [
+            "AI绘画",
+            "图像生成",
+            "开源",
+            "自定义"
+        ],
+        "category": "AI创作",
+        "rating": 4.5
+    },
+    {
+        "name": "文心快码",
+        "url": "https://comate.baidu.com/",
+        "description": "百度开发的全栈自动编程智能体，支持多种编程语言和IDE",
+        "logo": "https://comate.baidu.com/favicon.ico",
+        "tags": [
+            "代码助手",
+            "AI编程",
+            "智能补全",
+            "中文优化"
+        ],
+        "category": "AI编程",
+        "rating": 4.3
+    },
+    {
+        "name": "腾讯云代码助手",
+        "url": "https://cloud.tencent.com/product/acc",
+        "description": "腾讯云开发的AI编程工具，支持超过200种编程语言和主流IDE",
+        "logo": "https://cloud.tencent.com/favicon.ico",
+        "tags": [
+            "代码助手",
+            "AI编程",
+            "智能诊断",
+            "中文优化"
+        ],
+        "category": "AI编程",
+        "rating": 4.2
+    },
+    {
+        "name": "FastGPT",
+        "url": "https://fastgpt.run/",
+        "description": "基于知识库的AI问答系统构建工具，适合快速构建精准问答应用",
+        "logo": "https://fastgpt.run/favicon.ico",
+        "tags": [
+            "知识库",
+            "问答系统",
+            "AI工具"
+        ],
+        "category": "AI工具",
+        "rating": 4.1
+    },
+    {
+        "name": "Dify",
+        "url": "https://dify.ai/",
+        "description": "功能全面的开源LLM应用开发平台，适合快速构建复杂AI工作流",
+        "logo": "https://dify.ai/favicon.ico",
+        "tags": [
+            "开发平台",
+            "AI工具",
+            "工作流",
+            "开源"
+        ],
+        "category": "AI工具",
+        "rating": 4.4,
+        "featured": true    
+    },
+    {
+        "name": "GLM",
+        "url": "https://chat.z.ai/",
+        "description": "Z.ai开发的GLM，全称为General Language Model，是一个通用语言模型",
+        "logo": "https://chat.z.ai/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "通用语言模型"
+        ],
+        "category": "AI对话",
+        "rating": 4.4,
+        "featured": true
+    },
+    {
+        "name": "智谱清言",
+        "url": "https://chatglm.cn/",
+        "description": "智谱情言是一个基于语言模型的AI助手，提供智能对话和信息查询功能",
+        "logo": "https://chatglm.cn/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.5,
+        "featured": true
+    },
+    {
+        "name": "xiaomi mimo",
+        "url": "https://aistudio.xiaomimimo.com/#/",
+        "description": "xiaomi mimo是一个基于语言模型的AI助手，提供智能对话和信息查询功能",
+        "logo": "https://aistudio.xiaomimimo.com/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "API"
+        ],
+        "category": "AI对话",
+        "rating": 4.5,
+        "featured": true
+    },
+    {
+        "name": "Poe",
+        "url": "https://poe.com/",
+        "description": "Quora推出的多模型AI对话平台，支持汇聚多家模型",
+        "logo": "https://poe.com/favicon.ico",
+        "tags": ["AI对话", "多模型", "聚合"],
+        "category": "AI对话",
+        "rating": 4.3
+    },
+    {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai/",
+        "description": "模型路由与统一API入口，便捷接入多家大模型",
+        "logo": "https://openrouter.ai/favicon.ico",
+        "tags": ["API", "模型路由", "开发平台"],
+        "category": "AI工具",
+        "rating": 4.2
+    },
+    {
+        "name": "Cohere",
+        "url": "https://cohere.com/",
+        "description": "企业级语言模型与生成式AI服务，提供检索增强与工具集成",
+        "logo": "https://cohere.com/favicon.ico",
+        "tags": ["语言模型", "API", "企业"],
+        "category": "AI对话",
+        "rating": 4.2
+    },
+    {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co/",
+        "description": "全球最大的开源AI社区与模型库，提供推理与数据集",
+        "logo": "https://huggingface.co/favicon.ico",
+        "tags": ["模型库", "开源", "社区"],
+        "category": "AI工具",
+        "rating": 4.6,
+        "featured": true
+    },
+    {
+        "name": "Replicate",
+        "url": "https://replicate.com/",
+        "description": "模型托管与推理平台，支持一键部署与API调用",
+        "logo": "https://replicate.com/favicon.ico",
+        "tags": ["模型托管", "推理", "开发平台"],
+        "category": "AI工具",
+        "rating": 4.3
+    },
+    {
+        "name": "Playground AI",
+        "url": "https://playgroundai.com/",
+        "description": "易用的图像生成平台，支持多模型与风格控制",
+        "logo": "https://playgroundai.com/favicon.ico",
+        "tags": ["图像生成", "AI绘画", "文生图"],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "Leonardo AI",
+        "url": "https://leonardo.ai/",
+        "description": "高质量AI图像生成与素材管理平台，面向设计师",
+        "logo": "https://leonardo.ai/favicon.ico",
+        "tags": ["图像生成", "设计工具", "AI绘画"],
+        "category": "AI创作",
+        "rating": 4.3
+    },
+    {
+        "name": "Pika",
+        "url": "https://pika.art/",
+        "description": "AI视频生成工具，支持文本生成短视频与特效",
+        "logo": "https://pika.art/favicon.ico",
+        "tags": ["视频生成", "AI视频", "内容创作"],
+        "category": "AI创作",
+        "rating": 4.1
+    },
+    {
+        "name": "Luma AI",
+        "url": "https://lumalabs.ai/",
+        "description": "3D重建与视频生成平台，支持NeRF与动态视频",
+        "logo": "https://lumalabs.ai/favicon.ico",
+        "tags": ["3D", "视频生成", "AI视频"],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "HeyGen",
+        "url": "https://www.heygen.com/",
+        "description": "AI数字人视频生成工具，支持多语言与自定义形象",
+        "logo": "https://www.heygen.com/favicon.ico",
+        "tags": ["数字人", "视频生成", "AI视频"],
+        "category": "AI创作",
+        "rating": 4.3
+    },
+    {
+        "name": "Synthesia",
+        "url": "https://www.synthesia.io/",
+        "description": "企业级AI数字人视频平台，适合课程与营销内容制作",
+        "logo": "https://www.synthesia.io/favicon.ico",
+        "tags": ["数字人", "视频生成", "企业"],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "ClipDrop",
+        "url": "https://clipdrop.co/",
+        "description": "图像处理与生成工具集合，提供抠图、去噪与增强",
+        "logo": "https://clipdrop.co/favicon.ico",
+        "tags": ["图像编辑", "AI创作", "抠图"],
+        "category": "AI创作",
+        "rating": 4.2
+    },
+    {
+        "name": "Remove.bg",
+        "url": "https://www.remove.bg/",
+        "description": "AI一键抠图工具，去除背景并支持批量处理",
+        "logo": "https://www.remove.bg/favicon.ico",
+        "tags": ["抠图", "图像编辑", "AI创作"],
+        "category": "AI创作",
+        "rating": 4.1
+    },
+    {
+        "name": "Grammarly",
+        "url": "https://www.grammarly.com/",
+        "description": "AI写作与语法校对助手，支持多平台插件",
+        "logo": "https://www.grammarly.com/favicon.ico",
+        "tags": ["AI写作", "文案润色", "productivity"],
+        "category": "AI工具",
+        "rating": 4.3
+    },
+    {
+        "name": "Jasper",
+        "url": "https://www.jasper.ai/",
+        "description": "营销文案与内容生成AI，提供模板与风格控制",
+        "logo": "https://www.jasper.ai/favicon.ico",
+        "tags": ["AI写作", "营销", "内容创作"],
+        "category": "AI工具",
+        "rating": 4.2
+    },
+    {
+        "name": "Suno",
+        "url": "https://suno.com/",
+        "description": "AI音乐生成平台，支持生成多风格歌曲与音轨",
+        "logo": "https://suno.com/favicon.ico",
+        "tags": ["AI音频", "音乐生成", "内容创作"],
+        "category": "AI创作",
+        "rating": 4.4
+    },
+    {
+        "name": "AIVA",
+        "url": "https://www.aiva.ai/",
+        "description": "AI作曲工具，可生成电影配乐与游戏音乐",
+        "logo": "https://www.aiva.ai/favicon.ico",
+        "tags": ["AI音频", "音乐生成", "配乐"],
+        "category": "AI创作",
+        "rating": 4.1
+    }
+]
