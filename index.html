@@ -7,6 +7,20 @@
     <meta name="description" content="快点 AI 导航是一个精选 AI 工具导航网站，收录了 ChatGPT、Claude、Midjourney、DALL-E、Stable Diffusion 等优质 AI 工具，支持智能搜索和分类筛选，助您快速发现最适合的 AI 工具。">
     <meta name="keywords" content="AI导航,AI工具,ChatGPT,Claude,Midjourney,DALL-E,Stable Diffusion,人工智能,AI对话,AI绘画,AI编程,AI创作,智能助手,语言模型">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#111827',
+                        'dark-card': '#1f2937',
+                        'dark-border': '#374151',
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.loli.net/css2?family=Inter:wght@300;400;500;600;700&display=swap');
@@ -66,10 +80,15 @@
 </head>
 <body class="bg-gray-50 dark:bg-dark-bg min-h-screen transition-colors duration-200">
     <header class="bg-white dark:bg-dark-card border-b border-gray-200 dark:border-dark-border py-12 px-4 relative transition-colors duration-200">
-        <button id="themeToggle" class="absolute top-4 right-4 p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" aria-label="切换主题">
-            <i class="fas fa-moon dark:hidden"></i>
-            <i class="fas fa-sun hidden dark:inline"></i>
-        </button>
+        <div class="absolute top-4 right-4 flex gap-2">
+            <a href="https://github.com/muzihuaner/ainav/issues" target="_blank" rel="noopener noreferrer" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" aria-label="提交建议">
+                <p class="text-sm">提交建议</p>
+            </a>
+            <button id="themeToggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" aria-label="切换主题">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:inline"></i>
+            </button>
+        </div>
         <div class="max-w-6xl mx-auto text-center">
             <h1 class="text-3xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
                 快点 AI 导航
@@ -93,45 +112,44 @@
     <main class="max-w-7xl mx-auto px-4 py-8">
         <div class="flex flex-col md:flex-row gap-8">
             <aside class="md:w-64 flex-shrink-0">
-                <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 sticky top-8">
-                    <h2 class="text-lg font-semibold mb-4 text-gray-900">
+                <div class="bg-white dark:bg-dark-card rounded-lg shadow-sm border border-gray-200 dark:border-dark-border p-6 sticky top-8 transition-colors duration-200">
+                    <h2 class="text-lg font-semibold mb-4 text-gray-900 dark:text-white">
                         分类筛选
                     </h2>
                     <div id="categoryList" class="space-y-1">
                     </div>
                     
-                    <div class="mt-6 pt-6 border-t border-gray-200">
-                        <h3 class="font-semibold mb-3 text-gray-900 text-sm">
+                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
+                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm">
                             其他筛选
                         </h3>
                         <label class="flex items-center cursor-pointer">
-                            <input type="checkbox" id="featuredFilter" class="w-4 h-4 text-gray-900 rounded border-gray-300">
-                            <span class="ml-2 text-sm text-gray-600">仅显示精选</span>
+                            <input type="checkbox" id="featuredFilter" class="w-4 h-4 text-gray-900 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700">
+                            <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">仅显示精选</span>
                         </label>
                     </div>
                     
-                    <div class="mt-6 pt-6 border-t border-gray-200">
-                        <h3 class="font-semibold mb-3 text-gray-900 text-sm">
+                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
+                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm">
                             评分筛选
                         </h3>
                         <div class="space-y-2">
                             <label class="flex items-center cursor-pointer">
-                                <input type="checkbox" class="rating-filter w-4 h-4 text-gray-900 rounded border-gray-300" value="4.5">
-                                <span class="ml-2 text-sm text-gray-600">4.5 分以上</span>
+                                <input type="checkbox" class="rating-filter w-4 h-4 text-gray-900 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700" value="4.5">
+                                <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">4.5 分以上</span>
                             </label>
                             <label class="flex items-center cursor-pointer">
-                                <input type="checkbox" class="rating-filter w-4 h-4 text-gray-900 rounded border-gray-300" value="4.0">
-                                <span class="ml-2 text-sm text-gray-600">4.0 分以上</span>
+                                <input type="checkbox" class="rating-filter w-4 h-4 text-gray-900 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700" value="4.0">
+                                <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">4.0 分以上</span>
                             </label>
                         </div>
                     </div>
                     
-                    <div class="mt-6 pt-6 border-t border-gray-200">
-                        <h3 class="font-semibold mb-3 text-gray-900 text-sm">
+                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
+                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm">
                             热门标签
                         </h3>
                         <div id="tagList" class="flex flex-wrap gap-2">
-                            <!-- Tags will be rendered here -->
                         </div>
                     </div>
                 </div>

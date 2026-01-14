@@ -375,7 +375,7 @@
         "name": "Gemini",
         "url": "https://gemini.google.com",
         "description": "Google开发的多模态AI助手，支持文本、图像等多种输入方式",
-        "logo": "https://gemini.google.com/favicon.ico",
+        "logo": "/static/img/gemini.png",
         "tags": [
             "AI对话",
             "多模态",
@@ -694,5 +694,49 @@
         "tags": ["AI音频", "音乐生成", "配乐"],
         "category": "AI创作",
         "rating": 4.1
+    },
+    {
+        "name": "Ollama",
+        "url": "https://ollama.com/",
+        "description": "本地运行大语言模型的工具，支持多种开源模型，简单易用",
+        "logo": "https://ollama.com/public/ollama.png",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "开源",
+            "本地部署"
+        ],
+        "category": "AI工具",
+        "rating": 4.5,
+        "featured": true
+    },
+    {
+        "name": "Minimax",
+        "url": "https://agent.minimaxi.com/",
+        "description": "由MiniMax公司开发的AI助手，提供智能对话、文本生成和图像创作功能",
+        "logo": "https://www.minimaxi.com/favicon.ico",
+        "tags": [
+            "AI对话",
+            "语言模型",
+            "智能助手",
+            "图像生成"
+        ],
+        "category": "AI对话",
+        "rating": 4.3
+    },
+    {
+        "name": "Microsoft Copilot",
+        "url": "https://copilot.microsoft.com/",
+        "description": "微软推出的AI助手，集成在Windows和Edge浏览器中，提供智能对话和创作功能",
+        "logo": "https://copilot.microsoft.com/favicon.ico",
+        "tags": [
+            "AI对话",
+            "智能助手",
+            "多模态",
+            "办公助手"
+        ],
+        "category": "AI对话",
+        "rating": 4.4,
+        "featured": true
     }
 ]
