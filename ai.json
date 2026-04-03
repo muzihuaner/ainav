@@ -1117,5 +1117,19 @@
         "category": "AI云服务",
         "rating": 4.4,
         "featured": true
-    }
+    },
+    {
+    "name": "OpenClaw",
+    "url": "https://openclaw.ai/",
+    "description": "开源自主 AI 智能体框架，支持多模态交互与自动化任务编排，旨在打造跨平台的个人/企业级 AI 助理。",
+    "logo": "https://openclaw.ai/favicon.ico",
+    "tags": [
+        "AI Agent",
+        "开源框架",
+        "自主智能体",
+        "自动化流"
+    ],
+    "category": "AI工具",
+    "rating": 4.8
+}
 ]
