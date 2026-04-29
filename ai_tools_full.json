@@ -2,7 +2,7 @@
   {
     "name": "ChatGPT",
     "description": "OpenAI开发的强大AI对话助手，支持GPT-4模型",
-    "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chat.openai.com.ico",
     "tags": [
       "精选",
       "对话",
@@ -15,7 +15,7 @@
   {
     "name": "Claude",
     "description": "Anthropic开发的AI助手，擅长长文本分析和写作",
-    "icon": "https://icons.duckduckgo.com/ip3/claude.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/claude.ai.ico",
     "tags": [
       "精选",
       "对话",
@@ -28,7 +28,7 @@
   {
     "name": "Gemini",
     "description": "Google推出的多模态AI助手，支持文本、图像和代码",
-    "icon": "https://icons.duckduckgo.com/ip3/gemini.google.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/gemini.google.com.ico",
     "tags": [
       "对话",
       "多模态"
@@ -39,7 +39,7 @@
   {
     "name": "豆包",
     "description": "字节跳动推出的免费AI智能助手",
-    "icon": "https://icons.duckduckgo.com/ip3/www.doubao.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.doubao.com.ico",
     "tags": [
       "对话",
       "免费"
@@ -50,7 +50,7 @@
   {
     "name": "文心一言",
     "description": "百度推出的AI对话助手，深度理解中文",
-    "icon": "https://icons.duckduckgo.com/ip3/yiyan.baidu.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/yiyan.baidu.com.ico",
     "tags": [
       "对话",
       "中文"
@@ -61,7 +61,7 @@
   {
     "name": "通义千问",
     "description": "阿里云推出的大语言模型AI助手",
-    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tongyi.aliyun.com.ico",
     "tags": [
       "对话",
       "阿里"
@@ -72,7 +72,7 @@
   {
     "name": "Grok",
     "description": "xAI推出的AI助手，具有实时信息获取能力",
-    "icon": "https://icons.duckduckgo.com/ip3/grok.x.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/grok.x.ai.ico",
     "tags": [
       "对话",
       "实时"
@@ -83,7 +83,7 @@
   {
     "name": "Microsoft Copilot",
     "description": "微软推出的AI助手，集成在Microsoft 365中",
-    "icon": "https://icons.duckduckgo.com/ip3/copilot.microsoft.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/copilot.microsoft.com.ico",
     "tags": [
       "对话",
       "办公"
@@ -94,7 +94,7 @@
   {
     "name": "Kimi",
     "description": "月之暗面推出的AI助手，支持超长上下文",
-    "icon": "https://icons.duckduckgo.com/ip3/kimi.moonshot.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/kimi.moonshot.cn.ico",
     "tags": [
       "对话",
       "长文本"
@@ -105,7 +105,7 @@
   {
     "name": "元宝",
     "description": "字节跳动推出的AI助手，擅长中文对话",
-    "icon": "https://icons.duckduckgo.com/ip3/yuanbao.tencent.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/yuanbao.tencent.com.ico",
     "tags": [
       "对话",
       "中文"
@@ -116,7 +116,7 @@
   {
     "name": "Perplexity",
     "description": "AI搜索对话助手，提供准确答案和引用来源",
-    "icon": "https://icons.duckduckgo.com/ip3/perplexity.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/perplexity.ai.ico",
     "tags": [
       "对话",
       "搜索"
@@ -127,7 +127,7 @@
   {
     "name": "Character.AI",
     "description": "与AI角色对话的平台，创建个性化AI伴侣",
-    "icon": "https://icons.duckduckgo.com/ip3/character.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/character.ai.ico",
     "tags": [
       "对话",
       "角色扮演"
@@ -138,7 +138,7 @@
   {
     "name": "Poe",
     "description": "Quora推出的AI聊天平台，集成多个AI模型",
-    "icon": "https://icons.duckduckgo.com/ip3/poe.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/poe.com.ico",
     "tags": [
       "对话",
       "多模型"
@@ -149,7 +149,7 @@
   {
     "name": "Pi",
     "description": "Inflection AI推出的个人AI助手",
-    "icon": "https://icons.duckduckgo.com/ip3/pi.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/pi.ai.ico",
     "tags": [
       "对话",
       "个人助手"
@@ -160,7 +160,7 @@
   {
     "name": "智谱清言",
     "description": "智谱AI推出的对话助手，基于GLM模型",
-    "icon": "https://icons.duckduckgo.com/ip3/chatglm.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/chatglm.cn.ico",
     "tags": [
       "对话",
       "中文"
@@ -171,7 +171,7 @@
   {
     "name": "讯飞星火",
     "description": "科大讯飞推出的认知大模型",
-    "icon": "https://icons.duckduckgo.com/ip3/xinghuo.xfyun.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/xinghuo.xfyun.cn.ico",
     "tags": [
       "对话",
       "中文"
@@ -182,7 +182,7 @@
   {
     "name": "腾讯混元",
     "description": "腾讯推出的大语言模型AI助手",
-    "icon": "https://icons.duckduckgo.com/ip3/hunyuan.tencent.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/hunyuan.tencent.com.ico",
     "tags": [
       "对话",
       "腾讯"
@@ -193,7 +193,7 @@
   {
     "name": "商汤日日新",
     "description": "商汤科技推出的多模态AI助手",
-    "icon": "https://icons.duckduckgo.com/ip3/chat.sensetime.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chat.sensetime.com.ico",
     "tags": [
       "对话",
       "多模态"
@@ -204,7 +204,7 @@
   {
     "name": "百川智能",
     "description": "百川智能推出的大语言模型对话助手",
-    "icon": "https://icons.duckduckgo.com/ip3/www.baichuan-ai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.baichuan-ai.com.ico",
     "tags": [
       "对话",
       "中文"
@@ -215,7 +215,7 @@
   {
     "name": "MiniMax",
     "description": "稀宇科技推出的AI对话和创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/www.minimaxi.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.minimaxi.com.ico",
     "tags": [
       "对话",
       "创作"
@@ -226,7 +226,7 @@
   {
     "name": "Meta AI",
     "description": "Meta推出的AI助手，集成在Facebook、Instagram和WhatsApp中",
-    "icon": "https://icons.duckduckgo.com/ip3/www.meta.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.meta.ai.ico",
     "tags": [
       "对话",
       "Meta"
@@ -237,7 +237,7 @@
   {
     "name": "DeepSeek Chat",
     "description": "深度求索推出的AI对话助手，支持长文本和代码生成",
-    "icon": "https://icons.duckduckgo.com/ip3/chat.deepseek.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chat.deepseek.com.ico",
     "tags": [
       "对话",
       "代码"
@@ -248,7 +248,7 @@
   {
     "name": "You.com",
     "description": "AI驱动的搜索引擎和对话助手",
-    "icon": "https://icons.duckduckgo.com/ip3/you.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/you.com.ico",
     "tags": [
       "对话",
       "搜索"
@@ -259,7 +259,7 @@
   {
     "name": "HuggingChat",
     "description": "Hugging Face推出的开源AI对话助手",
-    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/huggingface.co.ico",
     "tags": [
       "对话",
       "开源"
@@ -270,7 +270,7 @@
   {
     "name": "Janitor AI",
     "description": "角色扮演AI对话平台",
-    "icon": "https://icons.duckduckgo.com/ip3/janitorai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/janitorai.com.ico",
     "tags": [
       "对话",
       "角色扮演"
@@ -281,7 +281,7 @@
   {
     "name": "Chub Venus",
     "description": "AI角色对话和创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/chub.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/chub.ai.ico",
     "tags": [
       "对话",
       "角色"
@@ -292,7 +292,7 @@
   {
     "name": "Crushon AI",
     "description": "无限制AI角色对话平台",
-    "icon": "https://icons.duckduckgo.com/ip3/crushon.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/crushon.ai.ico",
     "tags": [
       "对话",
       "角色"
@@ -303,7 +303,7 @@
   {
     "name": "SillyTavern",
     "description": "开源的AI角色对话前端",
-    "icon": "https://icons.duckduckgo.com/ip3/sillytavern.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/sillytavern.app.ico",
     "tags": [
       "对话",
       "开源"
@@ -314,7 +314,7 @@
   {
     "name": "OpenRouter",
     "description": "统一访问多个AI模型的API平台",
-    "icon": "https://icons.duckduckgo.com/ip3/openrouter.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/openrouter.ai.ico",
     "tags": [
       "对话",
       "API"
@@ -325,7 +325,7 @@
   {
     "name": "Together AI",
     "description": "开源AI模型API服务",
-    "icon": "https://icons.duckduckgo.com/ip3/together.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/together.ai.ico",
     "tags": [
       "对话",
       "API"
@@ -336,7 +336,7 @@
   {
     "name": "Notion AI",
     "description": "集成在Notion中的AI写作助手，提升文档创作效率",
-    "icon": "https://icons.duckduckgo.com/ip3/notion.so.ico",
+    "icon": "https://icons.quickso.cn/ip3/notion.so.ico",
     "tags": [
       "写作",
       "笔记"
@@ -347,7 +347,7 @@
   {
     "name": "Jasper",
     "description": "专业的AI营销文案写作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/jasper.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/jasper.ai.ico",
     "tags": [
       "文案",
       "营销"
@@ -358,7 +358,7 @@
   {
     "name": "Copy.ai",
     "description": "AI驱动的营销文案生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/copy.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/copy.ai.ico",
     "tags": [
       "文案",
       "营销"
@@ -369,7 +369,7 @@
   {
     "name": "秘塔写作猫",
     "description": "AI中文写作助手，支持改写、续写、扩写",
-    "icon": "https://icons.duckduckgo.com/ip3/xiezuocat.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/xiezuocat.com.ico",
     "tags": [
       "写作",
       "中文"
@@ -380,7 +380,7 @@
   {
     "name": "Writesonic",
     "description": "强大的AI内容创作平台，提供60+写作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/writesonic.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/writesonic.com.ico",
     "tags": [
       "写作",
       "文案"
@@ -391,7 +391,7 @@
   {
     "name": "Wordtune",
     "description": "AI写作改进工具，让文字更清晰简洁",
-    "icon": "https://icons.duckduckgo.com/ip3/wordtune.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/wordtune.com.ico",
     "tags": [
       "改写",
       "润色"
@@ -402,7 +402,7 @@
   {
     "name": "QuillBot",
     "description": "AI改写和语法检查工具，提升写作质量",
-    "icon": "https://icons.duckduckgo.com/ip3/quillbot.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/quillbot.com.ico",
     "tags": [
       "改写",
       "语法"
@@ -413,7 +413,7 @@
   {
     "name": "INK Editor",
     "description": "结合AI写作与SEO优化的内容创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/inkforall.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/inkforall.com.ico",
     "tags": [
       "写作",
       "SEO"
@@ -424,7 +424,7 @@
   {
     "name": "Grammarly",
     "description": "AI写作助手，检查语法和拼写",
-    "icon": "https://icons.duckduckgo.com/ip3/grammarly.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/grammarly.com.ico",
     "tags": [
       "写作",
       "语法"
@@ -435,7 +435,7 @@
   {
     "name": "DeepSeek",
     "description": "深度求索推出的AI助手，擅长数据分析和写作",
-    "icon": "https://icons.duckduckgo.com/ip3/chat.deepseek.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chat.deepseek.com.ico",
     "tags": [
       "写作",
       "分析"
@@ -446,7 +446,7 @@
   {
     "name": "Anyword",
     "description": "AI营销文案工具，预测转化率和参与度",
-    "icon": "https://icons.duckduckgo.com/ip3/anyword.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/anyword.com.ico",
     "tags": [
       "文案",
       "营销"
@@ -457,7 +457,7 @@
   {
     "name": "Rytr",
     "description": "AI写作助手，快速生成高质量内容",
-    "icon": "https://icons.duckduckgo.com/ip3/rytr.me.ico",
+    "icon": "https://icons.quickso.cn/ip3/rytr.me.ico",
     "tags": [
       "写作",
       "文案"
@@ -468,7 +468,7 @@
   {
     "name": "Simplified",
     "description": "AI内容创作和设计平台",
-    "icon": "https://icons.duckduckgo.com/ip3/simplified.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/simplified.com.ico",
     "tags": [
       "写作",
       "设计"
@@ -479,7 +479,7 @@
   {
     "name": "Hypotenuse AI",
     "description": "AI电商文案生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/hypotenuse.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/hypotenuse.ai.ico",
     "tags": [
       "电商",
       "文案"
@@ -490,7 +490,7 @@
   {
     "name": "Copysmith",
     "description": "AI营销内容生成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/copysmith.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/copysmith.ai.ico",
     "tags": [
       "营销",
       "文案"
@@ -501,7 +501,7 @@
   {
     "name": "火山写作",
     "description": "字节跳动推出的AI写作助手",
-    "icon": "https://icons.duckduckgo.com/ip3/www.writingo.net.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.writingo.net.ico",
     "tags": [
       "写作",
       "中文"
@@ -512,7 +512,7 @@
   {
     "name": "彩云小梦",
     "description": "AI小说续写和创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/if.caiyunai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/if.caiyunai.com.ico",
     "tags": [
       "小说",
       "创作"
@@ -523,7 +523,7 @@
   {
     "name": "笔灵AI",
     "description": "AI写作和内容创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/ibiling.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/ibiling.cn.ico",
     "tags": [
       "写作",
       "中文"
@@ -534,7 +534,7 @@
   {
     "name": "Effidit",
     "description": "腾讯推出的AI写作助手",
-    "icon": "https://icons.duckduckgo.com/ip3/effidit.qq.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/effidit.qq.com.ico",
     "tags": [
       "写作",
       "腾讯"
@@ -545,7 +545,7 @@
   {
     "name": "深言达意",
     "description": "AI辅助写作工具，帮助表达更准确",
-    "icon": "https://icons.duckduckgo.com/ip3/www.shenyandayi.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.shenyandayi.com.ico",
     "tags": [
       "写作",
       "表达"
@@ -556,7 +556,7 @@
   {
     "name": "ZeroGPT Plus",
     "description": "免费的AI内容检测器",
-    "icon": "https://icons.duckduckgo.com/ip3/www.zerogpt.plus.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.zerogpt.plus.ico",
     "tags": [
       "人工智能检查器",
       "抄袭检查器"
@@ -567,7 +567,7 @@
   {
     "name": "NovelAI",
     "description": "AI辅助小说和故事创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/novelai.net.ico",
+    "icon": "https://icons.quickso.cn/ip3/novelai.net.ico",
     "tags": [
       "写作",
       "小说"
@@ -578,7 +578,7 @@
   {
     "name": "Sudowrite",
     "description": "AI创意写作助手",
-    "icon": "https://icons.duckduckgo.com/ip3/sudowrite.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/sudowrite.com.ico",
     "tags": [
       "写作",
       "创意"
@@ -589,7 +589,7 @@
   {
     "name": "Compose AI",
     "description": "AI邮件和文档写作助手",
-    "icon": "https://icons.duckduckgo.com/ip3/compose.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/compose.ai.ico",
     "tags": [
       "写作",
       "邮件"
@@ -600,7 +600,7 @@
   {
     "name": "LongShot AI",
     "description": "AI长文内容创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/longshot.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/longshot.ai.ico",
     "tags": [
       "写作",
       "长文"
@@ -611,7 +611,7 @@
   {
     "name": "Frase",
     "description": "AI内容研究和写作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/frase.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/frase.io.ico",
     "tags": [
       "写作",
       "研究"
@@ -622,7 +622,7 @@
   {
     "name": "Scalenut",
     "description": "AI内容创作和SEO优化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/scalenut.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/scalenut.com.ico",
     "tags": [
       "写作",
       "SEO"
@@ -633,7 +633,7 @@
   {
     "name": "ContentBot",
     "description": "AI内容生成和改写工具",
-    "icon": "https://icons.duckduckgo.com/ip3/contentbot.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/contentbot.ai.ico",
     "tags": [
       "写作",
       "内容生成"
@@ -644,7 +644,7 @@
   {
     "name": "Peppertype",
     "description": "AI营销文案生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/peppertype.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/peppertype.ai.ico",
     "tags": [
       "写作",
       "营销"
@@ -655,7 +655,7 @@
   {
     "name": "Writer",
     "description": "企业级AI写作和内容平台",
-    "icon": "https://icons.duckduckgo.com/ip3/writer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/writer.com.ico",
     "tags": [
       "写作",
       "企业"
@@ -666,7 +666,7 @@
   {
     "name": "Outranking",
     "description": "AI SEO内容创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/outranking.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/outranking.io.ico",
     "tags": [
       "写作",
       "SEO"
@@ -677,7 +677,7 @@
   {
     "name": "Neuraltext",
     "description": "AI内容创作和关键词研究工具",
-    "icon": "https://icons.duckduckgo.com/ip3/neuraltext.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/neuraltext.com.ico",
     "tags": [
       "写作",
       "SEO"
@@ -688,7 +688,7 @@
   {
     "name": "TextCortex",
     "description": "AI写作助手和内容生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/textcortex.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/textcortex.com.ico",
     "tags": [
       "写作",
       "助手"
@@ -699,7 +699,7 @@
   {
     "name": "CopySmith",
     "description": "AI电商文案和产品描述生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/copysmith.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/copysmith.ai.ico",
     "tags": [
       "写作",
       "电商"
@@ -710,7 +710,7 @@
   {
     "name": "Midjourney",
     "description": "顶级AI图像生成工具，创造惊艳的艺术作品",
-    "icon": "https://icons.duckduckgo.com/ip3/midjourney.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/midjourney.com.ico",
     "tags": [
       "精选",
       "图像生成",
@@ -723,7 +723,7 @@
   {
     "name": "DALL·E 3",
     "description": "OpenAI的图像生成模型，理解复杂提示词",
-    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/openai.com.ico",
     "tags": [
       "精选",
       "图像生成",
@@ -736,7 +736,7 @@
   {
     "name": "即梦AI",
     "description": "字节跳动推出的一站式AI创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/jimeng.jianying.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/jimeng.jianying.com.ico",
     "tags": [
       "精选",
       "图像生成",
@@ -749,7 +749,7 @@
   {
     "name": "Stable Diffusion",
     "description": "开源AI图像生成模型，可本地部署",
-    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/stability.ai.ico",
     "tags": [
       "图像生成",
       "开源"
@@ -760,7 +760,7 @@
   {
     "name": "文心一格",
     "description": "百度推出的AI艺术和创意辅助平台",
-    "icon": "https://icons.duckduckgo.com/ip3/yige.baidu.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/yige.baidu.com.ico",
     "tags": [
       "图像生成",
       "百度"
@@ -771,7 +771,7 @@
   {
     "name": "堆友AI",
     "description": "阿里出品的免费AI绘画和出图神器",
-    "icon": "https://icons.duckduckgo.com/ip3/d.design.ico",
+    "icon": "https://icons.quickso.cn/ip3/d.design.ico",
     "tags": [
       "图像生成",
       "阿里"
@@ -782,7 +782,7 @@
   {
     "name": "Leonardo AI",
     "description": "专业的AI图像生成和编辑平台",
-    "icon": "https://icons.duckduckgo.com/ip3/leonardo.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/leonardo.ai.ico",
     "tags": [
       "图像生成",
       "编辑"
@@ -793,7 +793,7 @@
   {
     "name": "Remove.bg",
     "description": "AI自动抠图工具，一键移除背景",
-    "icon": "https://icons.duckduckgo.com/ip3/remove.bg.ico",
+    "icon": "https://icons.quickso.cn/ip3/remove.bg.ico",
     "tags": [
       "抠图",
       "背景移除"
@@ -804,7 +804,7 @@
   {
     "name": "Adobe Firefly",
     "description": "Adobe推出的AI图像生成工具，集成在创意套件中",
-    "icon": "https://icons.duckduckgo.com/ip3/firefly.adobe.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/firefly.adobe.com.ico",
     "tags": [
       "图像生成",
       "Adobe"
@@ -815,7 +815,7 @@
   {
     "name": "Pixelied",
     "description": "AI图像生成和设计工具，支持Logo和图标",
-    "icon": "https://icons.duckduckgo.com/ip3/pixelied.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/pixelied.com.ico",
     "tags": [
       "图像生成",
       "设计"
@@ -826,7 +826,7 @@
   {
     "name": "Recraft",
     "description": "AI矢量图和图标生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/recraft.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/recraft.ai.ico",
     "tags": [
       "矢量图",
       "图标"
@@ -837,7 +837,7 @@
   {
     "name": "MyEdit",
     "description": "免费在线AI绘图和图片编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/myedit.online.ico",
+    "icon": "https://icons.quickso.cn/ip3/myedit.online.ico",
     "tags": [
       "图像生成",
       "编辑"
@@ -848,7 +848,7 @@
   {
     "name": "Ideogram",
     "description": "AI图像生成工具，擅长文字渲染",
-    "icon": "https://icons.duckduckgo.com/ip3/ideogram.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/ideogram.ai.ico",
     "tags": [
       "图像生成",
       "文字"
@@ -859,7 +859,7 @@
   {
     "name": "Playground AI",
     "description": "免费的AI图像生成和编辑平台",
-    "icon": "https://icons.duckduckgo.com/ip3/playgroundai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/playgroundai.com.ico",
     "tags": [
       "图像生成",
       "编辑"
@@ -870,7 +870,7 @@
   {
     "name": "DreamStudio",
     "description": "Stability AI官方的Stable Diffusion平台",
-    "icon": "https://icons.duckduckgo.com/ip3/dreamstudio.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/dreamstudio.ai.ico",
     "tags": [
       "图像生成",
       "Stable Diffusion"
@@ -881,7 +881,7 @@
   {
     "name": "Artbreeder",
     "description": "AI图像混合和创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/artbreeder.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/artbreeder.com.ico",
     "tags": [
       "图像生成",
       "混合"
@@ -892,7 +892,7 @@
   {
     "name": "NightCafe",
     "description": "AI艺术生成器，支持多种风格",
-    "icon": "https://icons.duckduckgo.com/ip3/nightcafe.studio.ico",
+    "icon": "https://icons.quickso.cn/ip3/nightcafe.studio.ico",
     "tags": [
       "图像生成",
       "艺术"
@@ -903,7 +903,7 @@
   {
     "name": "Fotor AI",
     "description": "AI图像编辑和生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/fotor.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/fotor.com.ico",
     "tags": [
       "图像编辑",
       "生成"
@@ -914,7 +914,7 @@
   {
     "name": "通义万相",
     "description": "阿里推出的AI创意绘画平台",
-    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tongyi.aliyun.com.ico",
     "tags": [
       "图像生成",
       "阿里"
@@ -925,7 +925,7 @@
   {
     "name": "秒画",
     "description": "商汤推出的AI绘画工具",
-    "icon": "https://icons.duckduckgo.com/ip3/miaohua.sensetime.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/miaohua.sensetime.com.ico",
     "tags": [
       "图像生成",
       "商汤"
@@ -936,7 +936,7 @@
   {
     "name": "无界AI",
     "description": "AI图像生成和编辑平台",
-    "icon": "https://icons.duckduckgo.com/ip3/www.wujieai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.wujieai.com.ico",
     "tags": [
       "图像生成",
       "编辑"
@@ -947,7 +947,7 @@
   {
     "name": "Clipdrop",
     "description": "AI图像编辑工具集，包含多种实用功能",
-    "icon": "https://icons.duckduckgo.com/ip3/clipdrop.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/clipdrop.co.ico",
     "tags": [
       "图像编辑",
       "工具集"
@@ -958,7 +958,7 @@
   {
     "name": "Nano Banana Pro",
     "description": "基于Gemini的AI图像生成平台，支持中文生图、4K输出和智能编辑",
-    "icon": "https://icons.duckduckgo.com/ip3/www.nano-banana.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.nano-banana.com.ico",
     "tags": [
       "图像生成",
       "Gemini"
@@ -969,7 +969,7 @@
   {
     "name": "KREA AI",
     "description": "照片级真实感AI图像生成和增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.krea.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.krea.ai.ico",
     "tags": [
       "图像生成",
       "真实感"
@@ -980,7 +980,7 @@
   {
     "name": "Flux",
     "description": "Black Forest Labs开发的高质量AI图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/blackforestlabs.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/blackforestlabs.ai.ico",
     "tags": [
       "图像生成",
       "AI绘画"
@@ -991,7 +991,7 @@
   {
     "name": "Civitai",
     "description": "AI模型和图像分享社区",
-    "icon": "https://icons.duckduckgo.com/ip3/civitai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/civitai.com.ico",
     "tags": [
       "图像",
       "模型"
@@ -1002,7 +1002,7 @@
   {
     "name": "Lexica",
     "description": "AI图像搜索和生成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/lexica.art.ico",
+    "icon": "https://icons.quickso.cn/ip3/lexica.art.ico",
     "tags": [
       "图像生成",
       "搜索"
@@ -1013,7 +1013,7 @@
   {
     "name": "Craiyon",
     "description": "免费的AI图像生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/craiyon.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/craiyon.com.ico",
     "tags": [
       "图像生成",
       "免费"
@@ -1024,7 +1024,7 @@
   {
     "name": "Bing Image Creator",
     "description": "微软Bing的AI图像生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.bing.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.bing.com.ico",
     "tags": [
       "图像生成",
       "微软"
@@ -1035,7 +1035,7 @@
   {
     "name": "Stable Diffusion WebUI",
     "description": "Stable Diffusion的Web界面",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "图像生成",
       "Stable Diffusion"
@@ -1046,7 +1046,7 @@
   {
     "name": "ComfyUI",
     "description": "节点式Stable Diffusion界面",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "图像生成",
       "节点式"
@@ -1057,7 +1057,7 @@
   {
     "name": "Fooocus",
     "description": "简化的Stable Diffusion界面",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "图像生成",
       "简化"
@@ -1068,7 +1068,7 @@
   {
     "name": "Kandinsky",
     "description": "Sber AI开发的AI图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/kandinsky.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/kandinsky.ai.ico",
     "tags": [
       "图像生成",
       "AI绘画"
@@ -1079,7 +1079,7 @@
   {
     "name": "Imagen",
     "description": "Google的AI图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/imagen.research.google.ico",
+    "icon": "https://icons.quickso.cn/ip3/imagen.research.google.ico",
     "tags": [
       "图像生成",
       "Google"
@@ -1090,7 +1090,7 @@
   {
     "name": "Parti",
     "description": "Google的Pathways AI图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/parti.research.google.ico",
+    "icon": "https://icons.quickso.cn/ip3/parti.research.google.ico",
     "tags": [
       "图像生成",
       "Google"
@@ -1101,7 +1101,7 @@
   {
     "name": "Stable Diffusion XL",
     "description": "Stability AI的高分辨率图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/stability.ai.ico",
     "tags": [
       "图像生成",
       "高分辨率"
@@ -1112,7 +1112,7 @@
   {
     "name": "Stable Diffusion 3",
     "description": "Stability AI最新一代图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/stability.ai.ico",
     "tags": [
       "图像生成",
       "最新"
@@ -1123,7 +1123,7 @@
   {
     "name": "Canva AI",
     "description": "Canva集成的AI图像生成功能",
-    "icon": "https://icons.duckduckgo.com/ip3/canva.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/canva.com.ico",
     "tags": [
       "图像生成",
       "Canva"
@@ -1134,7 +1134,7 @@
   {
     "name": "Photopea",
     "description": "在线图像编辑工具，支持AI功能",
-    "icon": "https://icons.duckduckgo.com/ip3/photopea.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/photopea.com.ico",
     "tags": [
       "图像编辑",
       "在线"
@@ -1145,7 +1145,7 @@
   {
     "name": "Upscayl",
     "description": "AI图像放大和增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/upscayl.github.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/upscayl.github.io.ico",
     "tags": [
       "图像放大",
       "AI增强"
@@ -1156,7 +1156,7 @@
   {
     "name": "Real-ESRGAN",
     "description": "AI图像超分辨率工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "图像放大",
       "超分辨率"
@@ -1167,7 +1167,7 @@
   {
     "name": "Waifu2x",
     "description": "动漫风格图像放大工具",
-    "icon": "https://icons.duckduckgo.com/ip3/waifu2x.udp.jp.ico",
+    "icon": "https://icons.quickso.cn/ip3/waifu2x.udp.jp.ico",
     "tags": [
       "图像放大",
       "动漫"
@@ -1178,7 +1178,7 @@
   {
     "name": "GFPGAN",
     "description": "AI人脸修复和增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "人脸修复",
       "AI增强"
@@ -1189,7 +1189,7 @@
   {
     "name": "CodeFormer",
     "description": "AI人脸修复和增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "人脸修复",
       "AI增强"
@@ -1200,7 +1200,7 @@
   {
     "name": "RestorePhotos",
     "description": "AI老照片修复工具",
-    "icon": "https://icons.duckduckgo.com/ip3/restorephotos.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/restorephotos.io.ico",
     "tags": [
       "照片修复",
       "老照片"
@@ -1211,7 +1211,7 @@
   {
     "name": "MyHeritage In Color",
     "description": "AI老照片上色工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.myheritage.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.myheritage.com.ico",
     "tags": [
       "照片上色",
       "老照片"
@@ -1222,7 +1222,7 @@
   {
     "name": "Palette.fm",
     "description": "AI图像上色工具",
-    "icon": "https://icons.duckduckgo.com/ip3/palette.fm.ico",
+    "icon": "https://icons.quickso.cn/ip3/palette.fm.ico",
     "tags": [
       "图像上色",
       "AI"
@@ -1233,7 +1233,7 @@
   {
     "name": "DeOldify",
     "description": "AI老照片和视频上色工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "照片上色",
       "视频上色"
@@ -1244,7 +1244,7 @@
   {
     "name": "Background Remover",
     "description": "免费的AI背景移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.remove.bg.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.remove.bg.ico",
     "tags": [
       "背景移除",
       "免费"
@@ -1255,7 +1255,7 @@
   {
     "name": "Slazzer",
     "description": "AI背景移除和替换工具",
-    "icon": "https://icons.duckduckgo.com/ip3/slazzer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/slazzer.com.ico",
     "tags": [
       "背景移除",
       "背景替换"
@@ -1266,7 +1266,7 @@
   {
     "name": "PhotoRoom",
     "description": "AI背景移除和产品图片编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/photoroom.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/photoroom.com.ico",
     "tags": [
       "背景移除",
       "产品图片"
@@ -1277,7 +1277,7 @@
   {
     "name": "Unscreen",
     "description": "AI视频背景移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/unscreen.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/unscreen.com.ico",
     "tags": [
       "背景移除",
       "视频"
@@ -1288,7 +1288,7 @@
   {
     "name": "Cleanup.pictures",
     "description": "AI图像清理和物体移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/cleanup.pictures.ico",
+    "icon": "https://icons.quickso.cn/ip3/cleanup.pictures.ico",
     "tags": [
       "图像清理",
       "物体移除"
@@ -1299,7 +1299,7 @@
   {
     "name": "Magic Eraser",
     "description": "AI图像物体移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/magiceraser.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/magiceraser.io.ico",
     "tags": [
       "物体移除",
       "图像编辑"
@@ -1310,7 +1310,7 @@
   {
     "name": "Inpaint",
     "description": "AI图像修复和填充工具",
-    "icon": "https://icons.duckduckgo.com/ip3/inpaint.tech.ico",
+    "icon": "https://icons.quickso.cn/ip3/inpaint.tech.ico",
     "tags": [
       "图像修复",
       "填充"
@@ -1321,7 +1321,7 @@
   {
     "name": "Lama Cleaner",
     "description": "AI图像修复和物体移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "图像修复",
       "物体移除"
@@ -1332,7 +1332,7 @@
   {
     "name": "Stable Diffusion Inpainting",
     "description": "基于Stable Diffusion的图像修复工具",
-    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/stability.ai.ico",
     "tags": [
       "图像修复",
       "Stable Diffusion"
@@ -1343,7 +1343,7 @@
   {
     "name": "DALL-E 2",
     "description": "OpenAI的第二代图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/openai.com.ico",
     "tags": [
       "图像生成",
       "OpenAI"
@@ -1354,7 +1354,7 @@
   {
     "name": "DALL-E 3",
     "description": "OpenAI的第三代图像生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/openai.com.ico",
     "tags": [
       "图像生成",
       "OpenAI"
@@ -1365,7 +1365,7 @@
   {
     "name": "Runway",
     "description": "AI视频编辑和生成工具，创造专业视频内容",
-    "icon": "https://icons.duckduckgo.com/ip3/runwayml.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/runwayml.com.ico",
     "tags": [
       "精选",
       "视频编辑",
@@ -1378,7 +1378,7 @@
   {
     "name": "Pika",
     "description": "AI视频生成工具，文本转视频",
-    "icon": "https://icons.duckduckgo.com/ip3/pika.art.ico",
+    "icon": "https://icons.quickso.cn/ip3/pika.art.ico",
     "tags": [
       "精选",
       "视频生成",
@@ -1391,7 +1391,7 @@
   {
     "name": "Synthesia",
     "description": "AI虚拟人视频生成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/synthesia.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/synthesia.io.ico",
     "tags": [
       "虚拟人",
       "视频生成"
@@ -1402,7 +1402,7 @@
   {
     "name": "HeyGen",
     "description": "AI数字人视频创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/heygen.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/heygen.com.ico",
     "tags": [
       "数字人",
       "视频生成"
@@ -1413,7 +1413,7 @@
   {
     "name": "剪映",
     "description": "字节跳动推出的视频编辑工具，集成AI功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.capcut.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.capcut.cn.ico",
     "tags": [
       "视频编辑",
       "字节"
@@ -1424,7 +1424,7 @@
   {
     "name": "Kling AI",
     "description": "快手可灵AI视频生成工具，支持文本和图像转视频",
-    "icon": "https://icons.duckduckgo.com/ip3/klingai.kuaishou.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/klingai.kuaishou.com.ico",
     "tags": [
       "视频生成",
       "快手"
@@ -1435,7 +1435,7 @@
   {
     "name": "Vidu",
     "description": "生数科技推出的AI视频生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/vidu.studio.ico",
+    "icon": "https://icons.quickso.cn/ip3/vidu.studio.ico",
     "tags": [
       "视频生成",
       "中文"
@@ -1446,7 +1446,7 @@
   {
     "name": "PixVerse",
     "description": "AI视频生成工具，支持动态口型同步",
-    "icon": "https://icons.duckduckgo.com/ip3/pixverse.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/pixverse.ai.ico",
     "tags": [
       "视频生成",
       "口型同步"
@@ -1457,7 +1457,7 @@
   {
     "name": "Luma Labs",
     "description": "AI视频生成工具，创建逼真的视频内容",
-    "icon": "https://icons.duckduckgo.com/ip3/lumalabs.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/lumalabs.ai.ico",
     "tags": [
       "视频生成",
       "逼真"
@@ -1468,7 +1468,7 @@
   {
     "name": "Hailuo AI",
     "description": "海螺AI视频生成工具，擅长动作和表情",
-    "icon": "https://icons.duckduckgo.com/ip3/hailuoai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/hailuoai.com.ico",
     "tags": [
       "视频生成",
       "中文"
@@ -1479,7 +1479,7 @@
   {
     "name": "Descript",
     "description": "AI音视频编辑工具，支持转录和自动编辑",
-    "icon": "https://icons.duckduckgo.com/ip3/descript.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/descript.com.ico",
     "tags": [
       "视频编辑",
       "转录"
@@ -1490,7 +1490,7 @@
   {
     "name": "Pictory",
     "description": "AI视频创作工具，将脚本转换为短视频",
-    "icon": "https://icons.duckduckgo.com/ip3/pictory.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/pictory.ai.ico",
     "tags": [
       "视频生成",
       "脚本"
@@ -1501,7 +1501,7 @@
   {
     "name": "Sora",
     "description": "OpenAI推出的文本生成视频模型",
-    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/openai.com.ico",
     "tags": [
       "视频生成",
       "OpenAI"
@@ -1512,7 +1512,7 @@
   {
     "name": "腾讯智影",
     "description": "腾讯推出的AI智能创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/zenvideo.qq.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/zenvideo.qq.com.ico",
     "tags": [
       "视频编辑",
       "腾讯"
@@ -1523,7 +1523,7 @@
   {
     "name": "万兴播爆",
     "description": "数字人视频生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/virbo.wondershare.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/virbo.wondershare.cn.ico",
     "tags": [
       "数字人",
       "视频生成"
@@ -1534,7 +1534,7 @@
   {
     "name": "D-ID",
     "description": "AI数字人视频创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/d-id.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/d-id.com.ico",
     "tags": [
       "数字人",
       "视频生成"
@@ -1545,7 +1545,7 @@
   {
     "name": "Fliki",
     "description": "文本转视频AI工具",
-    "icon": "https://icons.duckduckgo.com/ip3/fliki.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/fliki.ai.ico",
     "tags": [
       "文本转视频",
       "配音"
@@ -1556,7 +1556,7 @@
   {
     "name": "InVideo AI",
     "description": "AI视频创作和编辑平台",
-    "icon": "https://icons.duckduckgo.com/ip3/invideo.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/invideo.io.ico",
     "tags": [
       "视频编辑",
       "创作"
@@ -1567,7 +1567,7 @@
   {
     "name": "Elai",
     "description": "AI视频生成平台，支持多语言",
-    "icon": "https://icons.duckduckgo.com/ip3/elai.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/elai.io.ico",
     "tags": [
       "视频生成",
       "多语言"
@@ -1578,7 +1578,7 @@
   {
     "name": "白日梦AI",
     "description": "AI长视频生成工具，支持10分钟视频",
-    "icon": "https://icons.duckduckgo.com/ip3/bairimeng.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/bairimeng.com.ico",
     "tags": [
       "视频生成",
       "长视频"
@@ -1589,7 +1589,7 @@
   {
     "name": "Viggle AI",
     "description": "AI角色动画生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/viggle.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/viggle.ai.ico",
     "tags": [
       "动画",
       "角色"
@@ -1600,7 +1600,7 @@
   {
     "name": "LensGo",
     "description": "AI视频风格转换工具",
-    "icon": "https://icons.duckduckgo.com/ip3/lensgo.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/lensgo.ai.ico",
     "tags": [
       "风格转换",
       "视频编辑"
@@ -1611,7 +1611,7 @@
   {
     "name": "Veo 3",
     "description": "Google DeepMind最新AI视频生成模型，首次实现视频和音频同时生成",
-    "icon": "https://icons.duckduckgo.com/ip3/aistudio.google.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/aistudio.google.com.ico",
     "tags": [
       "视频生成",
       "Google"
@@ -1622,7 +1622,7 @@
   {
     "name": "Stable Video Diffusion",
     "description": "Stability AI的视频生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/stability.ai.ico",
     "tags": [
       "视频生成",
       "Stable Diffusion"
@@ -1633,7 +1633,7 @@
   {
     "name": "AnimateDiff",
     "description": "图像转视频生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "视频生成",
       "图像转视频"
@@ -1644,7 +1644,7 @@
   {
     "name": "Deforum",
     "description": "Stable Diffusion视频生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "视频生成",
       "Stable Diffusion"
@@ -1655,7 +1655,7 @@
   {
     "name": "EbSynth",
     "description": "AI视频风格转换工具",
-    "icon": "https://icons.duckduckgo.com/ip3/ebsynth.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/ebsynth.com.ico",
     "tags": [
       "视频编辑",
       "风格转换"
@@ -1666,7 +1666,7 @@
   {
     "name": "Topaz Video AI",
     "description": "AI视频增强和放大工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.topazlabs.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.topazlabs.com.ico",
     "tags": [
       "视频增强",
       "视频放大"
@@ -1677,7 +1677,7 @@
   {
     "name": "Waifu2x Video",
     "description": "动漫风格视频放大工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "视频放大",
       "动漫"
@@ -1688,7 +1688,7 @@
   {
     "name": "RIFE",
     "description": "AI视频帧插值工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "视频插帧",
       "帧率提升"
@@ -1699,7 +1699,7 @@
   {
     "name": "DAIN",
     "description": "AI视频帧插值工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "视频插帧",
       "帧率提升"
@@ -1710,7 +1710,7 @@
   {
     "name": "Flowframes",
     "description": "AI视频帧插值工具",
-    "icon": "https://icons.duckduckgo.com/ip3/nmkd.itch.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/nmkd.itch.io.ico",
     "tags": [
       "视频插帧",
       "帧率提升"
@@ -1721,7 +1721,7 @@
   {
     "name": "CapCut",
     "description": "字节跳动的AI视频编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.capcut.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.capcut.com.ico",
     "tags": [
       "视频编辑",
       "AI"
@@ -1743,7 +1743,7 @@
   {
     "name": "DaVinci Resolve AI",
     "description": "DaVinci Resolve的AI视频编辑功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.blackmagicdesign.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.blackmagicdesign.com.ico",
     "tags": [
       "视频编辑",
       "DaVinci"
@@ -1754,7 +1754,7 @@
   {
     "name": "Filmora AI",
     "description": "万兴科技的AI视频编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/filmora.wondershare.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/filmora.wondershare.com.ico",
     "tags": [
       "视频编辑",
       "AI"
@@ -1765,7 +1765,7 @@
   {
     "name": "OpusClip",
     "description": "AI视频剪辑工具，自动生成短视频",
-    "icon": "https://icons.duckduckgo.com/ip3/opusclip.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/opusclip.com.ico",
     "tags": [
       "视频剪辑",
       "短视频"
@@ -1776,7 +1776,7 @@
   {
     "name": "AutoPod",
     "description": "AI播客视频编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/autopod.fm.ico",
+    "icon": "https://icons.quickso.cn/ip3/autopod.fm.ico",
     "tags": [
       "视频编辑",
       "播客"
@@ -1787,7 +1787,7 @@
   {
     "name": "Vrew",
     "description": "AI视频字幕生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/vrew.voyagerx.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/vrew.voyagerx.com.ico",
     "tags": [
       "视频字幕",
       "字幕生成"
@@ -1798,7 +1798,7 @@
   {
     "name": "Submagic",
     "description": "AI视频字幕生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/submagic.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/submagic.co.ico",
     "tags": [
       "视频字幕",
       "字幕生成"
@@ -1809,7 +1809,7 @@
   {
     "name": "Kapwing AI",
     "description": "AI视频编辑和生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/kapwing.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/kapwing.com.ico",
     "tags": [
       "视频编辑",
       "视频生成"
@@ -1820,7 +1820,7 @@
   {
     "name": "ElevenLabs",
     "description": "AI语音合成工具，生成自然流畅的语音",
-    "icon": "https://icons.duckduckgo.com/ip3/elevenlabs.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/elevenlabs.io.ico",
     "tags": [
       "精选",
       "语音合成",
@@ -1833,7 +1833,7 @@
   {
     "name": "Suno",
     "description": "AI音乐生成工具，创作原创歌曲",
-    "icon": "https://icons.duckduckgo.com/ip3/suno.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/suno.ai.ico",
     "tags": [
       "精选",
       "音乐生成",
@@ -1846,7 +1846,7 @@
   {
     "name": "Murf AI",
     "description": "专业的AI配音和语音生成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/murf.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/murf.ai.ico",
     "tags": [
       "配音",
       "语音合成"
@@ -1857,7 +1857,7 @@
   {
     "name": "AIVA",
     "description": "AI音乐作曲助手，创作背景音乐",
-    "icon": "https://icons.duckduckgo.com/ip3/aiva.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/aiva.ai.ico",
     "tags": [
       "音乐生成",
       "作曲"
@@ -1868,7 +1868,7 @@
   {
     "name": "Udio",
     "description": "AI音乐生成工具，创作高质量音乐作品",
-    "icon": "https://icons.duckduckgo.com/ip3/udio.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/udio.com.ico",
     "tags": [
       "音乐生成",
       "作曲"
@@ -1879,7 +1879,7 @@
   {
     "name": "网易天音",
     "description": "网易推出的AI音乐创作平台",
-    "icon": "https://icons.duckduckgo.com/ip3/tianyin.music.163.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tianyin.music.163.com.ico",
     "tags": [
       "音乐生成",
       "网易"
@@ -1890,7 +1890,7 @@
   {
     "name": "魔音工坊",
     "description": "AI语音合成和配音工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.moyin.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.moyin.com.ico",
     "tags": [
       "语音合成",
       "配音"
@@ -1901,7 +1901,7 @@
   {
     "name": "TTSMaker",
     "description": "免费的AI文字转语音工具",
-    "icon": "https://icons.duckduckgo.com/ip3/ttsmaker.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/ttsmaker.com.ico",
     "tags": [
       "TTS",
       "免费"
@@ -1912,7 +1912,7 @@
   {
     "name": "讯飞智作",
     "description": "科大讯飞推出的AI配音和音频创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.zhizuo.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.zhizuo.com.ico",
     "tags": [
       "配音",
       "讯飞"
@@ -1923,7 +1923,7 @@
   {
     "name": "Reecho睿声",
     "description": "AI语音克隆和合成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/reecho.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/reecho.ai.ico",
     "tags": [
       "语音克隆",
       "合成"
@@ -1934,7 +1934,7 @@
   {
     "name": "Soundraw",
     "description": "AI音乐生成工具，创作版权音乐",
-    "icon": "https://icons.duckduckgo.com/ip3/soundraw.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/soundraw.io.ico",
     "tags": [
       "音乐生成",
       "版权"
@@ -1945,7 +1945,7 @@
   {
     "name": "Boomy",
     "description": "AI音乐创作平台，快速生成歌曲",
-    "icon": "https://icons.duckduckgo.com/ip3/boomy.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/boomy.com.ico",
     "tags": [
       "音乐生成",
       "快速"
@@ -1956,7 +1956,7 @@
   {
     "name": "Beatoven.ai",
     "description": "AI背景音乐生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/beatoven.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/beatoven.ai.ico",
     "tags": [
       "背景音乐",
       "生成"
@@ -1967,7 +1967,7 @@
   {
     "name": "Resemble AI",
     "description": "AI语音克隆和合成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/resemble.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/resemble.ai.ico",
     "tags": [
       "语音克隆",
       "合成"
@@ -1978,7 +1978,7 @@
   {
     "name": "Descript Overdub",
     "description": "AI语音克隆工具，创建个人语音",
-    "icon": "https://icons.duckduckgo.com/ip3/descript.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/descript.com.ico",
     "tags": [
       "语音克隆",
       "编辑"
@@ -1989,7 +1989,7 @@
   {
     "name": "Speechify",
     "description": "AI文字转语音工具",
-    "icon": "https://icons.duckduckgo.com/ip3/speechify.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/speechify.com.ico",
     "tags": [
       "TTS",
       "阅读"
@@ -2000,7 +2000,7 @@
   {
     "name": "海绵音乐",
     "description": "字节跳动推出的AI音乐创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.haimian.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.haimian.com.ico",
     "tags": [
       "音乐生成",
       "字节"
@@ -2011,7 +2011,7 @@
   {
     "name": "天谱乐",
     "description": "AI音乐生成平台",
-    "icon": "https://icons.duckduckgo.com/ip3/www.tianpule.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.tianpule.com.ico",
     "tags": [
       "音乐生成",
       "中文"
@@ -2022,7 +2022,7 @@
   {
     "name": "标贝科技",
     "description": "AI语音合成和克隆平台",
-    "icon": "https://icons.duckduckgo.com/ip3/www.data-baker.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.data-baker.com.ico",
     "tags": [
       "语音合成",
       "克隆"
@@ -2033,7 +2033,7 @@
   {
     "name": "出门问问",
     "description": "AI语音助手和TTS服务",
-    "icon": "https://icons.duckduckgo.com/ip3/www.mobvoi.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.mobvoi.com.ico",
     "tags": [
       "语音助手",
       "TTS"
@@ -2044,7 +2044,7 @@
   {
     "name": "LALAL.AI",
     "description": "AI音频分离工具，提取人声和伴奏",
-    "icon": "https://icons.duckduckgo.com/ip3/www.lalal.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.lalal.ai.ico",
     "tags": [
       "音频分离",
       "人声提取"
@@ -2055,7 +2055,7 @@
   {
     "name": "Spleeter",
     "description": "AI音频分离工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "音频分离",
       "开源"
@@ -2066,7 +2066,7 @@
   {
     "name": "Ultimate Vocal Remover",
     "description": "AI人声移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "人声移除",
       "音频处理"
@@ -2077,7 +2077,7 @@
   {
     "name": "Demucs",
     "description": "AI音频分离工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "音频分离",
       "开源"
@@ -2088,7 +2088,7 @@
   {
     "name": "Moises",
     "description": "AI音频分离和编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/moises.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/moises.ai.ico",
     "tags": [
       "音频分离",
       "音频编辑"
@@ -2099,7 +2099,7 @@
   {
     "name": "Adobe Podcast",
     "description": "Adobe的AI音频增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/podcast.adobe.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/podcast.adobe.com.ico",
     "tags": [
       "音频增强",
       "Adobe"
@@ -2110,7 +2110,7 @@
   {
     "name": "Krisp",
     "description": "AI噪音消除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/krisp.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/krisp.ai.ico",
     "tags": [
       "噪音消除",
       "音频处理"
@@ -2121,7 +2121,7 @@
   {
     "name": "Audacity AI",
     "description": "Audacity的AI音频处理功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.audacityteam.org.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.audacityteam.org.ico",
     "tags": [
       "音频编辑",
       "开源"
@@ -2132,7 +2132,7 @@
   {
     "name": "Otter.ai",
     "description": "AI会议记录和转录工具",
-    "icon": "https://icons.duckduckgo.com/ip3/otter.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/otter.ai.ico",
     "tags": [
       "语音转录",
       "会议记录"
@@ -2143,7 +2143,7 @@
   {
     "name": "Fireflies.ai",
     "description": "AI会议记录和转录工具",
-    "icon": "https://icons.duckduckgo.com/ip3/fireflies.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/fireflies.ai.ico",
     "tags": [
       "会议记录",
       "语音转录"
@@ -2154,7 +2154,7 @@
   {
     "name": "Rev",
     "description": "AI语音转录服务",
-    "icon": "https://icons.duckduckgo.com/ip3/rev.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/rev.com.ico",
     "tags": [
       "语音转录",
       "AI"
@@ -2165,7 +2165,7 @@
   {
     "name": "Trint",
     "description": "AI语音转录和编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/trint.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/trint.com.ico",
     "tags": [
       "语音转录",
       "编辑"
@@ -2176,7 +2176,7 @@
   {
     "name": "Sonix",
     "description": "AI语音转录和字幕生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/sonix.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/sonix.ai.ico",
     "tags": [
       "语音转录",
       "字幕生成"
@@ -2187,7 +2187,7 @@
   {
     "name": "AssemblyAI",
     "description": "AI语音识别和转录API",
-    "icon": "https://icons.duckduckgo.com/ip3/www.assemblyai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.assemblyai.com.ico",
     "tags": [
       "语音识别",
       "API"
@@ -2198,7 +2198,7 @@
   {
     "name": "Deepgram",
     "description": "AI语音识别和转录API",
-    "icon": "https://icons.duckduckgo.com/ip3/deepgram.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/deepgram.com.ico",
     "tags": [
       "语音识别",
       "API"
@@ -2209,7 +2209,7 @@
   {
     "name": "Whisper",
     "description": "OpenAI的AI语音识别模型",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "语音识别",
       "OpenAI"
@@ -2220,7 +2220,7 @@
   {
     "name": "Wav2Lip",
     "description": "AI视频口型同步工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "口型同步",
       "视频"
@@ -2231,7 +2231,7 @@
   {
     "name": "Coqui TTS",
     "description": "开源的AI文本转语音工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "语音合成",
       "TTS"
@@ -2242,7 +2242,7 @@
   {
     "name": "Piper",
     "description": "快速AI文本转语音工具",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "语音合成",
       "TTS"
@@ -2253,7 +2253,7 @@
   {
     "name": "Bark",
     "description": "AI文本转语音工具，支持多种声音",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "语音合成",
       "TTS"
@@ -2264,7 +2264,7 @@
   {
     "name": "GitHub Copilot",
     "description": "AI编程助手，提供智能代码补全和建议",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "精选",
       "编程",
@@ -2277,7 +2277,7 @@
   {
     "name": "Cursor",
     "description": "AI驱动的代码编辑器，提升开发效率",
-    "icon": "https://icons.duckduckgo.com/ip3/cursor.sh.ico",
+    "icon": "https://icons.quickso.cn/ip3/cursor.sh.ico",
     "tags": [
       "精选",
       "编辑器",
@@ -2290,7 +2290,7 @@
   {
     "name": "Codeium",
     "description": "免费的AI代码补全工具",
-    "icon": "https://icons.duckduckgo.com/ip3/codeium.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/codeium.com.ico",
     "tags": [
       "代码补全",
       "免费"
@@ -2301,7 +2301,7 @@
   {
     "name": "Tabnine",
     "description": "AI代码助手，支持多种编程语言",
-    "icon": "https://icons.duckduckgo.com/ip3/tabnine.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tabnine.com.ico",
     "tags": [
       "代码补全",
       "多语言"
@@ -2312,7 +2312,7 @@
   {
     "name": "Replit",
     "description": "在线AI编程平台，支持协作开发",
-    "icon": "https://icons.duckduckgo.com/ip3/replit.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/replit.com.ico",
     "tags": [
       "在线编程",
       "协作"
@@ -2323,7 +2323,7 @@
   {
     "name": "通义灵码",
     "description": "阿里云推出的AI编程助手",
-    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tongyi.aliyun.com.ico",
     "tags": [
       "编程",
       "阿里"
@@ -2334,7 +2334,7 @@
   {
     "name": "Amazon CodeWhisperer",
     "description": "亚马逊推出的AI代码生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/aws.amazon.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/aws.amazon.com.ico",
     "tags": [
       "代码生成",
       "AWS"
@@ -2345,7 +2345,7 @@
   {
     "name": "Windsurf",
     "description": "AI代码编辑器，提供智能编程辅助",
-    "icon": "https://icons.duckduckgo.com/ip3/codeium.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/codeium.com.ico",
     "tags": [
       "编辑器",
       "AI编程"
@@ -2356,7 +2356,7 @@
   {
     "name": "Aider",
     "description": "AI结对编程工具，在终端中使用",
-    "icon": "https://icons.duckduckgo.com/ip3/aider.chat.ico",
+    "icon": "https://icons.quickso.cn/ip3/aider.chat.ico",
     "tags": [
       "结对编程",
       "终端"
@@ -2367,7 +2367,7 @@
   {
     "name": "Cline",
     "description": "AI编程助手，支持多种IDE",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "编程助手",
       "IDE"
@@ -2378,7 +2378,7 @@
   {
     "name": "Sourcegraph Cody",
     "description": "AI代码助手，理解整个代码库",
-    "icon": "https://icons.duckduckgo.com/ip3/sourcegraph.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/sourcegraph.com.ico",
     "tags": [
       "代码助手",
       "搜索"
@@ -2389,7 +2389,7 @@
   {
     "name": "Continue",
     "description": "开源AI代码助手",
-    "icon": "https://icons.duckduckgo.com/ip3/continue.dev.ico",
+    "icon": "https://icons.quickso.cn/ip3/continue.dev.ico",
     "tags": [
       "开源",
       "代码助手"
@@ -2400,7 +2400,7 @@
   {
     "name": "Phind",
     "description": "面向开发者的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/phind.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/phind.com.ico",
     "tags": [
       "搜索",
       "开发"
@@ -2411,7 +2411,7 @@
   {
     "name": "CodeGeeX",
     "description": "智谱AI推出的代码生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/codegeex.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/codegeex.cn.ico",
     "tags": [
       "代码生成",
       "智谱"
@@ -2422,7 +2422,7 @@
   {
     "name": "Bito AI",
     "description": "AI代码助手，提升开发效率",
-    "icon": "https://icons.duckduckgo.com/ip3/bito.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/bito.ai.ico",
     "tags": [
       "代码助手",
       "效率"
@@ -2433,7 +2433,7 @@
   {
     "name": "Blackbox AI",
     "description": "AI代码搜索和生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/blackbox.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/blackbox.ai.ico",
     "tags": [
       "代码搜索",
       "生成"
@@ -2444,7 +2444,7 @@
   {
     "name": "Pieces",
     "description": "AI驱动的代码片段管理工具",
-    "icon": "https://icons.duckduckgo.com/ip3/pieces.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/pieces.app.ico",
     "tags": [
       "代码管理",
       "片段"
@@ -2455,7 +2455,7 @@
   {
     "name": "MarsCode",
     "description": "字节跳动推出的AI编程助手",
-    "icon": "https://icons.duckduckgo.com/ip3/marscode.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/marscode.cn.ico",
     "tags": [
       "编程助手",
       "字节"
@@ -2466,7 +2466,7 @@
   {
     "name": "百度Comate",
     "description": "百度推出的AI编程助手",
-    "icon": "https://icons.duckduckgo.com/ip3/comate.baidu.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/comate.baidu.com.ico",
     "tags": [
       "编程助手",
       "百度"
@@ -2477,7 +2477,7 @@
   {
     "name": "腾讯云AI代码助手",
     "description": "腾讯云推出的智能编程工具",
-    "icon": "https://icons.duckduckgo.com/ip3/cloud.tencent.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/cloud.tencent.com.ico",
     "tags": [
       "编程助手",
       "腾讯"
@@ -2488,7 +2488,7 @@
   {
     "name": "Trae",
     "description": "字节跳动出品的AI原生IDE，集成豆包和DeepSeek模型，支持中文自然语言编程",
-    "icon": "https://icons.duckduckgo.com/ip3/www.trae.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.trae.cn.ico",
     "tags": [
       "IDE",
       "字节跳动"
@@ -2499,7 +2499,7 @@
   {
     "name": "Claude Code",
     "description": "Anthropic推出的AI编程命令行工具，支持代码生成、编辑和终端操作",
-    "icon": "https://icons.duckduckgo.com/ip3/docs.anthropic.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/docs.anthropic.com.ico",
     "tags": [
       "CLI",
       "编程"
@@ -2510,7 +2510,7 @@
   {
     "name": "CodiumAI",
     "description": "AI代码测试生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.codium.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.codium.ai.ico",
     "tags": [
       "代码测试",
       "测试生成"
@@ -2521,7 +2521,7 @@
   {
     "name": "CodeRabbit",
     "description": "AI代码审查工具",
-    "icon": "https://icons.duckduckgo.com/ip3/coderabbit.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/coderabbit.ai.ico",
     "tags": [
       "代码审查",
       "AI"
@@ -2532,7 +2532,7 @@
   {
     "name": "Sourcery",
     "description": "AI代码重构工具",
-    "icon": "https://icons.duckduckgo.com/ip3/sourcery.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/sourcery.ai.ico",
     "tags": [
       "代码重构",
       "AI"
@@ -2543,7 +2543,7 @@
   {
     "name": "Mintlify",
     "description": "AI文档生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/mintlify.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/mintlify.com.ico",
     "tags": [
       "文档生成",
       "AI"
@@ -2554,7 +2554,7 @@
   {
     "name": "Documatic",
     "description": "AI代码文档生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.documatic.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.documatic.com.ico",
     "tags": [
       "文档生成",
       "AI"
@@ -2565,7 +2565,7 @@
   {
     "name": "Stenography",
     "description": "AI代码注释生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/stenography.dev.ico",
+    "icon": "https://icons.quickso.cn/ip3/stenography.dev.ico",
     "tags": [
       "代码注释",
       "AI"
@@ -2576,7 +2576,7 @@
   {
     "name": "What The Diff",
     "description": "AI代码变更总结工具",
-    "icon": "https://icons.duckduckgo.com/ip3/whatthediff.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/whatthediff.ai.ico",
     "tags": [
       "代码变更",
       "总结"
@@ -2587,7 +2587,7 @@
   {
     "name": "AI Code Reviewer",
     "description": "AI代码审查工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.aicodereviewer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.aicodereviewer.com.ico",
     "tags": [
       "代码审查",
       "AI"
@@ -2598,7 +2598,7 @@
   {
     "name": "CodeT5",
     "description": "Salesforce的AI代码生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "代码生成",
       "模型"
@@ -2609,7 +2609,7 @@
   {
     "name": "StarCoder",
     "description": "BigCode的AI代码生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/huggingface.co.ico",
     "tags": [
       "代码生成",
       "模型"
@@ -2620,7 +2620,7 @@
   {
     "name": "WizardCoder",
     "description": "AI代码生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/huggingface.co.ico",
     "tags": [
       "代码生成",
       "模型"
@@ -2631,7 +2631,7 @@
   {
     "name": "CodeLlama",
     "description": "Meta的AI代码生成模型",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "代码生成",
       "模型"
@@ -2642,7 +2642,7 @@
   {
     "name": "AlphaCode",
     "description": "DeepMind的AI编程竞赛系统",
-    "icon": "https://icons.duckduckgo.com/ip3/alphacode.deepmind.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/alphacode.deepmind.com.ico",
     "tags": [
       "代码生成",
       "竞赛"
@@ -2653,7 +2653,7 @@
   {
     "name": "GitHub Copilot X",
     "description": "GitHub Copilot的增强版本",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "代码补全",
       "编程助手"
@@ -2664,7 +2664,7 @@
   {
     "name": "v0",
     "description": "Vercel的AI UI组件生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/v0.dev.ico",
+    "icon": "https://icons.quickso.cn/ip3/v0.dev.ico",
     "tags": [
       "UI生成",
       "组件"
@@ -2675,7 +2675,7 @@
   {
     "name": "Builder.io",
     "description": "AI网站构建工具",
-    "icon": "https://icons.duckduckgo.com/ip3/builder.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/builder.io.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2686,7 +2686,7 @@
   {
     "name": "10Web",
     "description": "AI网站构建平台",
-    "icon": "https://icons.duckduckgo.com/ip3/10web.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/10web.io.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2697,7 +2697,7 @@
   {
     "name": "Durable",
     "description": "AI网站构建工具",
-    "icon": "https://icons.duckduckgo.com/ip3/durable.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/durable.co.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2708,7 +2708,7 @@
   {
     "name": "Framer",
     "description": "AI网站设计和构建工具",
-    "icon": "https://icons.duckduckgo.com/ip3/framer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/framer.com.ico",
     "tags": [
       "网站构建",
       "设计"
@@ -2719,7 +2719,7 @@
   {
     "name": "Webflow AI",
     "description": "Webflow的AI网站构建功能",
-    "icon": "https://icons.duckduckgo.com/ip3/webflow.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/webflow.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2730,7 +2730,7 @@
   {
     "name": "Wix AI",
     "description": "Wix的AI网站构建功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.wix.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.wix.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2741,7 +2741,7 @@
   {
     "name": "Squarespace AI",
     "description": "Squarespace的AI网站构建功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.squarespace.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.squarespace.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2752,7 +2752,7 @@
   {
     "name": "Jimdo AI",
     "description": "Jimdo的AI网站构建功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.jimdo.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.jimdo.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2763,7 +2763,7 @@
   {
     "name": "Hostinger AI",
     "description": "Hostinger的AI网站构建工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.hostinger.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.hostinger.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2774,7 +2774,7 @@
   {
     "name": "GoDaddy AI",
     "description": "GoDaddy的AI网站构建功能",
-    "icon": "https://icons.duckduckgo.com/ip3/www.godaddy.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.godaddy.com.ico",
     "tags": [
       "网站构建",
       "AI"
@@ -2785,7 +2785,7 @@
   {
     "name": "AiPPT",
     "description": "AI快速生成高质量PPT",
-    "icon": "https://icons.duckduckgo.com/ip3/aippt.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/aippt.cn.ico",
     "tags": [
       "精选",
       "PPT",
@@ -2798,7 +2798,7 @@
   {
     "name": "Gamma",
     "description": "AI驱动的演示文稿和文档创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/gamma.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/gamma.app.ico",
     "tags": [
       "演示",
       "文档"
@@ -2809,7 +2809,7 @@
   {
     "name": "Beautiful.ai",
     "description": "AI智能PPT设计工具",
-    "icon": "https://icons.duckduckgo.com/ip3/beautiful.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/beautiful.ai.ico",
     "tags": [
       "PPT",
       "设计"
@@ -2820,7 +2820,7 @@
   {
     "name": "WPS AI",
     "description": "金山办公推出的AI办公助手",
-    "icon": "https://icons.duckduckgo.com/ip3/ai.wps.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/ai.wps.cn.ico",
     "tags": [
       "办公",
       "文档"
@@ -2831,7 +2831,7 @@
   {
     "name": "飞书多维表格",
     "description": "字节跳动推出的AI工作流平台",
-    "icon": "https://icons.duckduckgo.com/ip3/www.feishu.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.feishu.cn.ico",
     "tags": [
       "表格",
       "协作"
@@ -2842,7 +2842,7 @@
   {
     "name": "Tome",
     "description": "AI演示文稿生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/tome.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/tome.app.ico",
     "tags": [
       "演示",
       "PPT"
@@ -2853,7 +2853,7 @@
   {
     "name": "ChatExcel",
     "description": "通过对话控制Excel的AI工具",
-    "icon": "https://icons.duckduckgo.com/ip3/chatexcel.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chatexcel.com.ico",
     "tags": [
       "Excel",
       "表格"
@@ -2864,7 +2864,7 @@
   {
     "name": "有道云笔记",
     "description": "网易推出的智能笔记工具，集成AI功能",
-    "icon": "https://icons.duckduckgo.com/ip3/note.youdao.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/note.youdao.com.ico",
     "tags": [
       "笔记",
       "文档"
@@ -2875,7 +2875,7 @@
   {
     "name": "Slidesgo",
     "description": "AI驱动的演示模板和设计工具",
-    "icon": "https://icons.duckduckgo.com/ip3/slidesgo.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/slidesgo.com.ico",
     "tags": [
       "PPT",
       "模板"
@@ -2886,7 +2886,7 @@
   {
     "name": "Tactiq",
     "description": "AI会议实时转录和总结工具",
-    "icon": "https://icons.duckduckgo.com/ip3/tactiq.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/tactiq.io.ico",
     "tags": [
       "会议",
       "转录"
@@ -2897,7 +2897,7 @@
   {
     "name": "Mem",
     "description": "AI驱动的个人知识管理工具",
-    "icon": "https://icons.duckduckgo.com/ip3/mem.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/mem.ai.ico",
     "tags": [
       "知识管理",
       "笔记"
@@ -2908,7 +2908,7 @@
   {
     "name": "Taskade",
     "description": "AI协作和项目管理工具",
-    "icon": "https://icons.duckduckgo.com/ip3/taskade.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/taskade.com.ico",
     "tags": [
       "协作",
       "项目管理"
@@ -2919,7 +2919,7 @@
   {
     "name": "钉钉AI助手",
     "description": "阿里钉钉集成的AI办公助手",
-    "icon": "https://icons.duckduckgo.com/ip3/www.dingtalk.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.dingtalk.com.ico",
     "tags": [
       "办公",
       "协作"
@@ -2930,7 +2930,7 @@
   {
     "name": "飞书AI助手",
     "description": "字节飞书集成的AI办公工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.feishu.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.feishu.cn.ico",
     "tags": [
       "办公",
       "协作"
@@ -2941,7 +2941,7 @@
   {
     "name": "企业微信AI",
     "description": "腾讯企业微信的AI功能",
-    "icon": "https://icons.duckduckgo.com/ip3/work.weixin.qq.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/work.weixin.qq.com.ico",
     "tags": [
       "办公",
       "协作"
@@ -2952,7 +2952,7 @@
   {
     "name": "Decktopus",
     "description": "AI演示文稿生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/decktopus.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/decktopus.com.ico",
     "tags": [
       "PPT",
       "演示"
@@ -2963,7 +2963,7 @@
   {
     "name": "Slides AI",
     "description": "AI快速生成演示文稿",
-    "icon": "https://icons.duckduckgo.com/ip3/slidesai.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/slidesai.io.ico",
     "tags": [
       "PPT",
       "演示"
@@ -2974,7 +2974,7 @@
   {
     "name": "AI PPT",
     "description": "AI演示文稿生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/aippt.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/aippt.cn.ico",
     "tags": [
       "PPT生成",
       "演示文稿"
@@ -2985,7 +2985,7 @@
   {
     "name": "传声港",
     "description": "AI驱动的新媒体营销投放平台，提供新闻发稿、自媒体推广、网红短视频分发、舆情监测及AI代写服务",
-    "icon": "https://icons.duckduckgo.com/ip3/www.chuanshenggang.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.chuanshenggang.com.ico",
     "tags": [
       "新媒体",
       "营销"
@@ -2996,7 +2996,7 @@
   {
     "name": "Figma AI",
     "description": "Figma集成的AI设计助手",
-    "icon": "https://icons.duckduckgo.com/ip3/figma.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/figma.com.ico",
     "tags": [
       "UI设计",
       "协作"
@@ -3007,7 +3007,7 @@
   {
     "name": "Uizard",
     "description": "AI快速生成UI设计和原型",
-    "icon": "https://icons.duckduckgo.com/ip3/uizard.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/uizard.io.ico",
     "tags": [
       "UI设计",
       "原型"
@@ -3018,7 +3018,7 @@
   {
     "name": "Looka",
     "description": "AI Logo设计生成器",
-    "icon": "https://icons.duckduckgo.com/ip3/looka.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/looka.com.ico",
     "tags": [
       "Logo",
       "品牌"
@@ -3040,7 +3040,7 @@
   {
     "name": "Sketch",
     "description": "macOS矢量设计工具，用于网站和应用设计",
-    "icon": "https://icons.duckduckgo.com/ip3/sketch.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/sketch.com.ico",
     "tags": [
       "UI设计",
       "矢量"
@@ -3051,7 +3051,7 @@
   {
     "name": "Microsoft Designer",
     "description": "微软推出的AI图形设计工具",
-    "icon": "https://icons.duckduckgo.com/ip3/designer.microsoft.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/designer.microsoft.com.ico",
     "tags": [
       "图形设计",
       "微软"
@@ -3062,7 +3062,7 @@
   {
     "name": "Kittl",
     "description": "AI图像和矢量生成器，适合社交媒体设计",
-    "icon": "https://icons.duckduckgo.com/ip3/kittl.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/kittl.com.ico",
     "tags": [
       "图形设计",
       "矢量"
@@ -3073,7 +3073,7 @@
   {
     "name": "Designs.ai",
     "description": "AI驱动的创意设计平台",
-    "icon": "https://icons.duckduckgo.com/ip3/designs.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/designs.ai.ico",
     "tags": [
       "设计",
       "Logo"
@@ -3084,7 +3084,7 @@
   {
     "name": "Khroma",
     "description": "AI配色方案生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/khroma.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/khroma.co.ico",
     "tags": [
       "配色",
       "设计"
@@ -3095,7 +3095,7 @@
   {
     "name": "Brandmark",
     "description": "AI Logo和品牌设计工具",
-    "icon": "https://icons.duckduckgo.com/ip3/brandmark.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/brandmark.io.ico",
     "tags": [
       "Logo",
       "品牌"
@@ -3106,7 +3106,7 @@
   {
     "name": "Visme",
     "description": "AI驱动的视觉内容创作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/visme.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/visme.co.ico",
     "tags": [
       "设计",
       "演示"
@@ -3117,7 +3117,7 @@
   {
     "name": "Simplified Design",
     "description": "AI图形设计和视频编辑工具",
-    "icon": "https://icons.duckduckgo.com/ip3/simplified.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/simplified.com.ico",
     "tags": [
       "图形设计",
       "视频"
@@ -3128,7 +3128,7 @@
   {
     "name": "Designify",
     "description": "AI自动设计和背景移除工具",
-    "icon": "https://icons.duckduckgo.com/ip3/designify.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/designify.com.ico",
     "tags": [
       "自动设计",
       "背景移除"
@@ -3139,7 +3139,7 @@
   {
     "name": "Magician",
     "description": "Figma的AI设计插件",
-    "icon": "https://icons.duckduckgo.com/ip3/magician.design.ico",
+    "icon": "https://icons.quickso.cn/ip3/magician.design.ico",
     "tags": [
       "Figma",
       "插件"
@@ -3150,7 +3150,7 @@
   {
     "name": "Relume",
     "description": "AI网站设计和原型工具",
-    "icon": "https://icons.duckduckgo.com/ip3/relume.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/relume.io.ico",
     "tags": [
       "网站设计",
       "原型"
@@ -3161,7 +3161,7 @@
   {
     "name": "墨刀AI",
     "description": "AI原型设计和协作工具",
-    "icon": "https://icons.duckduckgo.com/ip3/modao.cc.ico",
+    "icon": "https://icons.quickso.cn/ip3/modao.cc.ico",
     "tags": [
       "原型",
       "协作"
@@ -3172,7 +3172,7 @@
   {
     "name": "即时设计AI",
     "description": "国产UI设计工具，集成AI功能",
-    "icon": "https://icons.duckduckgo.com/ip3/js.design.ico",
+    "icon": "https://icons.quickso.cn/ip3/js.design.ico",
     "tags": [
       "UI设计",
       "协作"
@@ -3183,7 +3183,7 @@
   {
     "name": "扣子Coze",
     "description": "字节跳动推出的AI Bot开发平台",
-    "icon": "https://icons.duckduckgo.com/ip3/coze.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/coze.cn.ico",
     "tags": [
       "精选",
       "智能体",
@@ -3196,7 +3196,7 @@
   {
     "name": "Manus",
     "description": "通用AI智能体平台，能自主规划和执行复杂任务，被Meta以20亿美元收购",
-    "icon": "https://icons.duckduckgo.com/ip3/manus.im.ico",
+    "icon": "https://icons.quickso.cn/ip3/manus.im.ico",
     "tags": [
       "精选",
       "智能体",
@@ -3209,7 +3209,7 @@
   {
     "name": "GPTs",
     "description": "OpenAI的自定义GPT创建平台",
-    "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/chat.openai.com.ico",
     "tags": [
       "智能体",
       "GPT"
@@ -3220,7 +3220,7 @@
   {
     "name": "Dify",
     "description": "开源的LLM应用开发平台",
-    "icon": "https://icons.duckduckgo.com/ip3/dify.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/dify.ai.ico",
     "tags": [
       "开源",
       "开发"
@@ -3231,7 +3231,7 @@
   {
     "name": "AutoGPT",
     "description": "自主AI智能体，自动完成复杂任务",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "自主",
       "开源"
@@ -3242,7 +3242,7 @@
   {
     "name": "LangChain",
     "description": "构建LLM应用的开发框架",
-    "icon": "https://icons.duckduckgo.com/ip3/langchain.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/langchain.com.ico",
     "tags": [
       "框架",
       "开发"
@@ -3253,7 +3253,7 @@
   {
     "name": "AgentGPT",
     "description": "在浏览器中部署自主AI智能体",
-    "icon": "https://icons.duckduckgo.com/ip3/agentgpt.reworkd.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/agentgpt.reworkd.ai.ico",
     "tags": [
       "自主",
       "浏览器"
@@ -3264,7 +3264,7 @@
   {
     "name": "BabyAGI",
     "description": "AI驱动的任务管理系统",
-    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/github.com.ico",
     "tags": [
       "任务管理",
       "开源"
@@ -3275,7 +3275,7 @@
   {
     "name": "Flowise",
     "description": "可视化LLM应用构建工具",
-    "icon": "https://icons.duckduckgo.com/ip3/flowiseai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/flowiseai.com.ico",
     "tags": [
       "可视化",
       "开发"
@@ -3286,7 +3286,7 @@
   {
     "name": "Botpress",
     "description": "开源的聊天机器人开发平台",
-    "icon": "https://icons.duckduckgo.com/ip3/botpress.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/botpress.com.ico",
     "tags": [
       "聊天机器人",
       "开源"
@@ -3297,7 +3297,7 @@
   {
     "name": "n8n",
     "description": "开源工作流自动化平台",
-    "icon": "https://icons.duckduckgo.com/ip3/n8n.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/n8n.io.ico",
     "tags": [
       "工作流",
       "自动化"
@@ -3308,7 +3308,7 @@
   {
     "name": "Make",
     "description": "可视化自动化平台，原Integromat",
-    "icon": "https://icons.duckduckgo.com/ip3/make.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/make.com.ico",
     "tags": [
       "自动化",
       "可视化"
@@ -3319,7 +3319,7 @@
   {
     "name": "Zapier",
     "description": "应用集成和自动化平台",
-    "icon": "https://icons.duckduckgo.com/ip3/zapier.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/zapier.com.ico",
     "tags": [
       "自动化",
       "集成"
@@ -3330,7 +3330,7 @@
   {
     "name": "Microsoft Power Automate",
     "description": "微软推出的流程自动化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/powerautomate.microsoft.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/powerautomate.microsoft.com.ico",
     "tags": [
       "自动化",
       "微软"
@@ -3341,7 +3341,7 @@
   {
     "name": "UiPath",
     "description": "企业级RPA和AI自动化平台",
-    "icon": "https://icons.duckduckgo.com/ip3/uipath.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/uipath.com.ico",
     "tags": [
       "RPA",
       "自动化"
@@ -3352,7 +3352,7 @@
   {
     "name": "Automation Anywhere",
     "description": "智能自动化平台",
-    "icon": "https://icons.duckduckgo.com/ip3/automationanywhere.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/automationanywhere.com.ico",
     "tags": [
       "RPA",
       "自动化"
@@ -3363,7 +3363,7 @@
   {
     "name": "Relevance AI",
     "description": "AI智能体构建平台",
-    "icon": "https://icons.duckduckgo.com/ip3/relevanceai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/relevanceai.com.ico",
     "tags": [
       "智能体",
       "构建"
@@ -3374,7 +3374,7 @@
   {
     "name": "Voiceflow",
     "description": "对话式AI和聊天机器人构建平台",
-    "icon": "https://icons.duckduckgo.com/ip3/voiceflow.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/voiceflow.com.ico",
     "tags": [
       "对话",
       "聊天机器人"
@@ -3385,7 +3385,7 @@
   {
     "name": "Stack AI",
     "description": "企业AI工作流构建平台",
-    "icon": "https://icons.duckduckgo.com/ip3/stack-ai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/stack-ai.com.ico",
     "tags": [
       "工作流",
       "企业"
@@ -3396,7 +3396,7 @@
   {
     "name": "百炼",
     "description": "阿里云推出的大模型应用开发平台",
-    "icon": "https://icons.duckduckgo.com/ip3/bailian.console.aliyun.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/bailian.console.aliyun.com.ico",
     "tags": [
       "开发平台",
       "阿里"
@@ -3407,7 +3407,7 @@
   {
     "name": "Zion",
     "description": "无代码AI应用开发平台，支持可视化搭建AI智能体、知识库和微信小程序",
-    "icon": "https://icons.duckduckgo.com/ip3/www.functorz.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.functorz.com.ico",
     "tags": [
       "无代码",
       "AI应用"
@@ -3418,7 +3418,7 @@
   {
     "name": "秘塔AI搜索",
     "description": "没有广告，直达结果的AI搜索",
-    "icon": "https://icons.duckduckgo.com/ip3/metaso.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/metaso.cn.ico",
     "tags": [
       "精选",
       "搜索",
@@ -3431,7 +3431,7 @@
   {
     "name": "天工AI搜索",
     "description": "昆仑万维推出的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/tiangong.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/tiangong.cn.ico",
     "tags": [
       "搜索",
       "中文"
@@ -3442,7 +3442,7 @@
   {
     "name": "Kagi",
     "description": "无广告的高质量AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/kagi.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/kagi.com.ico",
     "tags": [
       "搜索",
       "无广告"
@@ -3453,7 +3453,7 @@
   {
     "name": "Bing AI",
     "description": "微软推出的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/bing.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/bing.com.ico",
     "tags": [
       "搜索",
       "微软"
@@ -3464,7 +3464,7 @@
   {
     "name": "360AI搜索",
     "description": "360推出的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/so.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/so.com.ico",
     "tags": [
       "搜索",
       "中文"
@@ -3475,7 +3475,7 @@
   {
     "name": "Consensus",
     "description": "AI学术搜索引擎，搜索科研论文",
-    "icon": "https://icons.duckduckgo.com/ip3/consensus.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/consensus.app.ico",
     "tags": [
       "学术",
       "论文"
@@ -3486,7 +3486,7 @@
   {
     "name": "Elicit",
     "description": "AI研究助手，帮助文献综述",
-    "icon": "https://icons.duckduckgo.com/ip3/elicit.org.ico",
+    "icon": "https://icons.quickso.cn/ip3/elicit.org.ico",
     "tags": [
       "研究",
       "文献"
@@ -3497,7 +3497,7 @@
   {
     "name": "Brave Search",
     "description": "注重隐私的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/search.brave.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/search.brave.com.ico",
     "tags": [
       "搜索",
       "隐私"
@@ -3508,7 +3508,7 @@
   {
     "name": "Andi",
     "description": "对话式AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/andisearch.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/andisearch.com.ico",
     "tags": [
       "搜索",
       "对话"
@@ -3519,7 +3519,7 @@
   {
     "name": "Metaphor",
     "description": "AI驱动的语义搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/metaphor.systems.ico",
+    "icon": "https://icons.quickso.cn/ip3/metaphor.systems.ico",
     "tags": [
       "搜索",
       "语义"
@@ -3530,7 +3530,7 @@
   {
     "name": "Exa",
     "description": "AI搜索API，为AI应用提供搜索能力",
-    "icon": "https://icons.duckduckgo.com/ip3/exa.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/exa.ai.ico",
     "tags": [
       "搜索",
       "API"
@@ -3541,7 +3541,7 @@
   {
     "name": "Tavily",
     "description": "AI研究和搜索API",
-    "icon": "https://icons.duckduckgo.com/ip3/tavily.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/tavily.com.ico",
     "tags": [
       "搜索",
       "研究"
@@ -3552,7 +3552,7 @@
   {
     "name": "搜狗AI搜索",
     "description": "搜狗推出的AI搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/www.sogou.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.sogou.com.ico",
     "tags": [
       "搜索",
       "中文"
@@ -3563,7 +3563,7 @@
   {
     "name": "夸克AI搜索",
     "description": "阿里夸克推出的AI搜索",
-    "icon": "https://icons.duckduckgo.com/ip3/quark.sm.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/quark.sm.cn.ico",
     "tags": [
       "搜索",
       "中文"
@@ -3574,7 +3574,7 @@
   {
     "name": "百度AI搜索",
     "description": "百度集成AI的搜索引擎",
-    "icon": "https://icons.duckduckgo.com/ip3/www.baidu.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.baidu.com.ico",
     "tags": [
       "搜索",
       "中文"
@@ -3585,7 +3585,7 @@
   {
     "name": "Glean",
     "description": "企业AI搜索平台",
-    "icon": "https://icons.duckduckgo.com/ip3/glean.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/glean.com.ico",
     "tags": [
       "企业搜索",
       "AI"
@@ -3596,7 +3596,7 @@
   {
     "name": "Algolia AI",
     "description": "AI驱动的站内搜索解决方案",
-    "icon": "https://icons.duckduckgo.com/ip3/algolia.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/algolia.com.ico",
     "tags": [
       "站内搜索",
       "AI"
@@ -3607,7 +3607,7 @@
   {
     "name": "Linggan",
     "description": "一站式AI工具导航和搜索平台，覆盖文本、图像、视频、编程等领域",
-    "icon": "https://icons.duckduckgo.com/ip3/linggan.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/linggan.io.ico",
     "tags": [
       "导航",
       "工具搜索"
@@ -3618,7 +3618,7 @@
   {
     "name": "Khan Academy",
     "description": "集成AI导师的在线学习平台",
-    "icon": "https://icons.duckduckgo.com/ip3/khanacademy.org.ico",
+    "icon": "https://icons.quickso.cn/ip3/khanacademy.org.ico",
     "tags": [
       "学习",
       "教育"
@@ -3629,7 +3629,7 @@
   {
     "name": "Duolingo",
     "description": "AI驱动的语言学习应用",
-    "icon": "https://icons.duckduckgo.com/ip3/duolingo.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/duolingo.com.ico",
     "tags": [
       "语言学习",
       "教育"
@@ -3640,7 +3640,7 @@
   {
     "name": "Coursera",
     "description": "提供AI课程的在线学习平台",
-    "icon": "https://icons.duckduckgo.com/ip3/coursera.org.ico",
+    "icon": "https://icons.quickso.cn/ip3/coursera.org.ico",
     "tags": [
       "在线课程",
       "AI课程"
@@ -3651,7 +3651,7 @@
   {
     "name": "有道小P",
     "description": "网易有道推出的AI全科学习助手",
-    "icon": "https://icons.duckduckgo.com/ip3/ai.youdao.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/ai.youdao.com.ico",
     "tags": [
       "学习",
       "中文"
@@ -3662,7 +3662,7 @@
   {
     "name": "Gauth",
     "description": "AI学习辅助应用，解答学习问题",
-    "icon": "https://icons.duckduckgo.com/ip3/gauth.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/gauth.com.ico",
     "tags": [
       "学习",
       "解题"
@@ -3673,7 +3673,7 @@
   {
     "name": "九章随时问",
     "description": "AI智能辅导老师，随时解答问题",
-    "icon": "https://icons.duckduckgo.com/ip3/jiuzhang.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/jiuzhang.com.ico",
     "tags": [
       "辅导",
       "中文"
@@ -3684,7 +3684,7 @@
   {
     "name": "Quizlet",
     "description": "AI驱动的学习和记忆工具",
-    "icon": "https://icons.duckduckgo.com/ip3/quizlet.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/quizlet.com.ico",
     "tags": [
       "学习",
       "记忆"
@@ -3695,7 +3695,7 @@
   {
     "name": "Photomath",
     "description": "AI数学解题应用，扫描即可解答",
-    "icon": "https://icons.duckduckgo.com/ip3/photomath.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/photomath.com.ico",
     "tags": [
       "数学",
       "解题"
@@ -3706,7 +3706,7 @@
   {
     "name": "Socratic",
     "description": "Google推出的AI学习助手",
-    "icon": "https://icons.duckduckgo.com/ip3/socratic.org.ico",
+    "icon": "https://icons.quickso.cn/ip3/socratic.org.ico",
     "tags": [
       "学习",
       "Google"
@@ -3717,7 +3717,7 @@
   {
     "name": "Cognii",
     "description": "AI虚拟学习助手",
-    "icon": "https://icons.duckduckgo.com/ip3/cognii.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/cognii.com.ico",
     "tags": [
       "学习",
       "虚拟助手"
@@ -3728,7 +3728,7 @@
   {
     "name": "Squirrel AI",
     "description": "松鼠AI智适应教育平台",
-    "icon": "https://icons.duckduckgo.com/ip3/squirrelai.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/squirrelai.com.ico",
     "tags": [
       "学习",
       "自适应"
@@ -3739,7 +3739,7 @@
   {
     "name": "作业帮AI",
     "description": "作业帮推出的AI学习工具",
-    "icon": "https://icons.duckduckgo.com/ip3/www.zybang.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.zybang.com.ico",
     "tags": [
       "学习",
       "解题"
@@ -3750,7 +3750,7 @@
   {
     "name": "学而思AI",
     "description": "学而思推出的AI学习助手",
-    "icon": "https://icons.duckduckgo.com/ip3/www.xueersi.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.xueersi.com.ico",
     "tags": [
       "学习",
       "辅导"
@@ -3761,7 +3761,7 @@
   {
     "name": "网易有道AI学习",
     "description": "网易有道的AI学习产品",
-    "icon": "https://icons.duckduckgo.com/ip3/ai.youdao.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/ai.youdao.com.ico",
     "tags": [
       "学习",
       "翻译"
@@ -3772,7 +3772,7 @@
   {
     "name": "Wolfram Alpha",
     "description": "计算知识引擎，AI辅助学习",
-    "icon": "https://icons.duckduckgo.com/ip3/wolframalpha.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/wolframalpha.com.ico",
     "tags": [
       "计算",
       "知识"
@@ -3783,7 +3783,7 @@
   {
     "name": "Brainly",
     "description": "AI驱动的学习社区",
-    "icon": "https://icons.duckduckgo.com/ip3/brainly.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/brainly.com.ico",
     "tags": [
       "学习",
       "社区"
@@ -3794,7 +3794,7 @@
   {
     "name": "Knowji",
     "description": "AI词汇学习应用",
-    "icon": "https://icons.duckduckgo.com/ip3/knowji.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/knowji.com.ico",
     "tags": [
       "词汇",
       "学习"
@@ -3805,7 +3805,7 @@
   {
     "name": "Memrise",
     "description": "AI语言学习平台",
-    "icon": "https://icons.duckduckgo.com/ip3/memrise.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/memrise.com.ico",
     "tags": [
       "语言",
       "学习"
@@ -3816,7 +3816,7 @@
   {
     "name": "Elsa Speak",
     "description": "AI英语口语练习应用",
-    "icon": "https://icons.duckduckgo.com/ip3/elsaspeak.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/elsaspeak.com.ico",
     "tags": [
       "英语",
       "口语"
@@ -3827,7 +3827,7 @@
   {
     "name": "Hugging Face",
     "description": "开源AI模型和数据集社区",
-    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/huggingface.co.ico",
     "tags": [
       "精选",
       "开源",
@@ -3840,7 +3840,7 @@
   {
     "name": "Replicate",
     "description": "运行和部署AI模型的云平台",
-    "icon": "https://icons.duckduckgo.com/ip3/replicate.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/replicate.com.ico",
     "tags": [
       "模型部署",
       "云平台"
@@ -3851,7 +3851,7 @@
   {
     "name": "魔搭社区",
     "description": "阿里推出的AI模型社区",
-    "icon": "https://icons.duckduckgo.com/ip3/modelscope.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/modelscope.cn.ico",
     "tags": [
       "模型",
       "中文"
@@ -3862,7 +3862,7 @@
   {
     "name": "Groq Cloud",
     "description": "超快速AI推理云平台",
-    "icon": "https://icons.duckduckgo.com/ip3/groq.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/groq.com.ico",
     "tags": [
       "推理",
       "云平台"
@@ -3873,7 +3873,7 @@
   {
     "name": "Ollama",
     "description": "本地运行大语言模型的工具",
-    "icon": "https://icons.duckduckgo.com/ip3/ollama.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/ollama.ai.ico",
     "tags": [
       "本地",
       "开源"
@@ -3884,7 +3884,7 @@
   {
     "name": "LM Studio",
     "description": "本地运行和测试LLM的桌面应用",
-    "icon": "https://icons.duckduckgo.com/ip3/lmstudio.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/lmstudio.ai.ico",
     "tags": [
       "本地",
       "桌面"
@@ -3895,7 +3895,7 @@
   {
     "name": "始智AI",
     "description": "国产开源大模型社区",
-    "icon": "https://icons.duckduckgo.com/ip3/www.wisemodel.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.wisemodel.cn.ico",
     "tags": [
       "开源",
       "中文"
@@ -3906,7 +3906,7 @@
   {
     "name": "Anthropic Claude API",
     "description": "Claude模型API接口",
-    "icon": "https://icons.duckduckgo.com/ip3/anthropic.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/anthropic.com.ico",
     "tags": [
       "API",
       "Claude"
@@ -3917,7 +3917,7 @@
   {
     "name": "Google AI Studio",
     "description": "Google的AI模型开发平台",
-    "icon": "https://icons.duckduckgo.com/ip3/aistudio.google.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/aistudio.google.com.ico",
     "tags": [
       "开发",
       "Google"
@@ -3928,7 +3928,7 @@
   {
     "name": "Cohere",
     "description": "企业级LLM平台",
-    "icon": "https://icons.duckduckgo.com/ip3/cohere.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/cohere.com.ico",
     "tags": [
       "LLM",
       "企业"
@@ -3939,7 +3939,7 @@
   {
     "name": "Mistral AI",
     "description": "开源大语言模型平台",
-    "icon": "https://icons.duckduckgo.com/ip3/mistral.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/mistral.ai.ico",
     "tags": [
       "开源",
       "LLM"
@@ -3950,7 +3950,7 @@
   {
     "name": "Perplexity API",
     "description": "Perplexity模型API",
-    "icon": "https://icons.duckduckgo.com/ip3/docs.perplexity.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/docs.perplexity.ai.ico",
     "tags": [
       "API",
       "搜索"
@@ -3961,7 +3961,7 @@
   {
     "name": "Fireworks AI",
     "description": "快速AI模型推理平台",
-    "icon": "https://icons.duckduckgo.com/ip3/fireworks.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/fireworks.ai.ico",
     "tags": [
       "推理",
       "快速"
@@ -3972,7 +3972,7 @@
   {
     "name": "Anyscale",
     "description": "分布式AI模型训练和部署平台",
-    "icon": "https://icons.duckduckgo.com/ip3/anyscale.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/anyscale.com.ico",
     "tags": [
       "训练",
       "部署"
@@ -3983,7 +3983,7 @@
   {
     "name": "Modal",
     "description": "云端AI模型运行平台",
-    "icon": "https://icons.duckduckgo.com/ip3/modal.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/modal.com.ico",
     "tags": [
       "云端",
       "运行"
@@ -3994,7 +3994,7 @@
   {
     "name": "百度飞桨",
     "description": "百度推出的深度学习平台",
-    "icon": "https://icons.duckduckgo.com/ip3/paddlepaddle.org.cn.ico",
+    "icon": "https://icons.quickso.cn/ip3/paddlepaddle.org.cn.ico",
     "tags": [
       "深度学习",
       "百度"
@@ -4005,7 +4005,7 @@
   {
     "name": "昇腾AI",
     "description": "华为推出的AI计算平台",
-    "icon": "https://icons.duckduckgo.com/ip3/ascend.huawei.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/ascend.huawei.com.ico",
     "tags": [
       "计算",
       "华为"
@@ -4016,7 +4016,7 @@
   {
     "name": "GPTZero",
     "description": "检测AI生成内容的工具",
-    "icon": "https://icons.duckduckgo.com/ip3/gptzero.me.ico",
+    "icon": "https://icons.quickso.cn/ip3/gptzero.me.ico",
     "tags": [
       "AI检测",
       "内容检测"
@@ -4027,7 +4027,7 @@
   {
     "name": "Originality.ai",
     "description": "AI内容检测和抄袭检查工具",
-    "icon": "https://icons.duckduckgo.com/ip3/originality.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/originality.ai.ico",
     "tags": [
       "内容检测",
       "抄袭检查"
@@ -4038,7 +4038,7 @@
   {
     "name": "Copyleaks",
     "description": "AI内容检测和抄袭检查平台",
-    "icon": "https://icons.duckduckgo.com/ip3/copyleaks.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/copyleaks.com.ico",
     "tags": [
       "内容检测",
       "抄袭"
@@ -4049,7 +4049,7 @@
   {
     "name": "Winston AI",
     "description": "AI生成内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/gowinston.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/gowinston.ai.ico",
     "tags": [
       "AI检测",
       "内容"
@@ -4060,7 +4060,7 @@
   {
     "name": "Turnitin",
     "description": "学术诚信和AI写作检测平台",
-    "icon": "https://icons.duckduckgo.com/ip3/turnitin.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/turnitin.com.ico",
     "tags": [
       "学术",
       "检测"
@@ -4071,7 +4071,7 @@
   {
     "name": "ZeroGPT",
     "description": "免费的AI文本检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/zerogpt.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/zerogpt.com.ico",
     "tags": [
       "AI检测",
       "免费"
@@ -4082,7 +4082,7 @@
   {
     "name": "AI Detector Pro",
     "description": "专业的AI内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/aidetector.pro.ico",
+    "icon": "https://icons.quickso.cn/ip3/aidetector.pro.ico",
     "tags": [
       "AI检测",
       "专业"
@@ -4093,7 +4093,7 @@
   {
     "name": "Content at Scale",
     "description": "AI内容检测和SEO优化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/contentatscale.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/contentatscale.ai.ico",
     "tags": [
       "AI检测",
       "SEO"
@@ -4104,7 +4104,7 @@
   {
     "name": "Sapling",
     "description": "AI写作检测和语法检查工具",
-    "icon": "https://icons.duckduckgo.com/ip3/sapling.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/sapling.ai.ico",
     "tags": [
       "AI检测",
       "语法"
@@ -4115,7 +4115,7 @@
   {
     "name": "Crossplag",
     "description": "AI内容和抄袭检测平台",
-    "icon": "https://icons.duckduckgo.com/ip3/crossplag.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/crossplag.com.ico",
     "tags": [
       "AI检测",
       "抄袭"
@@ -4126,7 +4126,7 @@
   {
     "name": "Writer AI Detector",
     "description": "Writer推出的AI内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/writer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/writer.com.ico",
     "tags": [
       "AI检测",
       "内容"
@@ -4137,7 +4137,7 @@
   {
     "name": "Scribbr",
     "description": "学术AI检测和抄袭检查工具",
-    "icon": "https://icons.duckduckgo.com/ip3/scribbr.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/scribbr.com.ico",
     "tags": [
       "学术",
       "检测"
@@ -4148,7 +4148,7 @@
   {
     "name": "Undetectable AI",
     "description": "AI内容检测和人性化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/undetectable.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/undetectable.ai.ico",
     "tags": [
       "AI检测",
       "人性化"
@@ -4159,7 +4159,7 @@
   {
     "name": "Hive Moderation",
     "description": "AI内容审核和检测平台",
-    "icon": "https://icons.duckduckgo.com/ip3/hivemoderation.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/hivemoderation.com.ico",
     "tags": [
       "内容审核",
       "检测"
@@ -4170,7 +4170,7 @@
   {
     "name": "Passed.AI",
     "description": "AI写作检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/passed.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/passed.ai.ico",
     "tags": [
       "AI检测",
       "写作"
@@ -4181,7 +4181,7 @@
   {
     "name": "AI Checker",
     "description": "免费的AI内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/aichecker.net.ico",
+    "icon": "https://icons.quickso.cn/ip3/aichecker.net.ico",
     "tags": [
       "AI检测",
       "免费"
@@ -4192,7 +4192,7 @@
   {
     "name": "Smodin AI Detector",
     "description": "多语言AI内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/smodin.io.ico",
+    "icon": "https://icons.quickso.cn/ip3/smodin.io.ico",
     "tags": [
       "AI检测",
       "多语言"
@@ -4203,7 +4203,7 @@
   {
     "name": "Quillbot AI Detector",
     "description": "Quillbot推出的AI检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/quillbot.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/quillbot.com.ico",
     "tags": [
       "AI检测",
       "Quillbot"
@@ -4214,7 +4214,7 @@
   {
     "name": "Grammarly AI Detector",
     "description": "Grammarly的AI内容检测功能",
-    "icon": "https://icons.duckduckgo.com/ip3/grammarly.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/grammarly.com.ico",
     "tags": [
       "AI检测",
       "Grammarly"
@@ -4225,7 +4225,7 @@
   {
     "name": "AI or Not",
     "description": "AI生成内容检测工具",
-    "icon": "https://icons.duckduckgo.com/ip3/aiornot.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/aiornot.com.ico",
     "tags": [
       "AI检测",
       "图像"
@@ -4236,7 +4236,7 @@
   {
     "name": "PromptBase",
     "description": "AI提示词市场和社区",
-    "icon": "https://icons.duckduckgo.com/ip3/promptbase.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptbase.com.ico",
     "tags": [
       "提示词",
       "市场"
@@ -4247,7 +4247,7 @@
   {
     "name": "FlowGPT",
     "description": "分享和发现AI提示词的社区",
-    "icon": "https://icons.duckduckgo.com/ip3/flowgpt.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/flowgpt.com.ico",
     "tags": [
       "提示词",
       "社区"
@@ -4258,7 +4258,7 @@
   {
     "name": "PromptHero",
     "description": "AI提示词搜索和分享平台",
-    "icon": "https://icons.duckduckgo.com/ip3/prompthero.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/prompthero.com.ico",
     "tags": [
       "提示词",
       "搜索"
@@ -4269,7 +4269,7 @@
   {
     "name": "PromptPerfect",
     "description": "AI提示词优化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/promptperfect.jina.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptperfect.jina.ai.ico",
     "tags": [
       "提示词",
       "优化"
@@ -4280,7 +4280,7 @@
   {
     "name": "Snack Prompt",
     "description": "ChatGPT提示词发现和分享平台",
-    "icon": "https://icons.duckduckgo.com/ip3/snackprompt.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/snackprompt.com.ico",
     "tags": [
       "提示词",
       "ChatGPT"
@@ -4291,7 +4291,7 @@
   {
     "name": "PromptLayer",
     "description": "提示词管理和版本控制平台",
-    "icon": "https://icons.duckduckgo.com/ip3/promptlayer.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptlayer.com.ico",
     "tags": [
       "提示词",
       "管理"
@@ -4302,7 +4302,7 @@
   {
     "name": "AI Prompt Generator",
     "description": "AI提示词生成工具",
-    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "icon": "https://icons.quickso.cn/ip3/huggingface.co.ico",
     "tags": [
       "提示词",
       "生成"
@@ -4313,7 +4313,7 @@
   {
     "name": "PromptVine",
     "description": "提示词模板和灵感库",
-    "icon": "https://icons.duckduckgo.com/ip3/promptvine.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptvine.com.ico",
     "tags": [
       "提示词",
       "模板"
@@ -4324,7 +4324,7 @@
   {
     "name": "Learning Prompt",
     "description": "免费的提示词学习教程",
-    "icon": "https://icons.duckduckgo.com/ip3/learningprompt.wiki.ico",
+    "icon": "https://icons.quickso.cn/ip3/learningprompt.wiki.ico",
     "tags": [
       "提示词",
       "教程"
@@ -4335,7 +4335,7 @@
   {
     "name": "即时灵感",
     "description": "中文AI提示词社区",
-    "icon": "https://icons.duckduckgo.com/ip3/www.prompthunt.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.prompthunt.com.ico",
     "tags": [
       "提示词",
       "中文"
@@ -4346,7 +4346,7 @@
   {
     "name": "PromptStorm",
     "description": "Chrome扩展，提供提示词模板",
-    "icon": "https://icons.duckduckgo.com/ip3/promptstorm.app.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptstorm.app.ico",
     "tags": [
       "提示词",
       "Chrome"
@@ -4357,7 +4357,7 @@
   {
     "name": "AIPRM",
     "description": "ChatGPT提示词管理扩展",
-    "icon": "https://icons.duckduckgo.com/ip3/aiprm.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/aiprm.com.ico",
     "tags": [
       "提示词",
       "ChatGPT"
@@ -4368,7 +4368,7 @@
   {
     "name": "PromptBox",
     "description": "提示词组织和管理工具",
-    "icon": "https://icons.duckduckgo.com/ip3/promptbox.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptbox.ai.ico",
     "tags": [
       "提示词",
       "组织"
@@ -4379,7 +4379,7 @@
   {
     "name": "Prompt Genie",
     "description": "提示词优化和增强工具",
-    "icon": "https://icons.duckduckgo.com/ip3/promptgenie.ai.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptgenie.ai.ico",
     "tags": [
       "提示词",
       "优化"
@@ -4390,7 +4390,7 @@
   {
     "name": "PromptFolder",
     "description": "提示词保存和分享平台",
-    "icon": "https://icons.duckduckgo.com/ip3/promptfolder.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptfolder.com.ico",
     "tags": [
       "提示词",
       "保存"
@@ -4401,7 +4401,7 @@
   {
     "name": "Prompt Hunt",
     "description": "AI艺术提示词搜索平台",
-    "icon": "https://icons.duckduckgo.com/ip3/prompthunt.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/prompthunt.com.ico",
     "tags": [
       "提示词",
       "艺术"
@@ -4412,7 +4412,7 @@
   {
     "name": "Promptify",
     "description": "提示词工程和优化工具",
-    "icon": "https://icons.duckduckgo.com/ip3/promptify.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptify.com.ico",
     "tags": [
       "提示词",
       "工程"
@@ -4423,7 +4423,7 @@
   {
     "name": "提示词大全",
     "description": "中文提示词资源库",
-    "icon": "https://icons.duckduckgo.com/ip3/www.promptscat.com.ico",
+    "icon": "https://icons.quickso.cn/ip3/www.promptscat.com.ico",
     "tags": [
       "提示词",
       "中文"
@@ -4434,7 +4434,7 @@
   {
     "name": "ChatGPT Shortcut",
     "description": "ChatGPT快捷指令和提示词",
-    "icon": "https://icons.duckduckgo.com/ip3/newzone.top.ico",
+    "icon": "https://icons.quickso.cn/ip3/newzone.top.ico",
     "tags": [
       "提示词",
       "ChatGPT"
@@ -4445,7 +4445,7 @@
   {
     "name": "PromptPal",
     "description": "提示词助手和管理工具",
-    "icon": "https://icons.duckduckgo.com/ip3/promptpal.net.ico",
+    "icon": "https://icons.quickso.cn/ip3/promptpal.net.ico",
     "tags": [
       "提示词",
       "助手"
