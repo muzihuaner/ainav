@@ -3181,6 +3181,32 @@
     "url": "https://js.design"
   },
   {
+    "name":"OpenClaw",
+    "description":"开源免费的个人 AI 助手",
+    "icon":"https://icons.quickso.cn/ip3/openclaw.ai.ico", 
+    "tags": [
+      "精选",
+      "智能体",
+      "模型",
+      "工具"
+    ],
+    "category": "agent",
+    "url": "https://openclaw.ai/"
+  },
+  {
+    "name":"Hermes",
+    "description":"让 AI 成为长期在线的数字员工，而非一次性聊天机器人",
+    "icon":"https://icons.quickso.cn/ip3/hermes-agent.nousresearch.com.ico", 
+    "tags": [
+      "精选",
+      "智能体",
+      "模型",
+      "工具"
+    ],
+    "category": "agent",
+    "url": "https://hermes-agent.nousresearch.com/"
+  },
+  {
     "name": "扣子Coze",
     "description": "字节跳动推出的AI Bot开发平台",
     "icon": "https://icons.quickso.cn/ip3/coze.cn.ico",
