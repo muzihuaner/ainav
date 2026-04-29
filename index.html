@@ -47,9 +47,14 @@
             <i data-lucide="sparkles" class="w-5 h-5"></i>
             <span class="font-bold text-lg">快点 AI 导航</span>
         </div>
-        <a href="https://github.com/muzihuaner/ainav/issues">
-            <button class="bg-zinc-900 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-zinc-800 transition-colors">提交工具</button>
-        </a>
+        <div class="flex items-center gap-3">
+            <a href="https://next.ithome.com/" class="px-4 py-1.5 rounded-lg text-sm font-medium border border-zinc-200 text-zinc-700 hover:bg-zinc-50 hover:border-zinc-300 transition-colors">
+                <i data-lucide="newspaper" class="w-4 h-4 inline-block mr-1 -mt-0.5"></i>AI资讯
+            </a>
+            <a href="https://github.com/muzihuaner/ainav/issues">
+                <button class="bg-zinc-900 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-zinc-800 transition-colors">提交工具</button>
+            </a>
+        </div>
     </header>
 
     <section class="max-w-4xl mx-auto text-center pt-16 pb-12 px-6">
@@ -114,19 +119,15 @@
             }
         }
 
-        // 统一的点击处理逻辑
         function handleCategoryClick(btn, key) {
-            // 1. 重置所有按钮样式
             document.querySelectorAll('.category-btn').forEach(b => {
                 b.classList.remove('active', 'border-zinc-900', 'text-zinc-900');
                 b.classList.add('text-zinc-600', 'border-zinc-200');
             });
 
-            // 2. 激活当前按钮样式
             btn.classList.add('active', 'border-zinc-900', 'text-zinc-900');
             btn.classList.remove('text-zinc-600', 'border-zinc-200');
 
-            // 3. 更新状态并渲染
             currentCategory = key;
             document.getElementById('listTitle').innerText = categoryMap[key] || "全部工具";
             renderUI(document.getElementById('searchInput').value);
