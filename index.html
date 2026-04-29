@@ -10,8 +10,8 @@
     <meta name="keywords"
         content="AI导航,AI工具,ChatGPT,Claude,Midjourney,DALL-E,Stable Diffusion,人工智能,AI对话,AI绘画,AI编程,AI创作,智能助手,语言模型">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    <script src="https://npm.quickso.cn/lucide@latest"></script>
+    <link href="https://fonts.loli.net/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <style>
         body {
@@ -102,7 +102,7 @@
 
         async function init() {
             try {
-                const res = await fetch('ai_tools_full.json');
+                const res = await fetch('data.json');
                 allTools = await res.json();
                 renderCategories();
                 renderUI();
