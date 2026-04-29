@@ -22,11 +22,12 @@
         .category-btn.active {
             border-color: #000;
             background-color: #f8f9fa;
+            color: #000;
         }
 
         .section-title {
             display: flex;
-            items: center;
+            align-items: center;
             gap: 8px;
             margin-bottom: 24px;
             font-size: 1.25rem;
@@ -46,9 +47,9 @@
             <i data-lucide="sparkles" class="w-5 h-5"></i>
             <span class="font-bold text-lg">快点 AI 导航</span>
         </div>
-        <a href="https://github.com/muzihuaner/ainav/issues"> <button
-                class="bg-zinc-900 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-zinc-800 transition-colors">提交工具</button></a>
-
+        <a href="https://github.com/muzihuaner/ainav/issues">
+            <button class="bg-zinc-900 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-zinc-800 transition-colors">提交工具</button>
+        </a>
     </header>
 
     <section class="max-w-4xl mx-auto text-center pt-16 pb-12 px-6">
@@ -62,15 +63,14 @@
 
     <section class="max-w-6xl mx-auto px-6 mb-12">
         <div id="categoryGrid" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
-            <button data-cat="all"
-                class="category-btn active flex items-center justify-center gap-2 py-2.5 border border-zinc-200 rounded-xl hover:border-zinc-400 transition-all text-sm font-medium">
+            <button id="allBtn" onclick="handleCategoryClick(this, 'all')"
+                class="category-btn active flex items-center justify-center gap-2 py-2.5 border border-zinc-900 text-zinc-900 rounded-xl hover:border-zinc-400 transition-all text-sm font-medium">
                 <i data-lucide="layout-grid" class="w-4 h-4"></i> 全部
             </button>
         </div>
     </section>
 
     <main class="max-w-6xl mx-auto px-6 pb-20">
-
         <div id="featuredWrapper">
             <div class="section-title">
                 <i data-lucide="award" class="w-6 h-6 text-amber-500"></i>
@@ -106,7 +106,30 @@
                 allTools = await res.json();
                 renderCategories();
                 renderUI();
-            } catch (e) { console.error("加载失败", e); }
+            } catch (e) { 
+                console.error("加载失败", e);
+                // 模拟数据测试（如果 data.json 不存在时可以使用）
+                // allTools = [{name:"ChatGPT", description:"对话工具", url:"#", icon:"", tags:["精选"], category:"chat"}];
+                // renderUI();
+            }
+        }
+
+        // 统一的点击处理逻辑
+        function handleCategoryClick(btn, key) {
+            // 1. 重置所有按钮样式
+            document.querySelectorAll('.category-btn').forEach(b => {
+                b.classList.remove('active', 'border-zinc-900', 'text-zinc-900');
+                b.classList.add('text-zinc-600', 'border-zinc-200');
+            });
+
+            // 2. 激活当前按钮样式
+            btn.classList.add('active', 'border-zinc-900', 'text-zinc-900');
+            btn.classList.remove('text-zinc-600', 'border-zinc-200');
+
+            // 3. 更新状态并渲染
+            currentCategory = key;
+            document.getElementById('listTitle').innerText = categoryMap[key] || "全部工具";
+            renderUI(document.getElementById('searchInput').value);
         }
 
         function renderCategories() {
@@ -115,20 +138,14 @@
                 const btn = document.createElement('button');
                 btn.className = "category-btn flex items-center justify-center gap-2 py-2.5 border border-zinc-200 rounded-xl hover:border-zinc-400 transition-all text-sm font-medium text-zinc-600";
                 btn.innerHTML = categoryMap[key];
-                btn.onclick = () => {
-                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active', 'border-zinc-900', 'text-zinc-900'));
-                    btn.classList.add('active', 'border-zinc-900', 'text-zinc-900');
-                    currentCategory = key;
-                    document.getElementById('listTitle').innerText = categoryMap[key] || "全部工具";
-                    renderUI(document.getElementById('searchInput').value);
-                };
+                btn.onclick = () => handleCategoryClick(btn, key);
                 container.appendChild(btn);
             });
         }
 
-        // 卡片渲染模板
         function createCardHtml(tool) {
-            const isFeatured = tool.tags.includes('精选');
+            const isFeatured = tool.tags && tool.tags.includes('精选');
+            const tags = tool.tags || [];
             return `
                 <a href="${tool.url || '#'}" target="_blank" class="card-anim group border border-zinc-100 rounded-[1.5rem] p-6 hover:shadow-xl hover:border-transparent transition-all bg-white flex flex-col h-full">
                     <div class="flex justify-between items-start mb-4">
@@ -140,7 +157,7 @@
                     </div>
                     <p class="text-zinc-500 text-sm mb-6 line-clamp-2 h-10 leading-relaxed">${tool.description}</p>
                     <div class="flex flex-wrap gap-2 mb-8 flex-grow">
-                        ${tool.tags.filter(t => t !== '精选').slice(0, 3).map(tag => `
+                        ${tags.filter(t => t !== '精选').slice(0, 3).map(tag => `
                             <span class="px-2.5 py-1 bg-zinc-50 text-zinc-400 text-[11px] rounded-lg font-medium border border-zinc-100/50 uppercase tracking-tight">${tag}</span>
                         `).join('')}
                     </div>
@@ -156,7 +173,6 @@
             const aGrid = document.getElementById('allGrid');
             const fWrapper = document.getElementById('featuredWrapper');
 
-            // 1. 获取基础过滤后的数据
             const filtered = allTools.filter(t => {
                 const matchesCat = currentCategory === 'all' || t.category === currentCategory;
                 const matchesSearch = t.name.toLowerCase().includes(filterText.toLowerCase()) ||
@@ -164,24 +180,21 @@
                 return matchesCat && matchesSearch;
             });
 
-            // 2. 提取精选工具（用于顶部橱窗）
-            const featuredList = filtered.filter(t => t.tags.includes('精选'));
+            const featuredList = filtered.filter(t => t.tags && t.tags.includes('精选'));
 
-            // 3. 渲染精选区 (如果没有精选内容则隐藏)
-            if (featuredList.length > 0) {
+            if (featuredList.length > 0 && currentCategory === 'all') {
                 fWrapper.classList.remove('hidden');
                 fGrid.innerHTML = featuredList.map(t => createCardHtml(t)).join('');
             } else {
                 fWrapper.classList.add('hidden');
             }
 
-            // 4. 渲染全部工具区 (这里直接渲染所有 filtered 数据)
             aGrid.innerHTML = filtered.map(t => createCardHtml(t)).join('');
-
-            // 5. 空状态处理
             document.getElementById('noResults').classList.toggle('hidden', filtered.length > 0);
-
-            lucide.createIcons();
+            
+            if (window.lucide) {
+                lucide.createIcons();
+            }
         }
 
         document.getElementById('searchInput').addEventListener('input', (e) => renderUI(e.target.value));
