@@ -1,0 +1,4456 @@
+[
+  {
+    "name": "ChatGPT",
+    "description": "OpenAI开发的强大AI对话助手，支持GPT-4模型",
+    "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico",
+    "tags": [
+      "精选",
+      "对话",
+      "写作",
+      "编程"
+    ],
+    "category": "chat",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "name": "Claude",
+    "description": "Anthropic开发的AI助手，擅长长文本分析和写作",
+    "icon": "https://icons.duckduckgo.com/ip3/claude.ai.ico",
+    "tags": [
+      "精选",
+      "对话",
+      "分析",
+      "写作"
+    ],
+    "category": "chat",
+    "url": "https://claude.ai"
+  },
+  {
+    "name": "Gemini",
+    "description": "Google推出的多模态AI助手，支持文本、图像和代码",
+    "icon": "https://icons.duckduckgo.com/ip3/gemini.google.com.ico",
+    "tags": [
+      "对话",
+      "多模态"
+    ],
+    "category": "chat",
+    "url": "https://gemini.google.com"
+  },
+  {
+    "name": "豆包",
+    "description": "字节跳动推出的免费AI智能助手",
+    "icon": "https://icons.duckduckgo.com/ip3/www.doubao.com.ico",
+    "tags": [
+      "对话",
+      "免费"
+    ],
+    "category": "chat",
+    "url": "https://doubao.com"
+  },
+  {
+    "name": "文心一言",
+    "description": "百度推出的AI对话助手，深度理解中文",
+    "icon": "https://icons.duckduckgo.com/ip3/yiyan.baidu.com.ico",
+    "tags": [
+      "对话",
+      "中文"
+    ],
+    "category": "chat",
+    "url": "https://yiyan.baidu.com"
+  },
+  {
+    "name": "通义千问",
+    "description": "阿里云推出的大语言模型AI助手",
+    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "tags": [
+      "对话",
+      "阿里"
+    ],
+    "category": "chat",
+    "url": "https://tongyi.aliyun.com"
+  },
+  {
+    "name": "Grok",
+    "description": "xAI推出的AI助手，具有实时信息获取能力",
+    "icon": "https://icons.duckduckgo.com/ip3/grok.x.ai.ico",
+    "tags": [
+      "对话",
+      "实时"
+    ],
+    "category": "chat",
+    "url": "https://grok.x.ai"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "description": "微软推出的AI助手，集成在Microsoft 365中",
+    "icon": "https://icons.duckduckgo.com/ip3/copilot.microsoft.com.ico",
+    "tags": [
+      "对话",
+      "办公"
+    ],
+    "category": "chat",
+    "url": "https://copilot.microsoft.com"
+  },
+  {
+    "name": "Kimi",
+    "description": "月之暗面推出的AI助手，支持超长上下文",
+    "icon": "https://icons.duckduckgo.com/ip3/kimi.moonshot.cn.ico",
+    "tags": [
+      "对话",
+      "长文本"
+    ],
+    "category": "chat",
+    "url": "https://kimi.moonshot.cn"
+  },
+  {
+    "name": "元宝",
+    "description": "字节跳动推出的AI助手，擅长中文对话",
+    "icon": "https://icons.duckduckgo.com/ip3/yuanbao.tencent.com.ico",
+    "tags": [
+      "对话",
+      "中文"
+    ],
+    "category": "chat",
+    "url": "https://yuanbao.tencent.com"
+  },
+  {
+    "name": "Perplexity",
+    "description": "AI搜索对话助手，提供准确答案和引用来源",
+    "icon": "https://icons.duckduckgo.com/ip3/perplexity.ai.ico",
+    "tags": [
+      "对话",
+      "搜索"
+    ],
+    "category": "chat",
+    "url": "https://perplexity.ai"
+  },
+  {
+    "name": "Character.AI",
+    "description": "与AI角色对话的平台，创建个性化AI伴侣",
+    "icon": "https://icons.duckduckgo.com/ip3/character.ai.ico",
+    "tags": [
+      "对话",
+      "角色扮演"
+    ],
+    "category": "chat",
+    "url": "https://character.ai"
+  },
+  {
+    "name": "Poe",
+    "description": "Quora推出的AI聊天平台，集成多个AI模型",
+    "icon": "https://icons.duckduckgo.com/ip3/poe.com.ico",
+    "tags": [
+      "对话",
+      "多模型"
+    ],
+    "category": "chat",
+    "url": "https://poe.com"
+  },
+  {
+    "name": "Pi",
+    "description": "Inflection AI推出的个人AI助手",
+    "icon": "https://icons.duckduckgo.com/ip3/pi.ai.ico",
+    "tags": [
+      "对话",
+      "个人助手"
+    ],
+    "category": "chat",
+    "url": "https://pi.ai"
+  },
+  {
+    "name": "智谱清言",
+    "description": "智谱AI推出的对话助手，基于GLM模型",
+    "icon": "https://icons.duckduckgo.com/ip3/chatglm.cn.ico",
+    "tags": [
+      "对话",
+      "中文"
+    ],
+    "category": "chat",
+    "url": "https://chatglm.cn"
+  },
+  {
+    "name": "讯飞星火",
+    "description": "科大讯飞推出的认知大模型",
+    "icon": "https://icons.duckduckgo.com/ip3/xinghuo.xfyun.cn.ico",
+    "tags": [
+      "对话",
+      "中文"
+    ],
+    "category": "chat",
+    "url": "https://xinghuo.xfyun.cn"
+  },
+  {
+    "name": "腾讯混元",
+    "description": "腾讯推出的大语言模型AI助手",
+    "icon": "https://icons.duckduckgo.com/ip3/hunyuan.tencent.com.ico",
+    "tags": [
+      "对话",
+      "腾讯"
+    ],
+    "category": "chat",
+    "url": "https://hunyuan.tencent.com"
+  },
+  {
+    "name": "商汤日日新",
+    "description": "商汤科技推出的多模态AI助手",
+    "icon": "https://icons.duckduckgo.com/ip3/chat.sensetime.com.ico",
+    "tags": [
+      "对话",
+      "多模态"
+    ],
+    "category": "chat",
+    "url": "https://chat.sensetime.com"
+  },
+  {
+    "name": "百川智能",
+    "description": "百川智能推出的大语言模型对话助手",
+    "icon": "https://icons.duckduckgo.com/ip3/www.baichuan-ai.com.ico",
+    "tags": [
+      "对话",
+      "中文"
+    ],
+    "category": "chat",
+    "url": "https://baichuan-ai.com"
+  },
+  {
+    "name": "MiniMax",
+    "description": "稀宇科技推出的AI对话和创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/www.minimaxi.com.ico",
+    "tags": [
+      "对话",
+      "创作"
+    ],
+    "category": "chat",
+    "url": "https://minimaxi.com"
+  },
+  {
+    "name": "Meta AI",
+    "description": "Meta推出的AI助手，集成在Facebook、Instagram和WhatsApp中",
+    "icon": "https://icons.duckduckgo.com/ip3/www.meta.ai.ico",
+    "tags": [
+      "对话",
+      "Meta"
+    ],
+    "category": "chat",
+    "url": "https://meta.ai"
+  },
+  {
+    "name": "DeepSeek Chat",
+    "description": "深度求索推出的AI对话助手，支持长文本和代码生成",
+    "icon": "https://icons.duckduckgo.com/ip3/chat.deepseek.com.ico",
+    "tags": [
+      "对话",
+      "代码"
+    ],
+    "category": "chat",
+    "url": "https://chat.deepseek.com"
+  },
+  {
+    "name": "You.com",
+    "description": "AI驱动的搜索引擎和对话助手",
+    "icon": "https://icons.duckduckgo.com/ip3/you.com.ico",
+    "tags": [
+      "对话",
+      "搜索"
+    ],
+    "category": "chat",
+    "url": "https://you.com"
+  },
+  {
+    "name": "HuggingChat",
+    "description": "Hugging Face推出的开源AI对话助手",
+    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "tags": [
+      "对话",
+      "开源"
+    ],
+    "category": "chat",
+    "url": "https://huggingface.co"
+  },
+  {
+    "name": "Janitor AI",
+    "description": "角色扮演AI对话平台",
+    "icon": "https://icons.duckduckgo.com/ip3/janitorai.com.ico",
+    "tags": [
+      "对话",
+      "角色扮演"
+    ],
+    "category": "chat",
+    "url": "https://janitorai.com"
+  },
+  {
+    "name": "Chub Venus",
+    "description": "AI角色对话和创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/chub.ai.ico",
+    "tags": [
+      "对话",
+      "角色"
+    ],
+    "category": "chat",
+    "url": "https://chub.ai"
+  },
+  {
+    "name": "Crushon AI",
+    "description": "无限制AI角色对话平台",
+    "icon": "https://icons.duckduckgo.com/ip3/crushon.ai.ico",
+    "tags": [
+      "对话",
+      "角色"
+    ],
+    "category": "chat",
+    "url": "https://crushon.ai"
+  },
+  {
+    "name": "SillyTavern",
+    "description": "开源的AI角色对话前端",
+    "icon": "https://icons.duckduckgo.com/ip3/sillytavern.app.ico",
+    "tags": [
+      "对话",
+      "开源"
+    ],
+    "category": "chat",
+    "url": "https://sillytavern.app"
+  },
+  {
+    "name": "OpenRouter",
+    "description": "统一访问多个AI模型的API平台",
+    "icon": "https://icons.duckduckgo.com/ip3/openrouter.ai.ico",
+    "tags": [
+      "对话",
+      "API"
+    ],
+    "category": "chat",
+    "url": "https://openrouter.ai"
+  },
+  {
+    "name": "Together AI",
+    "description": "开源AI模型API服务",
+    "icon": "https://icons.duckduckgo.com/ip3/together.ai.ico",
+    "tags": [
+      "对话",
+      "API"
+    ],
+    "category": "chat",
+    "url": "https://together.ai"
+  },
+  {
+    "name": "Notion AI",
+    "description": "集成在Notion中的AI写作助手，提升文档创作效率",
+    "icon": "https://icons.duckduckgo.com/ip3/notion.so.ico",
+    "tags": [
+      "写作",
+      "笔记"
+    ],
+    "category": "writing",
+    "url": "https://notion.so"
+  },
+  {
+    "name": "Jasper",
+    "description": "专业的AI营销文案写作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/jasper.ai.ico",
+    "tags": [
+      "文案",
+      "营销"
+    ],
+    "category": "writing",
+    "url": "https://jasper.ai"
+  },
+  {
+    "name": "Copy.ai",
+    "description": "AI驱动的营销文案生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/copy.ai.ico",
+    "tags": [
+      "文案",
+      "营销"
+    ],
+    "category": "writing",
+    "url": "https://copy.ai"
+  },
+  {
+    "name": "秘塔写作猫",
+    "description": "AI中文写作助手，支持改写、续写、扩写",
+    "icon": "https://icons.duckduckgo.com/ip3/xiezuocat.com.ico",
+    "tags": [
+      "写作",
+      "中文"
+    ],
+    "category": "writing",
+    "url": "https://xiezuocat.com"
+  },
+  {
+    "name": "Writesonic",
+    "description": "强大的AI内容创作平台，提供60+写作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/writesonic.com.ico",
+    "tags": [
+      "写作",
+      "文案"
+    ],
+    "category": "writing",
+    "url": "https://writesonic.com"
+  },
+  {
+    "name": "Wordtune",
+    "description": "AI写作改进工具，让文字更清晰简洁",
+    "icon": "https://icons.duckduckgo.com/ip3/wordtune.com.ico",
+    "tags": [
+      "改写",
+      "润色"
+    ],
+    "category": "writing",
+    "url": "https://wordtune.com"
+  },
+  {
+    "name": "QuillBot",
+    "description": "AI改写和语法检查工具，提升写作质量",
+    "icon": "https://icons.duckduckgo.com/ip3/quillbot.com.ico",
+    "tags": [
+      "改写",
+      "语法"
+    ],
+    "category": "writing",
+    "url": "https://quillbot.com"
+  },
+  {
+    "name": "INK Editor",
+    "description": "结合AI写作与SEO优化的内容创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/inkforall.com.ico",
+    "tags": [
+      "写作",
+      "SEO"
+    ],
+    "category": "writing",
+    "url": "https://inkforall.com"
+  },
+  {
+    "name": "Grammarly",
+    "description": "AI写作助手，检查语法和拼写",
+    "icon": "https://icons.duckduckgo.com/ip3/grammarly.com.ico",
+    "tags": [
+      "写作",
+      "语法"
+    ],
+    "category": "writing",
+    "url": "https://grammarly.com"
+  },
+  {
+    "name": "DeepSeek",
+    "description": "深度求索推出的AI助手，擅长数据分析和写作",
+    "icon": "https://icons.duckduckgo.com/ip3/chat.deepseek.com.ico",
+    "tags": [
+      "写作",
+      "分析"
+    ],
+    "category": "writing",
+    "url": "https://chat.deepseek.com"
+  },
+  {
+    "name": "Anyword",
+    "description": "AI营销文案工具，预测转化率和参与度",
+    "icon": "https://icons.duckduckgo.com/ip3/anyword.com.ico",
+    "tags": [
+      "文案",
+      "营销"
+    ],
+    "category": "writing",
+    "url": "https://anyword.com"
+  },
+  {
+    "name": "Rytr",
+    "description": "AI写作助手，快速生成高质量内容",
+    "icon": "https://icons.duckduckgo.com/ip3/rytr.me.ico",
+    "tags": [
+      "写作",
+      "文案"
+    ],
+    "category": "writing",
+    "url": "https://rytr.me"
+  },
+  {
+    "name": "Simplified",
+    "description": "AI内容创作和设计平台",
+    "icon": "https://icons.duckduckgo.com/ip3/simplified.com.ico",
+    "tags": [
+      "写作",
+      "设计"
+    ],
+    "category": "writing",
+    "url": "https://simplified.com"
+  },
+  {
+    "name": "Hypotenuse AI",
+    "description": "AI电商文案生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/hypotenuse.ai.ico",
+    "tags": [
+      "电商",
+      "文案"
+    ],
+    "category": "writing",
+    "url": "https://hypotenuse.ai"
+  },
+  {
+    "name": "Copysmith",
+    "description": "AI营销内容生成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/copysmith.ai.ico",
+    "tags": [
+      "营销",
+      "文案"
+    ],
+    "category": "writing",
+    "url": "https://copysmith.ai"
+  },
+  {
+    "name": "火山写作",
+    "description": "字节跳动推出的AI写作助手",
+    "icon": "https://icons.duckduckgo.com/ip3/www.writingo.net.ico",
+    "tags": [
+      "写作",
+      "中文"
+    ],
+    "category": "writing",
+    "url": "https://writingo.net"
+  },
+  {
+    "name": "彩云小梦",
+    "description": "AI小说续写和创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/if.caiyunai.com.ico",
+    "tags": [
+      "小说",
+      "创作"
+    ],
+    "category": "writing",
+    "url": "https://if.caiyunai.com"
+  },
+  {
+    "name": "笔灵AI",
+    "description": "AI写作和内容创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/ibiling.cn.ico",
+    "tags": [
+      "写作",
+      "中文"
+    ],
+    "category": "writing",
+    "url": "https://ibiling.cn"
+  },
+  {
+    "name": "Effidit",
+    "description": "腾讯推出的AI写作助手",
+    "icon": "https://icons.duckduckgo.com/ip3/effidit.qq.com.ico",
+    "tags": [
+      "写作",
+      "腾讯"
+    ],
+    "category": "writing",
+    "url": "https://effidit.qq.com"
+  },
+  {
+    "name": "深言达意",
+    "description": "AI辅助写作工具，帮助表达更准确",
+    "icon": "https://icons.duckduckgo.com/ip3/www.shenyandayi.com.ico",
+    "tags": [
+      "写作",
+      "表达"
+    ],
+    "category": "writing",
+    "url": "https://shenyandayi.com"
+  },
+  {
+    "name": "ZeroGPT Plus",
+    "description": "免费的AI内容检测器",
+    "icon": "https://icons.duckduckgo.com/ip3/www.zerogpt.plus.ico",
+    "tags": [
+      "人工智能检查器",
+      "抄袭检查器"
+    ],
+    "category": "writing",
+    "url": "https://zerogpt.plus"
+  },
+  {
+    "name": "NovelAI",
+    "description": "AI辅助小说和故事创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/novelai.net.ico",
+    "tags": [
+      "写作",
+      "小说"
+    ],
+    "category": "writing",
+    "url": "https://novelai.net"
+  },
+  {
+    "name": "Sudowrite",
+    "description": "AI创意写作助手",
+    "icon": "https://icons.duckduckgo.com/ip3/sudowrite.com.ico",
+    "tags": [
+      "写作",
+      "创意"
+    ],
+    "category": "writing",
+    "url": "https://sudowrite.com"
+  },
+  {
+    "name": "Compose AI",
+    "description": "AI邮件和文档写作助手",
+    "icon": "https://icons.duckduckgo.com/ip3/compose.ai.ico",
+    "tags": [
+      "写作",
+      "邮件"
+    ],
+    "category": "writing",
+    "url": "https://compose.ai"
+  },
+  {
+    "name": "LongShot AI",
+    "description": "AI长文内容创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/longshot.ai.ico",
+    "tags": [
+      "写作",
+      "长文"
+    ],
+    "category": "writing",
+    "url": "https://longshot.ai"
+  },
+  {
+    "name": "Frase",
+    "description": "AI内容研究和写作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/frase.io.ico",
+    "tags": [
+      "写作",
+      "研究"
+    ],
+    "category": "writing",
+    "url": "https://frase.io"
+  },
+  {
+    "name": "Scalenut",
+    "description": "AI内容创作和SEO优化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/scalenut.com.ico",
+    "tags": [
+      "写作",
+      "SEO"
+    ],
+    "category": "writing",
+    "url": "https://scalenut.com"
+  },
+  {
+    "name": "ContentBot",
+    "description": "AI内容生成和改写工具",
+    "icon": "https://icons.duckduckgo.com/ip3/contentbot.ai.ico",
+    "tags": [
+      "写作",
+      "内容生成"
+    ],
+    "category": "writing",
+    "url": "https://contentbot.ai"
+  },
+  {
+    "name": "Peppertype",
+    "description": "AI营销文案生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/peppertype.ai.ico",
+    "tags": [
+      "写作",
+      "营销"
+    ],
+    "category": "writing",
+    "url": "https://peppertype.ai"
+  },
+  {
+    "name": "Writer",
+    "description": "企业级AI写作和内容平台",
+    "icon": "https://icons.duckduckgo.com/ip3/writer.com.ico",
+    "tags": [
+      "写作",
+      "企业"
+    ],
+    "category": "writing",
+    "url": "https://writer.com"
+  },
+  {
+    "name": "Outranking",
+    "description": "AI SEO内容创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/outranking.io.ico",
+    "tags": [
+      "写作",
+      "SEO"
+    ],
+    "category": "writing",
+    "url": "https://outranking.io"
+  },
+  {
+    "name": "Neuraltext",
+    "description": "AI内容创作和关键词研究工具",
+    "icon": "https://icons.duckduckgo.com/ip3/neuraltext.com.ico",
+    "tags": [
+      "写作",
+      "SEO"
+    ],
+    "category": "writing",
+    "url": "https://neuraltext.com"
+  },
+  {
+    "name": "TextCortex",
+    "description": "AI写作助手和内容生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/textcortex.com.ico",
+    "tags": [
+      "写作",
+      "助手"
+    ],
+    "category": "writing",
+    "url": "https://textcortex.com"
+  },
+  {
+    "name": "CopySmith",
+    "description": "AI电商文案和产品描述生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/copysmith.ai.ico",
+    "tags": [
+      "写作",
+      "电商"
+    ],
+    "category": "writing",
+    "url": "https://copysmith.ai"
+  },
+  {
+    "name": "Midjourney",
+    "description": "顶级AI图像生成工具，创造惊艳的艺术作品",
+    "icon": "https://icons.duckduckgo.com/ip3/midjourney.com.ico",
+    "tags": [
+      "精选",
+      "图像生成",
+      "艺术",
+      "设计"
+    ],
+    "category": "image",
+    "url": "https://midjourney.com"
+  },
+  {
+    "name": "DALL·E 3",
+    "description": "OpenAI的图像生成模型，理解复杂提示词",
+    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "tags": [
+      "精选",
+      "图像生成",
+      "OpenAI",
+      "创意"
+    ],
+    "category": "image",
+    "url": "https://openai.com"
+  },
+  {
+    "name": "即梦AI",
+    "description": "字节跳动推出的一站式AI创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/jimeng.jianying.com.ico",
+    "tags": [
+      "精选",
+      "图像生成",
+      "字节",
+      "中文"
+    ],
+    "category": "image",
+    "url": "https://jimeng.jianying.com"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "开源AI图像生成模型，可本地部署",
+    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "tags": [
+      "图像生成",
+      "开源"
+    ],
+    "category": "image",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "文心一格",
+    "description": "百度推出的AI艺术和创意辅助平台",
+    "icon": "https://icons.duckduckgo.com/ip3/yige.baidu.com.ico",
+    "tags": [
+      "图像生成",
+      "百度"
+    ],
+    "category": "image",
+    "url": "https://yige.baidu.com"
+  },
+  {
+    "name": "堆友AI",
+    "description": "阿里出品的免费AI绘画和出图神器",
+    "icon": "https://icons.duckduckgo.com/ip3/d.design.ico",
+    "tags": [
+      "图像生成",
+      "阿里"
+    ],
+    "category": "image",
+    "url": "https://d.design"
+  },
+  {
+    "name": "Leonardo AI",
+    "description": "专业的AI图像生成和编辑平台",
+    "icon": "https://icons.duckduckgo.com/ip3/leonardo.ai.ico",
+    "tags": [
+      "图像生成",
+      "编辑"
+    ],
+    "category": "image",
+    "url": "https://leonardo.ai"
+  },
+  {
+    "name": "Remove.bg",
+    "description": "AI自动抠图工具，一键移除背景",
+    "icon": "https://icons.duckduckgo.com/ip3/remove.bg.ico",
+    "tags": [
+      "抠图",
+      "背景移除"
+    ],
+    "category": "image",
+    "url": "https://remove.bg"
+  },
+  {
+    "name": "Adobe Firefly",
+    "description": "Adobe推出的AI图像生成工具，集成在创意套件中",
+    "icon": "https://icons.duckduckgo.com/ip3/firefly.adobe.com.ico",
+    "tags": [
+      "图像生成",
+      "Adobe"
+    ],
+    "category": "image",
+    "url": "https://firefly.adobe.com"
+  },
+  {
+    "name": "Pixelied",
+    "description": "AI图像生成和设计工具，支持Logo和图标",
+    "icon": "https://icons.duckduckgo.com/ip3/pixelied.com.ico",
+    "tags": [
+      "图像生成",
+      "设计"
+    ],
+    "category": "image",
+    "url": "https://pixelied.com"
+  },
+  {
+    "name": "Recraft",
+    "description": "AI矢量图和图标生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/recraft.ai.ico",
+    "tags": [
+      "矢量图",
+      "图标"
+    ],
+    "category": "image",
+    "url": "https://recraft.ai"
+  },
+  {
+    "name": "MyEdit",
+    "description": "免费在线AI绘图和图片编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/myedit.online.ico",
+    "tags": [
+      "图像生成",
+      "编辑"
+    ],
+    "category": "image",
+    "url": "https://myedit.online"
+  },
+  {
+    "name": "Ideogram",
+    "description": "AI图像生成工具，擅长文字渲染",
+    "icon": "https://icons.duckduckgo.com/ip3/ideogram.ai.ico",
+    "tags": [
+      "图像生成",
+      "文字"
+    ],
+    "category": "image",
+    "url": "https://ideogram.ai"
+  },
+  {
+    "name": "Playground AI",
+    "description": "免费的AI图像生成和编辑平台",
+    "icon": "https://icons.duckduckgo.com/ip3/playgroundai.com.ico",
+    "tags": [
+      "图像生成",
+      "编辑"
+    ],
+    "category": "image",
+    "url": "https://playgroundai.com"
+  },
+  {
+    "name": "DreamStudio",
+    "description": "Stability AI官方的Stable Diffusion平台",
+    "icon": "https://icons.duckduckgo.com/ip3/dreamstudio.ai.ico",
+    "tags": [
+      "图像生成",
+      "Stable Diffusion"
+    ],
+    "category": "image",
+    "url": "https://dreamstudio.ai"
+  },
+  {
+    "name": "Artbreeder",
+    "description": "AI图像混合和创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/artbreeder.com.ico",
+    "tags": [
+      "图像生成",
+      "混合"
+    ],
+    "category": "image",
+    "url": "https://artbreeder.com"
+  },
+  {
+    "name": "NightCafe",
+    "description": "AI艺术生成器，支持多种风格",
+    "icon": "https://icons.duckduckgo.com/ip3/nightcafe.studio.ico",
+    "tags": [
+      "图像生成",
+      "艺术"
+    ],
+    "category": "image",
+    "url": "https://nightcafe.studio"
+  },
+  {
+    "name": "Fotor AI",
+    "description": "AI图像编辑和生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/fotor.com.ico",
+    "tags": [
+      "图像编辑",
+      "生成"
+    ],
+    "category": "image",
+    "url": "https://fotor.com"
+  },
+  {
+    "name": "通义万相",
+    "description": "阿里推出的AI创意绘画平台",
+    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "tags": [
+      "图像生成",
+      "阿里"
+    ],
+    "category": "image",
+    "url": "https://tongyi.aliyun.com"
+  },
+  {
+    "name": "秒画",
+    "description": "商汤推出的AI绘画工具",
+    "icon": "https://icons.duckduckgo.com/ip3/miaohua.sensetime.com.ico",
+    "tags": [
+      "图像生成",
+      "商汤"
+    ],
+    "category": "image",
+    "url": "https://miaohua.sensetime.com"
+  },
+  {
+    "name": "无界AI",
+    "description": "AI图像生成和编辑平台",
+    "icon": "https://icons.duckduckgo.com/ip3/www.wujieai.com.ico",
+    "tags": [
+      "图像生成",
+      "编辑"
+    ],
+    "category": "image",
+    "url": "https://wujieai.com"
+  },
+  {
+    "name": "Clipdrop",
+    "description": "AI图像编辑工具集，包含多种实用功能",
+    "icon": "https://icons.duckduckgo.com/ip3/clipdrop.co.ico",
+    "tags": [
+      "图像编辑",
+      "工具集"
+    ],
+    "category": "image",
+    "url": "https://clipdrop.co"
+  },
+  {
+    "name": "Nano Banana Pro",
+    "description": "基于Gemini的AI图像生成平台，支持中文生图、4K输出和智能编辑",
+    "icon": "https://icons.duckduckgo.com/ip3/www.nano-banana.com.ico",
+    "tags": [
+      "图像生成",
+      "Gemini"
+    ],
+    "category": "image",
+    "url": "https://nano-banana.com"
+  },
+  {
+    "name": "KREA AI",
+    "description": "照片级真实感AI图像生成和增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.krea.ai.ico",
+    "tags": [
+      "图像生成",
+      "真实感"
+    ],
+    "category": "image",
+    "url": "https://krea.ai"
+  },
+  {
+    "name": "Flux",
+    "description": "Black Forest Labs开发的高质量AI图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/blackforestlabs.ai.ico",
+    "tags": [
+      "图像生成",
+      "AI绘画"
+    ],
+    "category": "image",
+    "url": "https://blackforestlabs.ai"
+  },
+  {
+    "name": "Civitai",
+    "description": "AI模型和图像分享社区",
+    "icon": "https://icons.duckduckgo.com/ip3/civitai.com.ico",
+    "tags": [
+      "图像",
+      "模型"
+    ],
+    "category": "image",
+    "url": "https://civitai.com"
+  },
+  {
+    "name": "Lexica",
+    "description": "AI图像搜索和生成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/lexica.art.ico",
+    "tags": [
+      "图像生成",
+      "搜索"
+    ],
+    "category": "image",
+    "url": "https://lexica.art"
+  },
+  {
+    "name": "Craiyon",
+    "description": "免费的AI图像生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/craiyon.com.ico",
+    "tags": [
+      "图像生成",
+      "免费"
+    ],
+    "category": "image",
+    "url": "https://craiyon.com"
+  },
+  {
+    "name": "Bing Image Creator",
+    "description": "微软Bing的AI图像生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.bing.com.ico",
+    "tags": [
+      "图像生成",
+      "微软"
+    ],
+    "category": "image",
+    "url": "https://bing.com"
+  },
+  {
+    "name": "Stable Diffusion WebUI",
+    "description": "Stable Diffusion的Web界面",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "图像生成",
+      "Stable Diffusion"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "ComfyUI",
+    "description": "节点式Stable Diffusion界面",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "图像生成",
+      "节点式"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Fooocus",
+    "description": "简化的Stable Diffusion界面",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "图像生成",
+      "简化"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Kandinsky",
+    "description": "Sber AI开发的AI图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/kandinsky.ai.ico",
+    "tags": [
+      "图像生成",
+      "AI绘画"
+    ],
+    "category": "image",
+    "url": "https://kandinsky.ai"
+  },
+  {
+    "name": "Imagen",
+    "description": "Google的AI图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/imagen.research.google.ico",
+    "tags": [
+      "图像生成",
+      "Google"
+    ],
+    "category": "image",
+    "url": "https://imagen.research.google"
+  },
+  {
+    "name": "Parti",
+    "description": "Google的Pathways AI图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/parti.research.google.ico",
+    "tags": [
+      "图像生成",
+      "Google"
+    ],
+    "category": "image",
+    "url": "https://parti.research.google"
+  },
+  {
+    "name": "Stable Diffusion XL",
+    "description": "Stability AI的高分辨率图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "tags": [
+      "图像生成",
+      "高分辨率"
+    ],
+    "category": "image",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "Stable Diffusion 3",
+    "description": "Stability AI最新一代图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "tags": [
+      "图像生成",
+      "最新"
+    ],
+    "category": "image",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "Canva AI",
+    "description": "Canva集成的AI图像生成功能",
+    "icon": "https://icons.duckduckgo.com/ip3/canva.com.ico",
+    "tags": [
+      "图像生成",
+      "Canva"
+    ],
+    "category": "image",
+    "url": "https://canva.com"
+  },
+  {
+    "name": "Photopea",
+    "description": "在线图像编辑工具，支持AI功能",
+    "icon": "https://icons.duckduckgo.com/ip3/photopea.com.ico",
+    "tags": [
+      "图像编辑",
+      "在线"
+    ],
+    "category": "image",
+    "url": "https://photopea.com"
+  },
+  {
+    "name": "Upscayl",
+    "description": "AI图像放大和增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/upscayl.github.io.ico",
+    "tags": [
+      "图像放大",
+      "AI增强"
+    ],
+    "category": "image",
+    "url": "https://upscayl.github.io"
+  },
+  {
+    "name": "Real-ESRGAN",
+    "description": "AI图像超分辨率工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "图像放大",
+      "超分辨率"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Waifu2x",
+    "description": "动漫风格图像放大工具",
+    "icon": "https://icons.duckduckgo.com/ip3/waifu2x.udp.jp.ico",
+    "tags": [
+      "图像放大",
+      "动漫"
+    ],
+    "category": "image",
+    "url": "https://waifu2x.udp.jp"
+  },
+  {
+    "name": "GFPGAN",
+    "description": "AI人脸修复和增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "人脸修复",
+      "AI增强"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "CodeFormer",
+    "description": "AI人脸修复和增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "人脸修复",
+      "AI增强"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "RestorePhotos",
+    "description": "AI老照片修复工具",
+    "icon": "https://icons.duckduckgo.com/ip3/restorephotos.io.ico",
+    "tags": [
+      "照片修复",
+      "老照片"
+    ],
+    "category": "image",
+    "url": "https://restorephotos.io"
+  },
+  {
+    "name": "MyHeritage In Color",
+    "description": "AI老照片上色工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.myheritage.com.ico",
+    "tags": [
+      "照片上色",
+      "老照片"
+    ],
+    "category": "image",
+    "url": "https://myheritage.com"
+  },
+  {
+    "name": "Palette.fm",
+    "description": "AI图像上色工具",
+    "icon": "https://icons.duckduckgo.com/ip3/palette.fm.ico",
+    "tags": [
+      "图像上色",
+      "AI"
+    ],
+    "category": "image",
+    "url": "https://palette.fm"
+  },
+  {
+    "name": "DeOldify",
+    "description": "AI老照片和视频上色工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "照片上色",
+      "视频上色"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Background Remover",
+    "description": "免费的AI背景移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.remove.bg.ico",
+    "tags": [
+      "背景移除",
+      "免费"
+    ],
+    "category": "image",
+    "url": "https://remove.bg"
+  },
+  {
+    "name": "Slazzer",
+    "description": "AI背景移除和替换工具",
+    "icon": "https://icons.duckduckgo.com/ip3/slazzer.com.ico",
+    "tags": [
+      "背景移除",
+      "背景替换"
+    ],
+    "category": "image",
+    "url": "https://slazzer.com"
+  },
+  {
+    "name": "PhotoRoom",
+    "description": "AI背景移除和产品图片编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/photoroom.com.ico",
+    "tags": [
+      "背景移除",
+      "产品图片"
+    ],
+    "category": "image",
+    "url": "https://photoroom.com"
+  },
+  {
+    "name": "Unscreen",
+    "description": "AI视频背景移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/unscreen.com.ico",
+    "tags": [
+      "背景移除",
+      "视频"
+    ],
+    "category": "image",
+    "url": "https://unscreen.com"
+  },
+  {
+    "name": "Cleanup.pictures",
+    "description": "AI图像清理和物体移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/cleanup.pictures.ico",
+    "tags": [
+      "图像清理",
+      "物体移除"
+    ],
+    "category": "image",
+    "url": "https://cleanup.pictures"
+  },
+  {
+    "name": "Magic Eraser",
+    "description": "AI图像物体移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/magiceraser.io.ico",
+    "tags": [
+      "物体移除",
+      "图像编辑"
+    ],
+    "category": "image",
+    "url": "https://magiceraser.io"
+  },
+  {
+    "name": "Inpaint",
+    "description": "AI图像修复和填充工具",
+    "icon": "https://icons.duckduckgo.com/ip3/inpaint.tech.ico",
+    "tags": [
+      "图像修复",
+      "填充"
+    ],
+    "category": "image",
+    "url": "https://inpaint.tech"
+  },
+  {
+    "name": "Lama Cleaner",
+    "description": "AI图像修复和物体移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "图像修复",
+      "物体移除"
+    ],
+    "category": "image",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Stable Diffusion Inpainting",
+    "description": "基于Stable Diffusion的图像修复工具",
+    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "tags": [
+      "图像修复",
+      "Stable Diffusion"
+    ],
+    "category": "image",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "DALL-E 2",
+    "description": "OpenAI的第二代图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "tags": [
+      "图像生成",
+      "OpenAI"
+    ],
+    "category": "image",
+    "url": "https://openai.com"
+  },
+  {
+    "name": "DALL-E 3",
+    "description": "OpenAI的第三代图像生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "tags": [
+      "图像生成",
+      "OpenAI"
+    ],
+    "category": "image",
+    "url": "https://openai.com"
+  },
+  {
+    "name": "Runway",
+    "description": "AI视频编辑和生成工具，创造专业视频内容",
+    "icon": "https://icons.duckduckgo.com/ip3/runwayml.com.ico",
+    "tags": [
+      "精选",
+      "视频编辑",
+      "视频生成",
+      "创意"
+    ],
+    "category": "video",
+    "url": "https://runwayml.com"
+  },
+  {
+    "name": "Pika",
+    "description": "AI视频生成工具，文本转视频",
+    "icon": "https://icons.duckduckgo.com/ip3/pika.art.ico",
+    "tags": [
+      "精选",
+      "视频生成",
+      "文本转视频",
+      "创意"
+    ],
+    "category": "video",
+    "url": "https://pika.art"
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI虚拟人视频生成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/synthesia.io.ico",
+    "tags": [
+      "虚拟人",
+      "视频生成"
+    ],
+    "category": "video",
+    "url": "https://synthesia.io"
+  },
+  {
+    "name": "HeyGen",
+    "description": "AI数字人视频创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/heygen.com.ico",
+    "tags": [
+      "数字人",
+      "视频生成"
+    ],
+    "category": "video",
+    "url": "https://heygen.com"
+  },
+  {
+    "name": "剪映",
+    "description": "字节跳动推出的视频编辑工具，集成AI功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.capcut.cn.ico",
+    "tags": [
+      "视频编辑",
+      "字节"
+    ],
+    "category": "video",
+    "url": "https://capcut.cn"
+  },
+  {
+    "name": "Kling AI",
+    "description": "快手可灵AI视频生成工具，支持文本和图像转视频",
+    "icon": "https://icons.duckduckgo.com/ip3/klingai.kuaishou.com.ico",
+    "tags": [
+      "视频生成",
+      "快手"
+    ],
+    "category": "video",
+    "url": "https://klingai.kuaishou.com"
+  },
+  {
+    "name": "Vidu",
+    "description": "生数科技推出的AI视频生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/vidu.studio.ico",
+    "tags": [
+      "视频生成",
+      "中文"
+    ],
+    "category": "video",
+    "url": "https://vidu.studio"
+  },
+  {
+    "name": "PixVerse",
+    "description": "AI视频生成工具，支持动态口型同步",
+    "icon": "https://icons.duckduckgo.com/ip3/pixverse.ai.ico",
+    "tags": [
+      "视频生成",
+      "口型同步"
+    ],
+    "category": "video",
+    "url": "https://pixverse.ai"
+  },
+  {
+    "name": "Luma Labs",
+    "description": "AI视频生成工具，创建逼真的视频内容",
+    "icon": "https://icons.duckduckgo.com/ip3/lumalabs.ai.ico",
+    "tags": [
+      "视频生成",
+      "逼真"
+    ],
+    "category": "video",
+    "url": "https://lumalabs.ai"
+  },
+  {
+    "name": "Hailuo AI",
+    "description": "海螺AI视频生成工具，擅长动作和表情",
+    "icon": "https://icons.duckduckgo.com/ip3/hailuoai.com.ico",
+    "tags": [
+      "视频生成",
+      "中文"
+    ],
+    "category": "video",
+    "url": "https://hailuoai.com"
+  },
+  {
+    "name": "Descript",
+    "description": "AI音视频编辑工具，支持转录和自动编辑",
+    "icon": "https://icons.duckduckgo.com/ip3/descript.com.ico",
+    "tags": [
+      "视频编辑",
+      "转录"
+    ],
+    "category": "video",
+    "url": "https://descript.com"
+  },
+  {
+    "name": "Pictory",
+    "description": "AI视频创作工具，将脚本转换为短视频",
+    "icon": "https://icons.duckduckgo.com/ip3/pictory.ai.ico",
+    "tags": [
+      "视频生成",
+      "脚本"
+    ],
+    "category": "video",
+    "url": "https://pictory.ai"
+  },
+  {
+    "name": "Sora",
+    "description": "OpenAI推出的文本生成视频模型",
+    "icon": "https://icons.duckduckgo.com/ip3/openai.com.ico",
+    "tags": [
+      "视频生成",
+      "OpenAI"
+    ],
+    "category": "video",
+    "url": "https://openai.com"
+  },
+  {
+    "name": "腾讯智影",
+    "description": "腾讯推出的AI智能创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/zenvideo.qq.com.ico",
+    "tags": [
+      "视频编辑",
+      "腾讯"
+    ],
+    "category": "video",
+    "url": "https://zenvideo.qq.com"
+  },
+  {
+    "name": "万兴播爆",
+    "description": "数字人视频生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/virbo.wondershare.cn.ico",
+    "tags": [
+      "数字人",
+      "视频生成"
+    ],
+    "category": "video",
+    "url": "https://virbo.wondershare.cn"
+  },
+  {
+    "name": "D-ID",
+    "description": "AI数字人视频创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/d-id.com.ico",
+    "tags": [
+      "数字人",
+      "视频生成"
+    ],
+    "category": "video",
+    "url": "https://d-id.com"
+  },
+  {
+    "name": "Fliki",
+    "description": "文本转视频AI工具",
+    "icon": "https://icons.duckduckgo.com/ip3/fliki.ai.ico",
+    "tags": [
+      "文本转视频",
+      "配音"
+    ],
+    "category": "video",
+    "url": "https://fliki.ai"
+  },
+  {
+    "name": "InVideo AI",
+    "description": "AI视频创作和编辑平台",
+    "icon": "https://icons.duckduckgo.com/ip3/invideo.io.ico",
+    "tags": [
+      "视频编辑",
+      "创作"
+    ],
+    "category": "video",
+    "url": "https://invideo.io"
+  },
+  {
+    "name": "Elai",
+    "description": "AI视频生成平台，支持多语言",
+    "icon": "https://icons.duckduckgo.com/ip3/elai.io.ico",
+    "tags": [
+      "视频生成",
+      "多语言"
+    ],
+    "category": "video",
+    "url": "https://elai.io"
+  },
+  {
+    "name": "白日梦AI",
+    "description": "AI长视频生成工具，支持10分钟视频",
+    "icon": "https://icons.duckduckgo.com/ip3/bairimeng.com.ico",
+    "tags": [
+      "视频生成",
+      "长视频"
+    ],
+    "category": "video",
+    "url": "https://bairimeng.com"
+  },
+  {
+    "name": "Viggle AI",
+    "description": "AI角色动画生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/viggle.ai.ico",
+    "tags": [
+      "动画",
+      "角色"
+    ],
+    "category": "video",
+    "url": "https://viggle.ai"
+  },
+  {
+    "name": "LensGo",
+    "description": "AI视频风格转换工具",
+    "icon": "https://icons.duckduckgo.com/ip3/lensgo.ai.ico",
+    "tags": [
+      "风格转换",
+      "视频编辑"
+    ],
+    "category": "video",
+    "url": "https://lensgo.ai"
+  },
+  {
+    "name": "Veo 3",
+    "description": "Google DeepMind最新AI视频生成模型，首次实现视频和音频同时生成",
+    "icon": "https://icons.duckduckgo.com/ip3/aistudio.google.com.ico",
+    "tags": [
+      "视频生成",
+      "Google"
+    ],
+    "category": "video",
+    "url": "https://aistudio.google.com"
+  },
+  {
+    "name": "Stable Video Diffusion",
+    "description": "Stability AI的视频生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/stability.ai.ico",
+    "tags": [
+      "视频生成",
+      "Stable Diffusion"
+    ],
+    "category": "video",
+    "url": "https://stability.ai"
+  },
+  {
+    "name": "AnimateDiff",
+    "description": "图像转视频生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "视频生成",
+      "图像转视频"
+    ],
+    "category": "video",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Deforum",
+    "description": "Stable Diffusion视频生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "视频生成",
+      "Stable Diffusion"
+    ],
+    "category": "video",
+    "url": "https://github.com"
+  },
+  {
+    "name": "EbSynth",
+    "description": "AI视频风格转换工具",
+    "icon": "https://icons.duckduckgo.com/ip3/ebsynth.com.ico",
+    "tags": [
+      "视频编辑",
+      "风格转换"
+    ],
+    "category": "video",
+    "url": "https://ebsynth.com"
+  },
+  {
+    "name": "Topaz Video AI",
+    "description": "AI视频增强和放大工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.topazlabs.com.ico",
+    "tags": [
+      "视频增强",
+      "视频放大"
+    ],
+    "category": "video",
+    "url": "https://topazlabs.com"
+  },
+  {
+    "name": "Waifu2x Video",
+    "description": "动漫风格视频放大工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "视频放大",
+      "动漫"
+    ],
+    "category": "video",
+    "url": "https://github.com"
+  },
+  {
+    "name": "RIFE",
+    "description": "AI视频帧插值工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "视频插帧",
+      "帧率提升"
+    ],
+    "category": "video",
+    "url": "https://github.com"
+  },
+  {
+    "name": "DAIN",
+    "description": "AI视频帧插值工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "视频插帧",
+      "帧率提升"
+    ],
+    "category": "video",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Flowframes",
+    "description": "AI视频帧插值工具",
+    "icon": "https://icons.duckduckgo.com/ip3/nmkd.itch.io.ico",
+    "tags": [
+      "视频插帧",
+      "帧率提升"
+    ],
+    "category": "video",
+    "url": "https://nmkd.itch.io"
+  },
+  {
+    "name": "CapCut",
+    "description": "字节跳动的AI视频编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.capcut.com.ico",
+    "tags": [
+      "视频编辑",
+      "AI"
+    ],
+    "category": "video",
+    "url": "https://capcut.com"
+  },
+  {
+    "name": "Premiere Pro AI",
+    "description": "Adobe Premiere Pro的AI功能",
+    "icon": "https://www.google.com/s2/favicons?domain=www.adobe.com&sz=32",
+    "tags": [
+      "视频编辑",
+      "Adobe"
+    ],
+    "category": "video",
+    "url": null
+  },
+  {
+    "name": "DaVinci Resolve AI",
+    "description": "DaVinci Resolve的AI视频编辑功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.blackmagicdesign.com.ico",
+    "tags": [
+      "视频编辑",
+      "DaVinci"
+    ],
+    "category": "video",
+    "url": "https://blackmagicdesign.com"
+  },
+  {
+    "name": "Filmora AI",
+    "description": "万兴科技的AI视频编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/filmora.wondershare.com.ico",
+    "tags": [
+      "视频编辑",
+      "AI"
+    ],
+    "category": "video",
+    "url": "https://filmora.wondershare.com"
+  },
+  {
+    "name": "OpusClip",
+    "description": "AI视频剪辑工具，自动生成短视频",
+    "icon": "https://icons.duckduckgo.com/ip3/opusclip.com.ico",
+    "tags": [
+      "视频剪辑",
+      "短视频"
+    ],
+    "category": "video",
+    "url": "https://opusclip.com"
+  },
+  {
+    "name": "AutoPod",
+    "description": "AI播客视频编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/autopod.fm.ico",
+    "tags": [
+      "视频编辑",
+      "播客"
+    ],
+    "category": "video",
+    "url": "https://autopod.fm"
+  },
+  {
+    "name": "Vrew",
+    "description": "AI视频字幕生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/vrew.voyagerx.com.ico",
+    "tags": [
+      "视频字幕",
+      "字幕生成"
+    ],
+    "category": "video",
+    "url": "https://vrew.voyagerx.com"
+  },
+  {
+    "name": "Submagic",
+    "description": "AI视频字幕生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/submagic.co.ico",
+    "tags": [
+      "视频字幕",
+      "字幕生成"
+    ],
+    "category": "video",
+    "url": "https://submagic.co"
+  },
+  {
+    "name": "Kapwing AI",
+    "description": "AI视频编辑和生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/kapwing.com.ico",
+    "tags": [
+      "视频编辑",
+      "视频生成"
+    ],
+    "category": "video",
+    "url": "https://kapwing.com"
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "AI语音合成工具，生成自然流畅的语音",
+    "icon": "https://icons.duckduckgo.com/ip3/elevenlabs.io.ico",
+    "tags": [
+      "精选",
+      "语音合成",
+      "TTS",
+      "配音"
+    ],
+    "category": "audio",
+    "url": "https://elevenlabs.io"
+  },
+  {
+    "name": "Suno",
+    "description": "AI音乐生成工具，创作原创歌曲",
+    "icon": "https://icons.duckduckgo.com/ip3/suno.ai.ico",
+    "tags": [
+      "精选",
+      "音乐生成",
+      "作曲",
+      "创意"
+    ],
+    "category": "audio",
+    "url": "https://suno.ai"
+  },
+  {
+    "name": "Murf AI",
+    "description": "专业的AI配音和语音生成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/murf.ai.ico",
+    "tags": [
+      "配音",
+      "语音合成"
+    ],
+    "category": "audio",
+    "url": "https://murf.ai"
+  },
+  {
+    "name": "AIVA",
+    "description": "AI音乐作曲助手，创作背景音乐",
+    "icon": "https://icons.duckduckgo.com/ip3/aiva.ai.ico",
+    "tags": [
+      "音乐生成",
+      "作曲"
+    ],
+    "category": "audio",
+    "url": "https://aiva.ai"
+  },
+  {
+    "name": "Udio",
+    "description": "AI音乐生成工具，创作高质量音乐作品",
+    "icon": "https://icons.duckduckgo.com/ip3/udio.com.ico",
+    "tags": [
+      "音乐生成",
+      "作曲"
+    ],
+    "category": "audio",
+    "url": "https://udio.com"
+  },
+  {
+    "name": "网易天音",
+    "description": "网易推出的AI音乐创作平台",
+    "icon": "https://icons.duckduckgo.com/ip3/tianyin.music.163.com.ico",
+    "tags": [
+      "音乐生成",
+      "网易"
+    ],
+    "category": "audio",
+    "url": "https://tianyin.music.163.com"
+  },
+  {
+    "name": "魔音工坊",
+    "description": "AI语音合成和配音工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.moyin.com.ico",
+    "tags": [
+      "语音合成",
+      "配音"
+    ],
+    "category": "audio",
+    "url": "https://moyin.com"
+  },
+  {
+    "name": "TTSMaker",
+    "description": "免费的AI文字转语音工具",
+    "icon": "https://icons.duckduckgo.com/ip3/ttsmaker.com.ico",
+    "tags": [
+      "TTS",
+      "免费"
+    ],
+    "category": "audio",
+    "url": "https://ttsmaker.com"
+  },
+  {
+    "name": "讯飞智作",
+    "description": "科大讯飞推出的AI配音和音频创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.zhizuo.com.ico",
+    "tags": [
+      "配音",
+      "讯飞"
+    ],
+    "category": "audio",
+    "url": "https://zhizuo.com"
+  },
+  {
+    "name": "Reecho睿声",
+    "description": "AI语音克隆和合成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/reecho.ai.ico",
+    "tags": [
+      "语音克隆",
+      "合成"
+    ],
+    "category": "audio",
+    "url": "https://reecho.ai"
+  },
+  {
+    "name": "Soundraw",
+    "description": "AI音乐生成工具，创作版权音乐",
+    "icon": "https://icons.duckduckgo.com/ip3/soundraw.io.ico",
+    "tags": [
+      "音乐生成",
+      "版权"
+    ],
+    "category": "audio",
+    "url": "https://soundraw.io"
+  },
+  {
+    "name": "Boomy",
+    "description": "AI音乐创作平台，快速生成歌曲",
+    "icon": "https://icons.duckduckgo.com/ip3/boomy.com.ico",
+    "tags": [
+      "音乐生成",
+      "快速"
+    ],
+    "category": "audio",
+    "url": "https://boomy.com"
+  },
+  {
+    "name": "Beatoven.ai",
+    "description": "AI背景音乐生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/beatoven.ai.ico",
+    "tags": [
+      "背景音乐",
+      "生成"
+    ],
+    "category": "audio",
+    "url": "https://beatoven.ai"
+  },
+  {
+    "name": "Resemble AI",
+    "description": "AI语音克隆和合成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/resemble.ai.ico",
+    "tags": [
+      "语音克隆",
+      "合成"
+    ],
+    "category": "audio",
+    "url": "https://resemble.ai"
+  },
+  {
+    "name": "Descript Overdub",
+    "description": "AI语音克隆工具，创建个人语音",
+    "icon": "https://icons.duckduckgo.com/ip3/descript.com.ico",
+    "tags": [
+      "语音克隆",
+      "编辑"
+    ],
+    "category": "audio",
+    "url": "https://descript.com"
+  },
+  {
+    "name": "Speechify",
+    "description": "AI文字转语音工具",
+    "icon": "https://icons.duckduckgo.com/ip3/speechify.com.ico",
+    "tags": [
+      "TTS",
+      "阅读"
+    ],
+    "category": "audio",
+    "url": "https://speechify.com"
+  },
+  {
+    "name": "海绵音乐",
+    "description": "字节跳动推出的AI音乐创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.haimian.com.ico",
+    "tags": [
+      "音乐生成",
+      "字节"
+    ],
+    "category": "audio",
+    "url": "https://haimian.com"
+  },
+  {
+    "name": "天谱乐",
+    "description": "AI音乐生成平台",
+    "icon": "https://icons.duckduckgo.com/ip3/www.tianpule.com.ico",
+    "tags": [
+      "音乐生成",
+      "中文"
+    ],
+    "category": "audio",
+    "url": "https://tianpule.com"
+  },
+  {
+    "name": "标贝科技",
+    "description": "AI语音合成和克隆平台",
+    "icon": "https://icons.duckduckgo.com/ip3/www.data-baker.com.ico",
+    "tags": [
+      "语音合成",
+      "克隆"
+    ],
+    "category": "audio",
+    "url": "https://data-baker.com"
+  },
+  {
+    "name": "出门问问",
+    "description": "AI语音助手和TTS服务",
+    "icon": "https://icons.duckduckgo.com/ip3/www.mobvoi.com.ico",
+    "tags": [
+      "语音助手",
+      "TTS"
+    ],
+    "category": "audio",
+    "url": "https://mobvoi.com"
+  },
+  {
+    "name": "LALAL.AI",
+    "description": "AI音频分离工具，提取人声和伴奏",
+    "icon": "https://icons.duckduckgo.com/ip3/www.lalal.ai.ico",
+    "tags": [
+      "音频分离",
+      "人声提取"
+    ],
+    "category": "audio",
+    "url": "https://lalal.ai"
+  },
+  {
+    "name": "Spleeter",
+    "description": "AI音频分离工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "音频分离",
+      "开源"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Ultimate Vocal Remover",
+    "description": "AI人声移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "人声移除",
+      "音频处理"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Demucs",
+    "description": "AI音频分离工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "音频分离",
+      "开源"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Moises",
+    "description": "AI音频分离和编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/moises.ai.ico",
+    "tags": [
+      "音频分离",
+      "音频编辑"
+    ],
+    "category": "audio",
+    "url": "https://moises.ai"
+  },
+  {
+    "name": "Adobe Podcast",
+    "description": "Adobe的AI音频增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/podcast.adobe.com.ico",
+    "tags": [
+      "音频增强",
+      "Adobe"
+    ],
+    "category": "audio",
+    "url": "https://podcast.adobe.com"
+  },
+  {
+    "name": "Krisp",
+    "description": "AI噪音消除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/krisp.ai.ico",
+    "tags": [
+      "噪音消除",
+      "音频处理"
+    ],
+    "category": "audio",
+    "url": "https://krisp.ai"
+  },
+  {
+    "name": "Audacity AI",
+    "description": "Audacity的AI音频处理功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.audacityteam.org.ico",
+    "tags": [
+      "音频编辑",
+      "开源"
+    ],
+    "category": "audio",
+    "url": "https://audacityteam.org"
+  },
+  {
+    "name": "Otter.ai",
+    "description": "AI会议记录和转录工具",
+    "icon": "https://icons.duckduckgo.com/ip3/otter.ai.ico",
+    "tags": [
+      "语音转录",
+      "会议记录"
+    ],
+    "category": "audio",
+    "url": "https://otter.ai"
+  },
+  {
+    "name": "Fireflies.ai",
+    "description": "AI会议记录和转录工具",
+    "icon": "https://icons.duckduckgo.com/ip3/fireflies.ai.ico",
+    "tags": [
+      "会议记录",
+      "语音转录"
+    ],
+    "category": "audio",
+    "url": "https://fireflies.ai"
+  },
+  {
+    "name": "Rev",
+    "description": "AI语音转录服务",
+    "icon": "https://icons.duckduckgo.com/ip3/rev.com.ico",
+    "tags": [
+      "语音转录",
+      "AI"
+    ],
+    "category": "audio",
+    "url": "https://rev.com"
+  },
+  {
+    "name": "Trint",
+    "description": "AI语音转录和编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/trint.com.ico",
+    "tags": [
+      "语音转录",
+      "编辑"
+    ],
+    "category": "audio",
+    "url": "https://trint.com"
+  },
+  {
+    "name": "Sonix",
+    "description": "AI语音转录和字幕生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/sonix.ai.ico",
+    "tags": [
+      "语音转录",
+      "字幕生成"
+    ],
+    "category": "audio",
+    "url": "https://sonix.ai"
+  },
+  {
+    "name": "AssemblyAI",
+    "description": "AI语音识别和转录API",
+    "icon": "https://icons.duckduckgo.com/ip3/www.assemblyai.com.ico",
+    "tags": [
+      "语音识别",
+      "API"
+    ],
+    "category": "audio",
+    "url": "https://assemblyai.com"
+  },
+  {
+    "name": "Deepgram",
+    "description": "AI语音识别和转录API",
+    "icon": "https://icons.duckduckgo.com/ip3/deepgram.com.ico",
+    "tags": [
+      "语音识别",
+      "API"
+    ],
+    "category": "audio",
+    "url": "https://deepgram.com"
+  },
+  {
+    "name": "Whisper",
+    "description": "OpenAI的AI语音识别模型",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "语音识别",
+      "OpenAI"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Wav2Lip",
+    "description": "AI视频口型同步工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "口型同步",
+      "视频"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Coqui TTS",
+    "description": "开源的AI文本转语音工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "语音合成",
+      "TTS"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Piper",
+    "description": "快速AI文本转语音工具",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "语音合成",
+      "TTS"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Bark",
+    "description": "AI文本转语音工具，支持多种声音",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "语音合成",
+      "TTS"
+    ],
+    "category": "audio",
+    "url": "https://github.com"
+  },
+  {
+    "name": "GitHub Copilot",
+    "description": "AI编程助手，提供智能代码补全和建议",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "精选",
+      "编程",
+      "代码补全",
+      "GitHub"
+    ],
+    "category": "code",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Cursor",
+    "description": "AI驱动的代码编辑器，提升开发效率",
+    "icon": "https://icons.duckduckgo.com/ip3/cursor.sh.ico",
+    "tags": [
+      "精选",
+      "编辑器",
+      "AI编程",
+      "效率"
+    ],
+    "category": "code",
+    "url": "https://cursor.sh"
+  },
+  {
+    "name": "Codeium",
+    "description": "免费的AI代码补全工具",
+    "icon": "https://icons.duckduckgo.com/ip3/codeium.com.ico",
+    "tags": [
+      "代码补全",
+      "免费"
+    ],
+    "category": "code",
+    "url": "https://codeium.com"
+  },
+  {
+    "name": "Tabnine",
+    "description": "AI代码助手，支持多种编程语言",
+    "icon": "https://icons.duckduckgo.com/ip3/tabnine.com.ico",
+    "tags": [
+      "代码补全",
+      "多语言"
+    ],
+    "category": "code",
+    "url": "https://tabnine.com"
+  },
+  {
+    "name": "Replit",
+    "description": "在线AI编程平台，支持协作开发",
+    "icon": "https://icons.duckduckgo.com/ip3/replit.com.ico",
+    "tags": [
+      "在线编程",
+      "协作"
+    ],
+    "category": "code",
+    "url": "https://replit.com"
+  },
+  {
+    "name": "通义灵码",
+    "description": "阿里云推出的AI编程助手",
+    "icon": "https://icons.duckduckgo.com/ip3/tongyi.aliyun.com.ico",
+    "tags": [
+      "编程",
+      "阿里"
+    ],
+    "category": "code",
+    "url": "https://tongyi.aliyun.com"
+  },
+  {
+    "name": "Amazon CodeWhisperer",
+    "description": "亚马逊推出的AI代码生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/aws.amazon.com.ico",
+    "tags": [
+      "代码生成",
+      "AWS"
+    ],
+    "category": "code",
+    "url": "https://aws.amazon.com"
+  },
+  {
+    "name": "Windsurf",
+    "description": "AI代码编辑器，提供智能编程辅助",
+    "icon": "https://icons.duckduckgo.com/ip3/codeium.com.ico",
+    "tags": [
+      "编辑器",
+      "AI编程"
+    ],
+    "category": "code",
+    "url": "https://codeium.com"
+  },
+  {
+    "name": "Aider",
+    "description": "AI结对编程工具，在终端中使用",
+    "icon": "https://icons.duckduckgo.com/ip3/aider.chat.ico",
+    "tags": [
+      "结对编程",
+      "终端"
+    ],
+    "category": "code",
+    "url": "https://aider.chat"
+  },
+  {
+    "name": "Cline",
+    "description": "AI编程助手，支持多种IDE",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "编程助手",
+      "IDE"
+    ],
+    "category": "code",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "description": "AI代码助手，理解整个代码库",
+    "icon": "https://icons.duckduckgo.com/ip3/sourcegraph.com.ico",
+    "tags": [
+      "代码助手",
+      "搜索"
+    ],
+    "category": "code",
+    "url": "https://sourcegraph.com"
+  },
+  {
+    "name": "Continue",
+    "description": "开源AI代码助手",
+    "icon": "https://icons.duckduckgo.com/ip3/continue.dev.ico",
+    "tags": [
+      "开源",
+      "代码助手"
+    ],
+    "category": "code",
+    "url": "https://continue.dev"
+  },
+  {
+    "name": "Phind",
+    "description": "面向开发者的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/phind.com.ico",
+    "tags": [
+      "搜索",
+      "开发"
+    ],
+    "category": "code",
+    "url": "https://phind.com"
+  },
+  {
+    "name": "CodeGeeX",
+    "description": "智谱AI推出的代码生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/codegeex.cn.ico",
+    "tags": [
+      "代码生成",
+      "智谱"
+    ],
+    "category": "code",
+    "url": "https://codegeex.cn"
+  },
+  {
+    "name": "Bito AI",
+    "description": "AI代码助手，提升开发效率",
+    "icon": "https://icons.duckduckgo.com/ip3/bito.ai.ico",
+    "tags": [
+      "代码助手",
+      "效率"
+    ],
+    "category": "code",
+    "url": "https://bito.ai"
+  },
+  {
+    "name": "Blackbox AI",
+    "description": "AI代码搜索和生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/blackbox.ai.ico",
+    "tags": [
+      "代码搜索",
+      "生成"
+    ],
+    "category": "code",
+    "url": "https://blackbox.ai"
+  },
+  {
+    "name": "Pieces",
+    "description": "AI驱动的代码片段管理工具",
+    "icon": "https://icons.duckduckgo.com/ip3/pieces.app.ico",
+    "tags": [
+      "代码管理",
+      "片段"
+    ],
+    "category": "code",
+    "url": "https://pieces.app"
+  },
+  {
+    "name": "MarsCode",
+    "description": "字节跳动推出的AI编程助手",
+    "icon": "https://icons.duckduckgo.com/ip3/marscode.cn.ico",
+    "tags": [
+      "编程助手",
+      "字节"
+    ],
+    "category": "code",
+    "url": "https://marscode.cn"
+  },
+  {
+    "name": "百度Comate",
+    "description": "百度推出的AI编程助手",
+    "icon": "https://icons.duckduckgo.com/ip3/comate.baidu.com.ico",
+    "tags": [
+      "编程助手",
+      "百度"
+    ],
+    "category": "code",
+    "url": "https://comate.baidu.com"
+  },
+  {
+    "name": "腾讯云AI代码助手",
+    "description": "腾讯云推出的智能编程工具",
+    "icon": "https://icons.duckduckgo.com/ip3/cloud.tencent.com.ico",
+    "tags": [
+      "编程助手",
+      "腾讯"
+    ],
+    "category": "code",
+    "url": "https://cloud.tencent.com"
+  },
+  {
+    "name": "Trae",
+    "description": "字节跳动出品的AI原生IDE，集成豆包和DeepSeek模型，支持中文自然语言编程",
+    "icon": "https://icons.duckduckgo.com/ip3/www.trae.cn.ico",
+    "tags": [
+      "IDE",
+      "字节跳动"
+    ],
+    "category": "code",
+    "url": "https://trae.cn"
+  },
+  {
+    "name": "Claude Code",
+    "description": "Anthropic推出的AI编程命令行工具，支持代码生成、编辑和终端操作",
+    "icon": "https://icons.duckduckgo.com/ip3/docs.anthropic.com.ico",
+    "tags": [
+      "CLI",
+      "编程"
+    ],
+    "category": "code",
+    "url": "https://docs.anthropic.com"
+  },
+  {
+    "name": "CodiumAI",
+    "description": "AI代码测试生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.codium.ai.ico",
+    "tags": [
+      "代码测试",
+      "测试生成"
+    ],
+    "category": "code",
+    "url": "https://codium.ai"
+  },
+  {
+    "name": "CodeRabbit",
+    "description": "AI代码审查工具",
+    "icon": "https://icons.duckduckgo.com/ip3/coderabbit.ai.ico",
+    "tags": [
+      "代码审查",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://coderabbit.ai"
+  },
+  {
+    "name": "Sourcery",
+    "description": "AI代码重构工具",
+    "icon": "https://icons.duckduckgo.com/ip3/sourcery.ai.ico",
+    "tags": [
+      "代码重构",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://sourcery.ai"
+  },
+  {
+    "name": "Mintlify",
+    "description": "AI文档生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/mintlify.com.ico",
+    "tags": [
+      "文档生成",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://mintlify.com"
+  },
+  {
+    "name": "Documatic",
+    "description": "AI代码文档生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.documatic.com.ico",
+    "tags": [
+      "文档生成",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://documatic.com"
+  },
+  {
+    "name": "Stenography",
+    "description": "AI代码注释生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/stenography.dev.ico",
+    "tags": [
+      "代码注释",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://stenography.dev"
+  },
+  {
+    "name": "What The Diff",
+    "description": "AI代码变更总结工具",
+    "icon": "https://icons.duckduckgo.com/ip3/whatthediff.ai.ico",
+    "tags": [
+      "代码变更",
+      "总结"
+    ],
+    "category": "code",
+    "url": "https://whatthediff.ai"
+  },
+  {
+    "name": "AI Code Reviewer",
+    "description": "AI代码审查工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.aicodereviewer.com.ico",
+    "tags": [
+      "代码审查",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://aicodereviewer.com"
+  },
+  {
+    "name": "CodeT5",
+    "description": "Salesforce的AI代码生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "代码生成",
+      "模型"
+    ],
+    "category": "code",
+    "url": "https://github.com"
+  },
+  {
+    "name": "StarCoder",
+    "description": "BigCode的AI代码生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "tags": [
+      "代码生成",
+      "模型"
+    ],
+    "category": "code",
+    "url": "https://huggingface.co"
+  },
+  {
+    "name": "WizardCoder",
+    "description": "AI代码生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "tags": [
+      "代码生成",
+      "模型"
+    ],
+    "category": "code",
+    "url": "https://huggingface.co"
+  },
+  {
+    "name": "CodeLlama",
+    "description": "Meta的AI代码生成模型",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "代码生成",
+      "模型"
+    ],
+    "category": "code",
+    "url": "https://github.com"
+  },
+  {
+    "name": "AlphaCode",
+    "description": "DeepMind的AI编程竞赛系统",
+    "icon": "https://icons.duckduckgo.com/ip3/alphacode.deepmind.com.ico",
+    "tags": [
+      "代码生成",
+      "竞赛"
+    ],
+    "category": "code",
+    "url": "https://alphacode.deepmind.com"
+  },
+  {
+    "name": "GitHub Copilot X",
+    "description": "GitHub Copilot的增强版本",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "代码补全",
+      "编程助手"
+    ],
+    "category": "code",
+    "url": "https://github.com"
+  },
+  {
+    "name": "v0",
+    "description": "Vercel的AI UI组件生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/v0.dev.ico",
+    "tags": [
+      "UI生成",
+      "组件"
+    ],
+    "category": "code",
+    "url": "https://v0.dev"
+  },
+  {
+    "name": "Builder.io",
+    "description": "AI网站构建工具",
+    "icon": "https://icons.duckduckgo.com/ip3/builder.io.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://builder.io"
+  },
+  {
+    "name": "10Web",
+    "description": "AI网站构建平台",
+    "icon": "https://icons.duckduckgo.com/ip3/10web.io.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://10web.io"
+  },
+  {
+    "name": "Durable",
+    "description": "AI网站构建工具",
+    "icon": "https://icons.duckduckgo.com/ip3/durable.co.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://durable.co"
+  },
+  {
+    "name": "Framer",
+    "description": "AI网站设计和构建工具",
+    "icon": "https://icons.duckduckgo.com/ip3/framer.com.ico",
+    "tags": [
+      "网站构建",
+      "设计"
+    ],
+    "category": "code",
+    "url": "https://framer.com"
+  },
+  {
+    "name": "Webflow AI",
+    "description": "Webflow的AI网站构建功能",
+    "icon": "https://icons.duckduckgo.com/ip3/webflow.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://webflow.com"
+  },
+  {
+    "name": "Wix AI",
+    "description": "Wix的AI网站构建功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.wix.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://wix.com"
+  },
+  {
+    "name": "Squarespace AI",
+    "description": "Squarespace的AI网站构建功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.squarespace.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://squarespace.com"
+  },
+  {
+    "name": "Jimdo AI",
+    "description": "Jimdo的AI网站构建功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.jimdo.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://jimdo.com"
+  },
+  {
+    "name": "Hostinger AI",
+    "description": "Hostinger的AI网站构建工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.hostinger.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://hostinger.com"
+  },
+  {
+    "name": "GoDaddy AI",
+    "description": "GoDaddy的AI网站构建功能",
+    "icon": "https://icons.duckduckgo.com/ip3/www.godaddy.com.ico",
+    "tags": [
+      "网站构建",
+      "AI"
+    ],
+    "category": "code",
+    "url": "https://godaddy.com"
+  },
+  {
+    "name": "AiPPT",
+    "description": "AI快速生成高质量PPT",
+    "icon": "https://icons.duckduckgo.com/ip3/aippt.cn.ico",
+    "tags": [
+      "精选",
+      "PPT",
+      "演示",
+      "办公"
+    ],
+    "category": "office",
+    "url": "https://aippt.cn"
+  },
+  {
+    "name": "Gamma",
+    "description": "AI驱动的演示文稿和文档创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/gamma.app.ico",
+    "tags": [
+      "演示",
+      "文档"
+    ],
+    "category": "office",
+    "url": "https://gamma.app"
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "AI智能PPT设计工具",
+    "icon": "https://icons.duckduckgo.com/ip3/beautiful.ai.ico",
+    "tags": [
+      "PPT",
+      "设计"
+    ],
+    "category": "office",
+    "url": "https://beautiful.ai"
+  },
+  {
+    "name": "WPS AI",
+    "description": "金山办公推出的AI办公助手",
+    "icon": "https://icons.duckduckgo.com/ip3/ai.wps.cn.ico",
+    "tags": [
+      "办公",
+      "文档"
+    ],
+    "category": "office",
+    "url": "https://ai.wps.cn"
+  },
+  {
+    "name": "飞书多维表格",
+    "description": "字节跳动推出的AI工作流平台",
+    "icon": "https://icons.duckduckgo.com/ip3/www.feishu.cn.ico",
+    "tags": [
+      "表格",
+      "协作"
+    ],
+    "category": "office",
+    "url": "https://feishu.cn"
+  },
+  {
+    "name": "Tome",
+    "description": "AI演示文稿生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/tome.app.ico",
+    "tags": [
+      "演示",
+      "PPT"
+    ],
+    "category": "office",
+    "url": "https://tome.app"
+  },
+  {
+    "name": "ChatExcel",
+    "description": "通过对话控制Excel的AI工具",
+    "icon": "https://icons.duckduckgo.com/ip3/chatexcel.com.ico",
+    "tags": [
+      "Excel",
+      "表格"
+    ],
+    "category": "office",
+    "url": "https://chatexcel.com"
+  },
+  {
+    "name": "有道云笔记",
+    "description": "网易推出的智能笔记工具，集成AI功能",
+    "icon": "https://icons.duckduckgo.com/ip3/note.youdao.com.ico",
+    "tags": [
+      "笔记",
+      "文档"
+    ],
+    "category": "office",
+    "url": "https://note.youdao.com"
+  },
+  {
+    "name": "Slidesgo",
+    "description": "AI驱动的演示模板和设计工具",
+    "icon": "https://icons.duckduckgo.com/ip3/slidesgo.com.ico",
+    "tags": [
+      "PPT",
+      "模板"
+    ],
+    "category": "office",
+    "url": "https://slidesgo.com"
+  },
+  {
+    "name": "Tactiq",
+    "description": "AI会议实时转录和总结工具",
+    "icon": "https://icons.duckduckgo.com/ip3/tactiq.io.ico",
+    "tags": [
+      "会议",
+      "转录"
+    ],
+    "category": "office",
+    "url": "https://tactiq.io"
+  },
+  {
+    "name": "Mem",
+    "description": "AI驱动的个人知识管理工具",
+    "icon": "https://icons.duckduckgo.com/ip3/mem.ai.ico",
+    "tags": [
+      "知识管理",
+      "笔记"
+    ],
+    "category": "office",
+    "url": "https://mem.ai"
+  },
+  {
+    "name": "Taskade",
+    "description": "AI协作和项目管理工具",
+    "icon": "https://icons.duckduckgo.com/ip3/taskade.com.ico",
+    "tags": [
+      "协作",
+      "项目管理"
+    ],
+    "category": "office",
+    "url": "https://taskade.com"
+  },
+  {
+    "name": "钉钉AI助手",
+    "description": "阿里钉钉集成的AI办公助手",
+    "icon": "https://icons.duckduckgo.com/ip3/www.dingtalk.com.ico",
+    "tags": [
+      "办公",
+      "协作"
+    ],
+    "category": "office",
+    "url": "https://dingtalk.com"
+  },
+  {
+    "name": "飞书AI助手",
+    "description": "字节飞书集成的AI办公工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.feishu.cn.ico",
+    "tags": [
+      "办公",
+      "协作"
+    ],
+    "category": "office",
+    "url": "https://feishu.cn"
+  },
+  {
+    "name": "企业微信AI",
+    "description": "腾讯企业微信的AI功能",
+    "icon": "https://icons.duckduckgo.com/ip3/work.weixin.qq.com.ico",
+    "tags": [
+      "办公",
+      "协作"
+    ],
+    "category": "office",
+    "url": "https://work.weixin.qq.com"
+  },
+  {
+    "name": "Decktopus",
+    "description": "AI演示文稿生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/decktopus.com.ico",
+    "tags": [
+      "PPT",
+      "演示"
+    ],
+    "category": "office",
+    "url": "https://decktopus.com"
+  },
+  {
+    "name": "Slides AI",
+    "description": "AI快速生成演示文稿",
+    "icon": "https://icons.duckduckgo.com/ip3/slidesai.io.ico",
+    "tags": [
+      "PPT",
+      "演示"
+    ],
+    "category": "office",
+    "url": "https://slidesai.io"
+  },
+  {
+    "name": "AI PPT",
+    "description": "AI演示文稿生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/aippt.cn.ico",
+    "tags": [
+      "PPT生成",
+      "演示文稿"
+    ],
+    "category": "office",
+    "url": "https://aippt.cn"
+  },
+  {
+    "name": "传声港",
+    "description": "AI驱动的新媒体营销投放平台，提供新闻发稿、自媒体推广、网红短视频分发、舆情监测及AI代写服务",
+    "icon": "https://icons.duckduckgo.com/ip3/www.chuanshenggang.com.ico",
+    "tags": [
+      "新媒体",
+      "营销"
+    ],
+    "category": "office",
+    "url": "https://chuanshenggang.com"
+  },
+  {
+    "name": "Figma AI",
+    "description": "Figma集成的AI设计助手",
+    "icon": "https://icons.duckduckgo.com/ip3/figma.com.ico",
+    "tags": [
+      "UI设计",
+      "协作"
+    ],
+    "category": "design",
+    "url": "https://figma.com"
+  },
+  {
+    "name": "Uizard",
+    "description": "AI快速生成UI设计和原型",
+    "icon": "https://icons.duckduckgo.com/ip3/uizard.io.ico",
+    "tags": [
+      "UI设计",
+      "原型"
+    ],
+    "category": "design",
+    "url": "https://uizard.io"
+  },
+  {
+    "name": "Looka",
+    "description": "AI Logo设计生成器",
+    "icon": "https://icons.duckduckgo.com/ip3/looka.com.ico",
+    "tags": [
+      "Logo",
+      "品牌"
+    ],
+    "category": "design",
+    "url": "https://looka.com"
+  },
+  {
+    "name": "Adobe XD",
+    "description": "Adobe推出的专业UI/UX设计工具",
+    "icon": "https://www.google.com/s2/favicons?domain=adobe.com&sz=32",
+    "tags": [
+      "UI设计",
+      "UX"
+    ],
+    "category": "design",
+    "url": null
+  },
+  {
+    "name": "Sketch",
+    "description": "macOS矢量设计工具，用于网站和应用设计",
+    "icon": "https://icons.duckduckgo.com/ip3/sketch.com.ico",
+    "tags": [
+      "UI设计",
+      "矢量"
+    ],
+    "category": "design",
+    "url": "https://sketch.com"
+  },
+  {
+    "name": "Microsoft Designer",
+    "description": "微软推出的AI图形设计工具",
+    "icon": "https://icons.duckduckgo.com/ip3/designer.microsoft.com.ico",
+    "tags": [
+      "图形设计",
+      "微软"
+    ],
+    "category": "design",
+    "url": "https://designer.microsoft.com"
+  },
+  {
+    "name": "Kittl",
+    "description": "AI图像和矢量生成器，适合社交媒体设计",
+    "icon": "https://icons.duckduckgo.com/ip3/kittl.com.ico",
+    "tags": [
+      "图形设计",
+      "矢量"
+    ],
+    "category": "design",
+    "url": "https://kittl.com"
+  },
+  {
+    "name": "Designs.ai",
+    "description": "AI驱动的创意设计平台",
+    "icon": "https://icons.duckduckgo.com/ip3/designs.ai.ico",
+    "tags": [
+      "设计",
+      "Logo"
+    ],
+    "category": "design",
+    "url": "https://designs.ai"
+  },
+  {
+    "name": "Khroma",
+    "description": "AI配色方案生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/khroma.co.ico",
+    "tags": [
+      "配色",
+      "设计"
+    ],
+    "category": "design",
+    "url": "https://khroma.co"
+  },
+  {
+    "name": "Brandmark",
+    "description": "AI Logo和品牌设计工具",
+    "icon": "https://icons.duckduckgo.com/ip3/brandmark.io.ico",
+    "tags": [
+      "Logo",
+      "品牌"
+    ],
+    "category": "design",
+    "url": "https://brandmark.io"
+  },
+  {
+    "name": "Visme",
+    "description": "AI驱动的视觉内容创作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/visme.co.ico",
+    "tags": [
+      "设计",
+      "演示"
+    ],
+    "category": "design",
+    "url": "https://visme.co"
+  },
+  {
+    "name": "Simplified Design",
+    "description": "AI图形设计和视频编辑工具",
+    "icon": "https://icons.duckduckgo.com/ip3/simplified.com.ico",
+    "tags": [
+      "图形设计",
+      "视频"
+    ],
+    "category": "design",
+    "url": "https://simplified.com"
+  },
+  {
+    "name": "Designify",
+    "description": "AI自动设计和背景移除工具",
+    "icon": "https://icons.duckduckgo.com/ip3/designify.com.ico",
+    "tags": [
+      "自动设计",
+      "背景移除"
+    ],
+    "category": "design",
+    "url": "https://designify.com"
+  },
+  {
+    "name": "Magician",
+    "description": "Figma的AI设计插件",
+    "icon": "https://icons.duckduckgo.com/ip3/magician.design.ico",
+    "tags": [
+      "Figma",
+      "插件"
+    ],
+    "category": "design",
+    "url": "https://magician.design"
+  },
+  {
+    "name": "Relume",
+    "description": "AI网站设计和原型工具",
+    "icon": "https://icons.duckduckgo.com/ip3/relume.io.ico",
+    "tags": [
+      "网站设计",
+      "原型"
+    ],
+    "category": "design",
+    "url": "https://relume.io"
+  },
+  {
+    "name": "墨刀AI",
+    "description": "AI原型设计和协作工具",
+    "icon": "https://icons.duckduckgo.com/ip3/modao.cc.ico",
+    "tags": [
+      "原型",
+      "协作"
+    ],
+    "category": "design",
+    "url": "https://modao.cc"
+  },
+  {
+    "name": "即时设计AI",
+    "description": "国产UI设计工具，集成AI功能",
+    "icon": "https://icons.duckduckgo.com/ip3/js.design.ico",
+    "tags": [
+      "UI设计",
+      "协作"
+    ],
+    "category": "design",
+    "url": "https://js.design"
+  },
+  {
+    "name": "扣子Coze",
+    "description": "字节跳动推出的AI Bot开发平台",
+    "icon": "https://icons.duckduckgo.com/ip3/coze.cn.ico",
+    "tags": [
+      "精选",
+      "智能体",
+      "开发",
+      "字节"
+    ],
+    "category": "agent",
+    "url": "https://coze.cn"
+  },
+  {
+    "name": "Manus",
+    "description": "通用AI智能体平台，能自主规划和执行复杂任务，被Meta以20亿美元收购",
+    "icon": "https://icons.duckduckgo.com/ip3/manus.im.ico",
+    "tags": [
+      "精选",
+      "智能体",
+      "自动化",
+      "任务执行"
+    ],
+    "category": "agent",
+    "url": "https://manus.im"
+  },
+  {
+    "name": "GPTs",
+    "description": "OpenAI的自定义GPT创建平台",
+    "icon": "https://icons.duckduckgo.com/ip3/chat.openai.com.ico",
+    "tags": [
+      "智能体",
+      "GPT"
+    ],
+    "category": "agent",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "name": "Dify",
+    "description": "开源的LLM应用开发平台",
+    "icon": "https://icons.duckduckgo.com/ip3/dify.ai.ico",
+    "tags": [
+      "开源",
+      "开发"
+    ],
+    "category": "agent",
+    "url": "https://dify.ai"
+  },
+  {
+    "name": "AutoGPT",
+    "description": "自主AI智能体，自动完成复杂任务",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "自主",
+      "开源"
+    ],
+    "category": "agent",
+    "url": "https://github.com"
+  },
+  {
+    "name": "LangChain",
+    "description": "构建LLM应用的开发框架",
+    "icon": "https://icons.duckduckgo.com/ip3/langchain.com.ico",
+    "tags": [
+      "框架",
+      "开发"
+    ],
+    "category": "agent",
+    "url": "https://langchain.com"
+  },
+  {
+    "name": "AgentGPT",
+    "description": "在浏览器中部署自主AI智能体",
+    "icon": "https://icons.duckduckgo.com/ip3/agentgpt.reworkd.ai.ico",
+    "tags": [
+      "自主",
+      "浏览器"
+    ],
+    "category": "agent",
+    "url": "https://agentgpt.reworkd.ai"
+  },
+  {
+    "name": "BabyAGI",
+    "description": "AI驱动的任务管理系统",
+    "icon": "https://icons.duckduckgo.com/ip3/github.com.ico",
+    "tags": [
+      "任务管理",
+      "开源"
+    ],
+    "category": "agent",
+    "url": "https://github.com"
+  },
+  {
+    "name": "Flowise",
+    "description": "可视化LLM应用构建工具",
+    "icon": "https://icons.duckduckgo.com/ip3/flowiseai.com.ico",
+    "tags": [
+      "可视化",
+      "开发"
+    ],
+    "category": "agent",
+    "url": "https://flowiseai.com"
+  },
+  {
+    "name": "Botpress",
+    "description": "开源的聊天机器人开发平台",
+    "icon": "https://icons.duckduckgo.com/ip3/botpress.com.ico",
+    "tags": [
+      "聊天机器人",
+      "开源"
+    ],
+    "category": "agent",
+    "url": "https://botpress.com"
+  },
+  {
+    "name": "n8n",
+    "description": "开源工作流自动化平台",
+    "icon": "https://icons.duckduckgo.com/ip3/n8n.io.ico",
+    "tags": [
+      "工作流",
+      "自动化"
+    ],
+    "category": "agent",
+    "url": "https://n8n.io"
+  },
+  {
+    "name": "Make",
+    "description": "可视化自动化平台，原Integromat",
+    "icon": "https://icons.duckduckgo.com/ip3/make.com.ico",
+    "tags": [
+      "自动化",
+      "可视化"
+    ],
+    "category": "agent",
+    "url": "https://make.com"
+  },
+  {
+    "name": "Zapier",
+    "description": "应用集成和自动化平台",
+    "icon": "https://icons.duckduckgo.com/ip3/zapier.com.ico",
+    "tags": [
+      "自动化",
+      "集成"
+    ],
+    "category": "agent",
+    "url": "https://zapier.com"
+  },
+  {
+    "name": "Microsoft Power Automate",
+    "description": "微软推出的流程自动化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/powerautomate.microsoft.com.ico",
+    "tags": [
+      "自动化",
+      "微软"
+    ],
+    "category": "agent",
+    "url": "https://powerautomate.microsoft.com"
+  },
+  {
+    "name": "UiPath",
+    "description": "企业级RPA和AI自动化平台",
+    "icon": "https://icons.duckduckgo.com/ip3/uipath.com.ico",
+    "tags": [
+      "RPA",
+      "自动化"
+    ],
+    "category": "agent",
+    "url": "https://uipath.com"
+  },
+  {
+    "name": "Automation Anywhere",
+    "description": "智能自动化平台",
+    "icon": "https://icons.duckduckgo.com/ip3/automationanywhere.com.ico",
+    "tags": [
+      "RPA",
+      "自动化"
+    ],
+    "category": "agent",
+    "url": "https://automationanywhere.com"
+  },
+  {
+    "name": "Relevance AI",
+    "description": "AI智能体构建平台",
+    "icon": "https://icons.duckduckgo.com/ip3/relevanceai.com.ico",
+    "tags": [
+      "智能体",
+      "构建"
+    ],
+    "category": "agent",
+    "url": "https://relevanceai.com"
+  },
+  {
+    "name": "Voiceflow",
+    "description": "对话式AI和聊天机器人构建平台",
+    "icon": "https://icons.duckduckgo.com/ip3/voiceflow.com.ico",
+    "tags": [
+      "对话",
+      "聊天机器人"
+    ],
+    "category": "agent",
+    "url": "https://voiceflow.com"
+  },
+  {
+    "name": "Stack AI",
+    "description": "企业AI工作流构建平台",
+    "icon": "https://icons.duckduckgo.com/ip3/stack-ai.com.ico",
+    "tags": [
+      "工作流",
+      "企业"
+    ],
+    "category": "agent",
+    "url": "https://stack-ai.com"
+  },
+  {
+    "name": "百炼",
+    "description": "阿里云推出的大模型应用开发平台",
+    "icon": "https://icons.duckduckgo.com/ip3/bailian.console.aliyun.com.ico",
+    "tags": [
+      "开发平台",
+      "阿里"
+    ],
+    "category": "agent",
+    "url": "https://bailian.console.aliyun.com"
+  },
+  {
+    "name": "Zion",
+    "description": "无代码AI应用开发平台，支持可视化搭建AI智能体、知识库和微信小程序",
+    "icon": "https://icons.duckduckgo.com/ip3/www.functorz.com.ico",
+    "tags": [
+      "无代码",
+      "AI应用"
+    ],
+    "category": "agent",
+    "url": "https://functorz.com"
+  },
+  {
+    "name": "秘塔AI搜索",
+    "description": "没有广告，直达结果的AI搜索",
+    "icon": "https://icons.duckduckgo.com/ip3/metaso.cn.ico",
+    "tags": [
+      "精选",
+      "搜索",
+      "中文",
+      "无广告"
+    ],
+    "category": "search",
+    "url": "https://metaso.cn"
+  },
+  {
+    "name": "天工AI搜索",
+    "description": "昆仑万维推出的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/tiangong.cn.ico",
+    "tags": [
+      "搜索",
+      "中文"
+    ],
+    "category": "search",
+    "url": "https://tiangong.cn"
+  },
+  {
+    "name": "Kagi",
+    "description": "无广告的高质量AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/kagi.com.ico",
+    "tags": [
+      "搜索",
+      "无广告"
+    ],
+    "category": "search",
+    "url": "https://kagi.com"
+  },
+  {
+    "name": "Bing AI",
+    "description": "微软推出的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/bing.com.ico",
+    "tags": [
+      "搜索",
+      "微软"
+    ],
+    "category": "search",
+    "url": "https://bing.com"
+  },
+  {
+    "name": "360AI搜索",
+    "description": "360推出的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/so.com.ico",
+    "tags": [
+      "搜索",
+      "中文"
+    ],
+    "category": "search",
+    "url": "https://so.com"
+  },
+  {
+    "name": "Consensus",
+    "description": "AI学术搜索引擎，搜索科研论文",
+    "icon": "https://icons.duckduckgo.com/ip3/consensus.app.ico",
+    "tags": [
+      "学术",
+      "论文"
+    ],
+    "category": "search",
+    "url": "https://consensus.app"
+  },
+  {
+    "name": "Elicit",
+    "description": "AI研究助手，帮助文献综述",
+    "icon": "https://icons.duckduckgo.com/ip3/elicit.org.ico",
+    "tags": [
+      "研究",
+      "文献"
+    ],
+    "category": "search",
+    "url": "https://elicit.org"
+  },
+  {
+    "name": "Brave Search",
+    "description": "注重隐私的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/search.brave.com.ico",
+    "tags": [
+      "搜索",
+      "隐私"
+    ],
+    "category": "search",
+    "url": "https://search.brave.com"
+  },
+  {
+    "name": "Andi",
+    "description": "对话式AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/andisearch.com.ico",
+    "tags": [
+      "搜索",
+      "对话"
+    ],
+    "category": "search",
+    "url": "https://andisearch.com"
+  },
+  {
+    "name": "Metaphor",
+    "description": "AI驱动的语义搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/metaphor.systems.ico",
+    "tags": [
+      "搜索",
+      "语义"
+    ],
+    "category": "search",
+    "url": "https://metaphor.systems"
+  },
+  {
+    "name": "Exa",
+    "description": "AI搜索API，为AI应用提供搜索能力",
+    "icon": "https://icons.duckduckgo.com/ip3/exa.ai.ico",
+    "tags": [
+      "搜索",
+      "API"
+    ],
+    "category": "search",
+    "url": "https://exa.ai"
+  },
+  {
+    "name": "Tavily",
+    "description": "AI研究和搜索API",
+    "icon": "https://icons.duckduckgo.com/ip3/tavily.com.ico",
+    "tags": [
+      "搜索",
+      "研究"
+    ],
+    "category": "search",
+    "url": "https://tavily.com"
+  },
+  {
+    "name": "搜狗AI搜索",
+    "description": "搜狗推出的AI搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/www.sogou.com.ico",
+    "tags": [
+      "搜索",
+      "中文"
+    ],
+    "category": "search",
+    "url": "https://sogou.com"
+  },
+  {
+    "name": "夸克AI搜索",
+    "description": "阿里夸克推出的AI搜索",
+    "icon": "https://icons.duckduckgo.com/ip3/quark.sm.cn.ico",
+    "tags": [
+      "搜索",
+      "中文"
+    ],
+    "category": "search",
+    "url": "https://quark.sm.cn"
+  },
+  {
+    "name": "百度AI搜索",
+    "description": "百度集成AI的搜索引擎",
+    "icon": "https://icons.duckduckgo.com/ip3/www.baidu.com.ico",
+    "tags": [
+      "搜索",
+      "中文"
+    ],
+    "category": "search",
+    "url": "https://baidu.com"
+  },
+  {
+    "name": "Glean",
+    "description": "企业AI搜索平台",
+    "icon": "https://icons.duckduckgo.com/ip3/glean.com.ico",
+    "tags": [
+      "企业搜索",
+      "AI"
+    ],
+    "category": "search",
+    "url": "https://glean.com"
+  },
+  {
+    "name": "Algolia AI",
+    "description": "AI驱动的站内搜索解决方案",
+    "icon": "https://icons.duckduckgo.com/ip3/algolia.com.ico",
+    "tags": [
+      "站内搜索",
+      "AI"
+    ],
+    "category": "search",
+    "url": "https://algolia.com"
+  },
+  {
+    "name": "Linggan",
+    "description": "一站式AI工具导航和搜索平台，覆盖文本、图像、视频、编程等领域",
+    "icon": "https://icons.duckduckgo.com/ip3/linggan.io.ico",
+    "tags": [
+      "导航",
+      "工具搜索"
+    ],
+    "category": "search",
+    "url": "https://linggan.io"
+  },
+  {
+    "name": "Khan Academy",
+    "description": "集成AI导师的在线学习平台",
+    "icon": "https://icons.duckduckgo.com/ip3/khanacademy.org.ico",
+    "tags": [
+      "学习",
+      "教育"
+    ],
+    "category": "learning",
+    "url": "https://khanacademy.org"
+  },
+  {
+    "name": "Duolingo",
+    "description": "AI驱动的语言学习应用",
+    "icon": "https://icons.duckduckgo.com/ip3/duolingo.com.ico",
+    "tags": [
+      "语言学习",
+      "教育"
+    ],
+    "category": "learning",
+    "url": "https://duolingo.com"
+  },
+  {
+    "name": "Coursera",
+    "description": "提供AI课程的在线学习平台",
+    "icon": "https://icons.duckduckgo.com/ip3/coursera.org.ico",
+    "tags": [
+      "在线课程",
+      "AI课程"
+    ],
+    "category": "learning",
+    "url": "https://coursera.org"
+  },
+  {
+    "name": "有道小P",
+    "description": "网易有道推出的AI全科学习助手",
+    "icon": "https://icons.duckduckgo.com/ip3/ai.youdao.com.ico",
+    "tags": [
+      "学习",
+      "中文"
+    ],
+    "category": "learning",
+    "url": "https://ai.youdao.com"
+  },
+  {
+    "name": "Gauth",
+    "description": "AI学习辅助应用，解答学习问题",
+    "icon": "https://icons.duckduckgo.com/ip3/gauth.com.ico",
+    "tags": [
+      "学习",
+      "解题"
+    ],
+    "category": "learning",
+    "url": "https://gauth.com"
+  },
+  {
+    "name": "九章随时问",
+    "description": "AI智能辅导老师，随时解答问题",
+    "icon": "https://icons.duckduckgo.com/ip3/jiuzhang.com.ico",
+    "tags": [
+      "辅导",
+      "中文"
+    ],
+    "category": "learning",
+    "url": "https://jiuzhang.com"
+  },
+  {
+    "name": "Quizlet",
+    "description": "AI驱动的学习和记忆工具",
+    "icon": "https://icons.duckduckgo.com/ip3/quizlet.com.ico",
+    "tags": [
+      "学习",
+      "记忆"
+    ],
+    "category": "learning",
+    "url": "https://quizlet.com"
+  },
+  {
+    "name": "Photomath",
+    "description": "AI数学解题应用，扫描即可解答",
+    "icon": "https://icons.duckduckgo.com/ip3/photomath.com.ico",
+    "tags": [
+      "数学",
+      "解题"
+    ],
+    "category": "learning",
+    "url": "https://photomath.com"
+  },
+  {
+    "name": "Socratic",
+    "description": "Google推出的AI学习助手",
+    "icon": "https://icons.duckduckgo.com/ip3/socratic.org.ico",
+    "tags": [
+      "学习",
+      "Google"
+    ],
+    "category": "learning",
+    "url": "https://socratic.org"
+  },
+  {
+    "name": "Cognii",
+    "description": "AI虚拟学习助手",
+    "icon": "https://icons.duckduckgo.com/ip3/cognii.com.ico",
+    "tags": [
+      "学习",
+      "虚拟助手"
+    ],
+    "category": "learning",
+    "url": "https://cognii.com"
+  },
+  {
+    "name": "Squirrel AI",
+    "description": "松鼠AI智适应教育平台",
+    "icon": "https://icons.duckduckgo.com/ip3/squirrelai.com.ico",
+    "tags": [
+      "学习",
+      "自适应"
+    ],
+    "category": "learning",
+    "url": "https://squirrelai.com"
+  },
+  {
+    "name": "作业帮AI",
+    "description": "作业帮推出的AI学习工具",
+    "icon": "https://icons.duckduckgo.com/ip3/www.zybang.com.ico",
+    "tags": [
+      "学习",
+      "解题"
+    ],
+    "category": "learning",
+    "url": "https://zybang.com"
+  },
+  {
+    "name": "学而思AI",
+    "description": "学而思推出的AI学习助手",
+    "icon": "https://icons.duckduckgo.com/ip3/www.xueersi.com.ico",
+    "tags": [
+      "学习",
+      "辅导"
+    ],
+    "category": "learning",
+    "url": "https://xueersi.com"
+  },
+  {
+    "name": "网易有道AI学习",
+    "description": "网易有道的AI学习产品",
+    "icon": "https://icons.duckduckgo.com/ip3/ai.youdao.com.ico",
+    "tags": [
+      "学习",
+      "翻译"
+    ],
+    "category": "learning",
+    "url": "https://ai.youdao.com"
+  },
+  {
+    "name": "Wolfram Alpha",
+    "description": "计算知识引擎，AI辅助学习",
+    "icon": "https://icons.duckduckgo.com/ip3/wolframalpha.com.ico",
+    "tags": [
+      "计算",
+      "知识"
+    ],
+    "category": "learning",
+    "url": "https://wolframalpha.com"
+  },
+  {
+    "name": "Brainly",
+    "description": "AI驱动的学习社区",
+    "icon": "https://icons.duckduckgo.com/ip3/brainly.com.ico",
+    "tags": [
+      "学习",
+      "社区"
+    ],
+    "category": "learning",
+    "url": "https://brainly.com"
+  },
+  {
+    "name": "Knowji",
+    "description": "AI词汇学习应用",
+    "icon": "https://icons.duckduckgo.com/ip3/knowji.com.ico",
+    "tags": [
+      "词汇",
+      "学习"
+    ],
+    "category": "learning",
+    "url": "https://knowji.com"
+  },
+  {
+    "name": "Memrise",
+    "description": "AI语言学习平台",
+    "icon": "https://icons.duckduckgo.com/ip3/memrise.com.ico",
+    "tags": [
+      "语言",
+      "学习"
+    ],
+    "category": "learning",
+    "url": "https://memrise.com"
+  },
+  {
+    "name": "Elsa Speak",
+    "description": "AI英语口语练习应用",
+    "icon": "https://icons.duckduckgo.com/ip3/elsaspeak.com.ico",
+    "tags": [
+      "英语",
+      "口语"
+    ],
+    "category": "learning",
+    "url": "https://elsaspeak.com"
+  },
+  {
+    "name": "Hugging Face",
+    "description": "开源AI模型和数据集社区",
+    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "tags": [
+      "精选",
+      "开源",
+      "模型",
+      "社区"
+    ],
+    "category": "model",
+    "url": "https://huggingface.co"
+  },
+  {
+    "name": "Replicate",
+    "description": "运行和部署AI模型的云平台",
+    "icon": "https://icons.duckduckgo.com/ip3/replicate.com.ico",
+    "tags": [
+      "模型部署",
+      "云平台"
+    ],
+    "category": "model",
+    "url": "https://replicate.com"
+  },
+  {
+    "name": "魔搭社区",
+    "description": "阿里推出的AI模型社区",
+    "icon": "https://icons.duckduckgo.com/ip3/modelscope.cn.ico",
+    "tags": [
+      "模型",
+      "中文"
+    ],
+    "category": "model",
+    "url": "https://modelscope.cn"
+  },
+  {
+    "name": "Groq Cloud",
+    "description": "超快速AI推理云平台",
+    "icon": "https://icons.duckduckgo.com/ip3/groq.com.ico",
+    "tags": [
+      "推理",
+      "云平台"
+    ],
+    "category": "model",
+    "url": "https://groq.com"
+  },
+  {
+    "name": "Ollama",
+    "description": "本地运行大语言模型的工具",
+    "icon": "https://icons.duckduckgo.com/ip3/ollama.ai.ico",
+    "tags": [
+      "本地",
+      "开源"
+    ],
+    "category": "model",
+    "url": "https://ollama.ai"
+  },
+  {
+    "name": "LM Studio",
+    "description": "本地运行和测试LLM的桌面应用",
+    "icon": "https://icons.duckduckgo.com/ip3/lmstudio.ai.ico",
+    "tags": [
+      "本地",
+      "桌面"
+    ],
+    "category": "model",
+    "url": "https://lmstudio.ai"
+  },
+  {
+    "name": "始智AI",
+    "description": "国产开源大模型社区",
+    "icon": "https://icons.duckduckgo.com/ip3/www.wisemodel.cn.ico",
+    "tags": [
+      "开源",
+      "中文"
+    ],
+    "category": "model",
+    "url": "https://wisemodel.cn"
+  },
+  {
+    "name": "Anthropic Claude API",
+    "description": "Claude模型API接口",
+    "icon": "https://icons.duckduckgo.com/ip3/anthropic.com.ico",
+    "tags": [
+      "API",
+      "Claude"
+    ],
+    "category": "model",
+    "url": "https://anthropic.com"
+  },
+  {
+    "name": "Google AI Studio",
+    "description": "Google的AI模型开发平台",
+    "icon": "https://icons.duckduckgo.com/ip3/aistudio.google.com.ico",
+    "tags": [
+      "开发",
+      "Google"
+    ],
+    "category": "model",
+    "url": "https://aistudio.google.com"
+  },
+  {
+    "name": "Cohere",
+    "description": "企业级LLM平台",
+    "icon": "https://icons.duckduckgo.com/ip3/cohere.com.ico",
+    "tags": [
+      "LLM",
+      "企业"
+    ],
+    "category": "model",
+    "url": "https://cohere.com"
+  },
+  {
+    "name": "Mistral AI",
+    "description": "开源大语言模型平台",
+    "icon": "https://icons.duckduckgo.com/ip3/mistral.ai.ico",
+    "tags": [
+      "开源",
+      "LLM"
+    ],
+    "category": "model",
+    "url": "https://mistral.ai"
+  },
+  {
+    "name": "Perplexity API",
+    "description": "Perplexity模型API",
+    "icon": "https://icons.duckduckgo.com/ip3/docs.perplexity.ai.ico",
+    "tags": [
+      "API",
+      "搜索"
+    ],
+    "category": "model",
+    "url": "https://docs.perplexity.ai"
+  },
+  {
+    "name": "Fireworks AI",
+    "description": "快速AI模型推理平台",
+    "icon": "https://icons.duckduckgo.com/ip3/fireworks.ai.ico",
+    "tags": [
+      "推理",
+      "快速"
+    ],
+    "category": "model",
+    "url": "https://fireworks.ai"
+  },
+  {
+    "name": "Anyscale",
+    "description": "分布式AI模型训练和部署平台",
+    "icon": "https://icons.duckduckgo.com/ip3/anyscale.com.ico",
+    "tags": [
+      "训练",
+      "部署"
+    ],
+    "category": "model",
+    "url": "https://anyscale.com"
+  },
+  {
+    "name": "Modal",
+    "description": "云端AI模型运行平台",
+    "icon": "https://icons.duckduckgo.com/ip3/modal.com.ico",
+    "tags": [
+      "云端",
+      "运行"
+    ],
+    "category": "model",
+    "url": "https://modal.com"
+  },
+  {
+    "name": "百度飞桨",
+    "description": "百度推出的深度学习平台",
+    "icon": "https://icons.duckduckgo.com/ip3/paddlepaddle.org.cn.ico",
+    "tags": [
+      "深度学习",
+      "百度"
+    ],
+    "category": "model",
+    "url": "https://paddlepaddle.org.cn"
+  },
+  {
+    "name": "昇腾AI",
+    "description": "华为推出的AI计算平台",
+    "icon": "https://icons.duckduckgo.com/ip3/ascend.huawei.com.ico",
+    "tags": [
+      "计算",
+      "华为"
+    ],
+    "category": "model",
+    "url": "https://ascend.huawei.com"
+  },
+  {
+    "name": "GPTZero",
+    "description": "检测AI生成内容的工具",
+    "icon": "https://icons.duckduckgo.com/ip3/gptzero.me.ico",
+    "tags": [
+      "AI检测",
+      "内容检测"
+    ],
+    "category": "detection",
+    "url": "https://gptzero.me"
+  },
+  {
+    "name": "Originality.ai",
+    "description": "AI内容检测和抄袭检查工具",
+    "icon": "https://icons.duckduckgo.com/ip3/originality.ai.ico",
+    "tags": [
+      "内容检测",
+      "抄袭检查"
+    ],
+    "category": "detection",
+    "url": "https://originality.ai"
+  },
+  {
+    "name": "Copyleaks",
+    "description": "AI内容检测和抄袭检查平台",
+    "icon": "https://icons.duckduckgo.com/ip3/copyleaks.com.ico",
+    "tags": [
+      "内容检测",
+      "抄袭"
+    ],
+    "category": "detection",
+    "url": "https://copyleaks.com"
+  },
+  {
+    "name": "Winston AI",
+    "description": "AI生成内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/gowinston.ai.ico",
+    "tags": [
+      "AI检测",
+      "内容"
+    ],
+    "category": "detection",
+    "url": "https://gowinston.ai"
+  },
+  {
+    "name": "Turnitin",
+    "description": "学术诚信和AI写作检测平台",
+    "icon": "https://icons.duckduckgo.com/ip3/turnitin.com.ico",
+    "tags": [
+      "学术",
+      "检测"
+    ],
+    "category": "detection",
+    "url": "https://turnitin.com"
+  },
+  {
+    "name": "ZeroGPT",
+    "description": "免费的AI文本检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/zerogpt.com.ico",
+    "tags": [
+      "AI检测",
+      "免费"
+    ],
+    "category": "detection",
+    "url": "https://zerogpt.com"
+  },
+  {
+    "name": "AI Detector Pro",
+    "description": "专业的AI内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/aidetector.pro.ico",
+    "tags": [
+      "AI检测",
+      "专业"
+    ],
+    "category": "detection",
+    "url": "https://aidetector.pro"
+  },
+  {
+    "name": "Content at Scale",
+    "description": "AI内容检测和SEO优化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/contentatscale.ai.ico",
+    "tags": [
+      "AI检测",
+      "SEO"
+    ],
+    "category": "detection",
+    "url": "https://contentatscale.ai"
+  },
+  {
+    "name": "Sapling",
+    "description": "AI写作检测和语法检查工具",
+    "icon": "https://icons.duckduckgo.com/ip3/sapling.ai.ico",
+    "tags": [
+      "AI检测",
+      "语法"
+    ],
+    "category": "detection",
+    "url": "https://sapling.ai"
+  },
+  {
+    "name": "Crossplag",
+    "description": "AI内容和抄袭检测平台",
+    "icon": "https://icons.duckduckgo.com/ip3/crossplag.com.ico",
+    "tags": [
+      "AI检测",
+      "抄袭"
+    ],
+    "category": "detection",
+    "url": "https://crossplag.com"
+  },
+  {
+    "name": "Writer AI Detector",
+    "description": "Writer推出的AI内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/writer.com.ico",
+    "tags": [
+      "AI检测",
+      "内容"
+    ],
+    "category": "detection",
+    "url": "https://writer.com"
+  },
+  {
+    "name": "Scribbr",
+    "description": "学术AI检测和抄袭检查工具",
+    "icon": "https://icons.duckduckgo.com/ip3/scribbr.com.ico",
+    "tags": [
+      "学术",
+      "检测"
+    ],
+    "category": "detection",
+    "url": "https://scribbr.com"
+  },
+  {
+    "name": "Undetectable AI",
+    "description": "AI内容检测和人性化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/undetectable.ai.ico",
+    "tags": [
+      "AI检测",
+      "人性化"
+    ],
+    "category": "detection",
+    "url": "https://undetectable.ai"
+  },
+  {
+    "name": "Hive Moderation",
+    "description": "AI内容审核和检测平台",
+    "icon": "https://icons.duckduckgo.com/ip3/hivemoderation.com.ico",
+    "tags": [
+      "内容审核",
+      "检测"
+    ],
+    "category": "detection",
+    "url": "https://hivemoderation.com"
+  },
+  {
+    "name": "Passed.AI",
+    "description": "AI写作检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/passed.ai.ico",
+    "tags": [
+      "AI检测",
+      "写作"
+    ],
+    "category": "detection",
+    "url": "https://passed.ai"
+  },
+  {
+    "name": "AI Checker",
+    "description": "免费的AI内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/aichecker.net.ico",
+    "tags": [
+      "AI检测",
+      "免费"
+    ],
+    "category": "detection",
+    "url": "https://aichecker.net"
+  },
+  {
+    "name": "Smodin AI Detector",
+    "description": "多语言AI内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/smodin.io.ico",
+    "tags": [
+      "AI检测",
+      "多语言"
+    ],
+    "category": "detection",
+    "url": "https://smodin.io"
+  },
+  {
+    "name": "Quillbot AI Detector",
+    "description": "Quillbot推出的AI检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/quillbot.com.ico",
+    "tags": [
+      "AI检测",
+      "Quillbot"
+    ],
+    "category": "detection",
+    "url": "https://quillbot.com"
+  },
+  {
+    "name": "Grammarly AI Detector",
+    "description": "Grammarly的AI内容检测功能",
+    "icon": "https://icons.duckduckgo.com/ip3/grammarly.com.ico",
+    "tags": [
+      "AI检测",
+      "Grammarly"
+    ],
+    "category": "detection",
+    "url": "https://grammarly.com"
+  },
+  {
+    "name": "AI or Not",
+    "description": "AI生成内容检测工具",
+    "icon": "https://icons.duckduckgo.com/ip3/aiornot.com.ico",
+    "tags": [
+      "AI检测",
+      "图像"
+    ],
+    "category": "detection",
+    "url": "https://aiornot.com"
+  },
+  {
+    "name": "PromptBase",
+    "description": "AI提示词市场和社区",
+    "icon": "https://icons.duckduckgo.com/ip3/promptbase.com.ico",
+    "tags": [
+      "提示词",
+      "市场"
+    ],
+    "category": "prompt",
+    "url": "https://promptbase.com"
+  },
+  {
+    "name": "FlowGPT",
+    "description": "分享和发现AI提示词的社区",
+    "icon": "https://icons.duckduckgo.com/ip3/flowgpt.com.ico",
+    "tags": [
+      "提示词",
+      "社区"
+    ],
+    "category": "prompt",
+    "url": "https://flowgpt.com"
+  },
+  {
+    "name": "PromptHero",
+    "description": "AI提示词搜索和分享平台",
+    "icon": "https://icons.duckduckgo.com/ip3/prompthero.com.ico",
+    "tags": [
+      "提示词",
+      "搜索"
+    ],
+    "category": "prompt",
+    "url": "https://prompthero.com"
+  },
+  {
+    "name": "PromptPerfect",
+    "description": "AI提示词优化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/promptperfect.jina.ai.ico",
+    "tags": [
+      "提示词",
+      "优化"
+    ],
+    "category": "prompt",
+    "url": "https://promptperfect.jina.ai"
+  },
+  {
+    "name": "Snack Prompt",
+    "description": "ChatGPT提示词发现和分享平台",
+    "icon": "https://icons.duckduckgo.com/ip3/snackprompt.com.ico",
+    "tags": [
+      "提示词",
+      "ChatGPT"
+    ],
+    "category": "prompt",
+    "url": "https://snackprompt.com"
+  },
+  {
+    "name": "PromptLayer",
+    "description": "提示词管理和版本控制平台",
+    "icon": "https://icons.duckduckgo.com/ip3/promptlayer.com.ico",
+    "tags": [
+      "提示词",
+      "管理"
+    ],
+    "category": "prompt",
+    "url": "https://promptlayer.com"
+  },
+  {
+    "name": "AI Prompt Generator",
+    "description": "AI提示词生成工具",
+    "icon": "https://icons.duckduckgo.com/ip3/huggingface.co.ico",
+    "tags": [
+      "提示词",
+      "生成"
+    ],
+    "category": "prompt",
+    "url": "https://huggingface.co"
+  },
+  {
+    "name": "PromptVine",
+    "description": "提示词模板和灵感库",
+    "icon": "https://icons.duckduckgo.com/ip3/promptvine.com.ico",
+    "tags": [
+      "提示词",
+      "模板"
+    ],
+    "category": "prompt",
+    "url": "https://promptvine.com"
+  },
+  {
+    "name": "Learning Prompt",
+    "description": "免费的提示词学习教程",
+    "icon": "https://icons.duckduckgo.com/ip3/learningprompt.wiki.ico",
+    "tags": [
+      "提示词",
+      "教程"
+    ],
+    "category": "prompt",
+    "url": "https://learningprompt.wiki"
+  },
+  {
+    "name": "即时灵感",
+    "description": "中文AI提示词社区",
+    "icon": "https://icons.duckduckgo.com/ip3/www.prompthunt.com.ico",
+    "tags": [
+      "提示词",
+      "中文"
+    ],
+    "category": "prompt",
+    "url": "https://prompthunt.com"
+  },
+  {
+    "name": "PromptStorm",
+    "description": "Chrome扩展，提供提示词模板",
+    "icon": "https://icons.duckduckgo.com/ip3/promptstorm.app.ico",
+    "tags": [
+      "提示词",
+      "Chrome"
+    ],
+    "category": "prompt",
+    "url": "https://promptstorm.app"
+  },
+  {
+    "name": "AIPRM",
+    "description": "ChatGPT提示词管理扩展",
+    "icon": "https://icons.duckduckgo.com/ip3/aiprm.com.ico",
+    "tags": [
+      "提示词",
+      "ChatGPT"
+    ],
+    "category": "prompt",
+    "url": "https://aiprm.com"
+  },
+  {
+    "name": "PromptBox",
+    "description": "提示词组织和管理工具",
+    "icon": "https://icons.duckduckgo.com/ip3/promptbox.ai.ico",
+    "tags": [
+      "提示词",
+      "组织"
+    ],
+    "category": "prompt",
+    "url": "https://promptbox.ai"
+  },
+  {
+    "name": "Prompt Genie",
+    "description": "提示词优化和增强工具",
+    "icon": "https://icons.duckduckgo.com/ip3/promptgenie.ai.ico",
+    "tags": [
+      "提示词",
+      "优化"
+    ],
+    "category": "prompt",
+    "url": "https://promptgenie.ai"
+  },
+  {
+    "name": "PromptFolder",
+    "description": "提示词保存和分享平台",
+    "icon": "https://icons.duckduckgo.com/ip3/promptfolder.com.ico",
+    "tags": [
+      "提示词",
+      "保存"
+    ],
+    "category": "prompt",
+    "url": "https://promptfolder.com"
+  },
+  {
+    "name": "Prompt Hunt",
+    "description": "AI艺术提示词搜索平台",
+    "icon": "https://icons.duckduckgo.com/ip3/prompthunt.com.ico",
+    "tags": [
+      "提示词",
+      "艺术"
+    ],
+    "category": "prompt",
+    "url": "https://prompthunt.com"
+  },
+  {
+    "name": "Promptify",
+    "description": "提示词工程和优化工具",
+    "icon": "https://icons.duckduckgo.com/ip3/promptify.com.ico",
+    "tags": [
+      "提示词",
+      "工程"
+    ],
+    "category": "prompt",
+    "url": "https://promptify.com"
+  },
+  {
+    "name": "提示词大全",
+    "description": "中文提示词资源库",
+    "icon": "https://icons.duckduckgo.com/ip3/www.promptscat.com.ico",
+    "tags": [
+      "提示词",
+      "中文"
+    ],
+    "category": "prompt",
+    "url": "https://promptscat.com"
+  },
+  {
+    "name": "ChatGPT Shortcut",
+    "description": "ChatGPT快捷指令和提示词",
+    "icon": "https://icons.duckduckgo.com/ip3/newzone.top.ico",
+    "tags": [
+      "提示词",
+      "ChatGPT"
+    ],
+    "category": "prompt",
+    "url": "https://newzone.top"
+  },
+  {
+    "name": "PromptPal",
+    "description": "提示词助手和管理工具",
+    "icon": "https://icons.duckduckgo.com/ip3/promptpal.net.ico",
+    "tags": [
+      "提示词",
+      "助手"
+    ],
+    "category": "prompt",
+    "url": "https://promptpal.net"
+  }
+]

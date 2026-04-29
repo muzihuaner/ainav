@@ -1,1055 +1,193 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>快点 AI 导航 - 发现最好的 AI 工具</title>
-    <meta name="description" content="快点 AI 导航是一个精选 AI 工具导航网站，收录了 ChatGPT、Claude、Midjourney、DALL-E、Stable Diffusion 等优质 AI 工具，支持智能搜索和分类筛选，助您快速发现最适合的 AI 工具。">
-    <meta name="keywords" content="AI导航,AI工具,ChatGPT,Claude,Midjourney,DALL-E,Stable Diffusion,人工智能,AI对话,AI绘画,AI编程,AI创作,智能助手,语言模型">
+    <meta name="description"
+        content="快点 AI 导航是一个精选 AI 工具导航网站，收录了 ChatGPT、Claude、Midjourney、DALL-E、Stable Diffusion 等优质 AI 工具，支持智能搜索和分类筛选，助您快速发现最适合的 AI 工具。">
+    <meta name="keywords"
+        content="AI导航,AI工具,ChatGPT,Claude,Midjourney,DALL-E,Stable Diffusion,人工智能,AI对话,AI绘画,AI编程,AI创作,智能助手,语言模型">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        'dark-bg': '#0f172a',
-                        'dark-card': '#1e293b',
-                        'dark-border': '#334155',
-                        'primary': '#3b82f6',
-                        'secondary': '#8b5cf6',
-                        'accent': '#06b6d4',
-                    },
-                    animation: {
-                        'fade-in': 'fadeIn 0.5s ease-out forwards',
-                        'slide-up': 'slideUp 0.5s ease-out forwards',
-                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    },
-                    keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        },
-                        slideUp: {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
-        @import url('https://fonts.loli.net/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        
-        * {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #ffffff;
         }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        /* 页面加载动画 */
-        .page-loader {
-            position: fixed;
-            inset: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease, visibility 0.5s ease;
-        }
-        
-        .page-loader.hidden {
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-        }
-        
-        .loader-spinner {
-            width: 48px;
-            height: 48px;
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-top-color: white;
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-        }
-        
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        
-        /* 头部渐变背景 */
-        .header-gradient {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .header-gradient::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.5;
-        }
-        
-        /* 搜索框样式 */
-        .search-container {
-            position: relative;
-        }
-        
-        .search-input {
-            transition: all 0.3s ease;
-            backdrop-filter: blur(10px);
-        }
-        
-        .search-input:focus {
-            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3), 0 10px 40px rgba(0, 0, 0, 0.15);
-            transform: translateY(-2px);
-        }
-        
-        .search-btn {
-            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-            transition: all 0.3s ease;
-        }
-        
-        .search-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
-        }
-        
-        .search-btn:active {
-            transform: scale(0.95);
-        }
-        
-        /* 卡片样式 */
-        .tool-card {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .tool-card::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .tool-card:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15), 0 8px 16px -8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .tool-card:hover::before {
-            opacity: 1;
-        }
-        
-        .dark .tool-card:hover {
-            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.4), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
-        }
-        
-        /* 卡片图标样式 */
-        .tool-icon {
-            width: 48px;
-            height: 48px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
-            transition: all 0.3s ease;
-            position: relative;
-        }
-        
-        .tool-icon::after {
-            content: '';
-            position: absolute;
-            inset: -2px;
-            border-radius: 14px;
-            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            z-index: -1;
-        }
-        
-        .tool-card:hover .tool-icon::after {
-            opacity: 1;
-        }
-        
-        .tool-icon img {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            object-fit: cover;
-        }
-        
-        /* 精选徽章 */
-        .featured-badge {
-            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-            box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
-        }
-        
-        /* 评分星星 */
-        .rating-star {
-            color: #f59e0b;
-            filter: drop-shadow(0 1px 2px rgba(245, 158, 11, 0.3));
-        }
-        
-        /* 标签样式 */
-        .tag {
-            background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
-            color: #4b5563;
-            transition: all 0.2s ease;
-        }
-        
-        .tag:hover {
-            background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
-            transform: translateY(-1px);
-        }
-        
-        .dark .tag {
-            background: linear-gradient(135deg, #374151 0%, #1f2937 100%);
-            color: #9ca3af;
-        }
-        
-        /* 访问按钮样式 */
-        .visit-btn {
-            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .dark .visit-btn {
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-        }
-        
-        .visit-btn::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .visit-btn:hover::before {
-            opacity: 1;
-        }
-        
-        .visit-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
-        }
-        
-        .visit-btn span {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .visit-btn:active {
-            transform: scale(0.95);
-        }
-        
-        /* 分类按钮样式 */
-        .category-btn {
-            transition: all 0.2s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .category-btn::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-            transform: scaleY(0);
-            transition: transform 0.2s ease;
-        }
-        
-        .category-btn:hover {
-            background: #f3f4f6;
-            transform: translateX(4px);
-        }
-        
-        .dark .category-btn:hover {
-            background: #374151;
-        }
-        
+
         .category-btn.active {
-            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
-            color: white;
+            border-color: #000;
+            background-color: #f8f9fa;
         }
-        
-        .dark .category-btn.active {
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-        }
-        
-        .category-btn.active::before {
-            transform: scaleY(1);
-        }
-        
-        /* 数量徽章 */
-        .count-badge {
-            background: rgba(0, 0, 0, 0.1);
-            padding: 2px 8px;
-            border-radius: 9999px;
-            font-size: 0.75rem;
-        }
-        
-        .category-btn.active .count-badge {
-            background: rgba(255, 255, 255, 0.2);
-        }
-        
-        /* 滚动触发动画 */
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.5s ease, transform 0.5s ease;
-        }
-        
-        .animate-on-scroll.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        
-        /* 返回顶部按钮 */
-        .back-to-top {
-            transition: all 0.3s ease;
-            position: relative;
-        }
-        
-        .back-to-top.visible {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(0);
-        }
-        
-        .back-to-top.hidden {
-            opacity: 0;
-            visibility: hidden;
-            transform: translateY(20px);
-        }
-        
-        .back-to-top:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
-        }
-        
-        .back-to-top:active {
-            transform: scale(0.9);
-        }
-        
-        /* 进度环 */
-        .progress-ring {
-            position: absolute;
-            inset: -2px;
-        }
-        
-        .progress-ring circle {
-            fill: none;
-            stroke: #3b82f6;
-            stroke-width: 2;
-            stroke-dasharray: 113;
-            stroke-dashoffset: 113;
-            transition: stroke-dashoffset 0.3s ease;
-            transform: rotate(-90deg);
-            transform-origin: center;
-        }
-        
-        /* 空状态动画 */
-        .empty-state {
-            animation: float 3s ease-in-out infinite;
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        /* 骨架屏 */
-        .skeleton {
-            background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
-            background-size: 200% 100%;
-            animation: shimmer 1.5s infinite;
-        }
-        
-        .dark .skeleton {
-            background: linear-gradient(90deg, #1f2937 25%, #374151 50%, #1f2937 75%);
-            background-size: 200% 100%;
-        }
-        
-        @keyframes shimmer {
-            0% { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
-        }
-        
-        /* 淡入动画 */
-        .fade-in {
-            animation: fadeIn 0.5s ease-out forwards;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        /* 视图切换按钮 */
-        .view-btn {
-            transition: all 0.2s ease;
-        }
-        
-        .view-btn.active {
-            background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
-            color: white;
-        }
-        
-        .dark .view-btn.active {
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-        }
-        
-        /* 列表视图 */
-        .list-view .tool-card {
+
+        .section-title {
             display: flex;
-            flex-direction: row;
-            align-items: center;
+            items: center;
+            gap: 8px;
+            margin-bottom: 24px;
+            font-size: 1.25rem;
+            font-weight: 700;
         }
-        
-        .list-view .tool-card .card-content {
-            flex: 1;
-        }
-        
-        .list-view .tool-card .card-action {
-            width: 150px;
-            flex-shrink: 0;
-        }
-        
-        /* 主题切换按钮 */
-        .theme-toggle {
-            transition: all 0.3s ease;
-        }
-        
-        .theme-toggle:hover {
-            transform: rotate(15deg) scale(1.1);
-        }
-        
-        /* 页脚链接 */
-        .footer-link {
-            transition: all 0.2s ease;
-        }
-        
-        .footer-link:hover {
-            color: #3b82f6;
-            transform: translateX(4px);
+
+        .card-anim {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
     </style>
 </head>
-<body class="bg-gray-50 dark:bg-dark-bg min-h-screen transition-colors duration-300">
-    <!-- 页面加载动画 -->
-    <div id="pageLoader" class="page-loader">
-        <div class="text-center">
-            <div class="loader-spinner mb-4"></div>
-            <p class="text-white text-lg font-medium">加载中...</p>
+
+<body class="text-zinc-900">
+
+    <header class="flex justify-between items-center px-8 py-4 border-b border-zinc-100">
+        <div class="flex items-center gap-2">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+            <span class="font-bold text-lg">快点 AI 导航</span>
         </div>
-    </div>
-    
-    <header class="header-gradient py-16 px-4 relative">
-        <div class="absolute top-4 right-4 flex gap-2 z-10">
-            <a href="https://github.com/muzihuaner/ainav/issues" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 transition-all duration-300 hover:scale-110" aria-label="提交建议">
-                <i class="fab fa-github text-lg"></i>
-            </a>
-            <button id="themeToggle" class="theme-toggle p-2.5 rounded-xl bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 transition-all duration-300" aria-label="切换主题">
-                <i class="fas fa-moon text-lg dark:hidden"></i>
-                <i class="fas fa-sun text-lg hidden dark:inline"></i>
-            </button>
-        </div>
-        <div class="max-w-6xl mx-auto text-center relative z-10">
-            <div class="inline-flex items-center gap-3 mb-6 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full">
-                <span class="text-4xl">🚀</span>
-                <span class="text-white/90 text-sm font-medium">发现最佳 AI 工具，提升工作效率</span>
-            </div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-lg">
-                快点 AI 导航
-            </h1>
-            <p class="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto">精选优质 AI 工具，助你开启智能新时代</p>
-            
-            <div class="search-container max-w-2xl mx-auto">
-                <input
-                    type="text"
-                    id="searchInput"
-                    placeholder="搜索 AI 工具名称或描述..."
-                    class="search-input w-full px-6 py-4 pr-32 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm border-2 border-white/20 rounded-2xl text-gray-800 dark:text-white text-lg outline-none placeholder-gray-400 dark:placeholder-gray-500"
-                >
-                <button class="search-btn absolute right-3 top-1/2 transform -translate-y-1/2 text-white px-6 py-2.5 rounded-xl flex items-center gap-2">
-                    <i class="fas fa-search"></i>
-                    <span class="hidden sm:inline">搜索</span>
-                </button>
-            </div>
-            
-            <!-- 热门搜索 -->
-            <div class="mt-6 flex flex-wrap items-center justify-center gap-2 text-white/70 text-sm">
-                <span>热门：</span>
-                <button onclick="setSearch('ChatGPT')" class="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-200">ChatGPT</button>
-                <button onclick="setSearch('Claude')" class="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-200">Claude</button>
-                <button onclick="setSearch('Midjourney')" class="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-200">Midjourney</button>
-                <button onclick="setSearch('AI绘画')" class="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-200">AI绘画</button>
-            </div>
-        </div>
+        <a href="https://github.com/muzihuaner/ainav/issues"> <button
+                class="bg-zinc-900 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-zinc-800 transition-colors">提交工具</button></a>
+
     </header>
-    
-    <main class="max-w-7xl mx-auto px-4 py-8">
-        <div class="flex flex-col lg:flex-row gap-8">
-            <!-- 移动端侧边栏切换按钮 -->
-            <button id="sidebarToggle" class="lg:hidden fixed bottom-24 left-4 z-40 bg-gray-900 dark:bg-blue-600 text-white p-3 rounded-full shadow-lg" aria-label="切换侧边栏">
-                <i class="fas fa-filter"></i>
+
+    <section class="max-w-4xl mx-auto text-center pt-16 pb-12 px-6">
+        <h1 class="text-4xl font-extrabold mb-8 tracking-tight">精选优质 AI 工具，助你开启智能新时代</h1>
+        <div class="relative max-w-2xl mx-auto">
+            <i data-lucide="search" class="absolute left-5 top-1/2 -translate-y-1/2 text-zinc-400 w-5 h-5"></i>
+            <input type="text" id="searchInput" placeholder="搜索AI工具..."
+                class="w-full pl-14 pr-6 py-4 rounded-2xl border border-zinc-200 focus:outline-none focus:ring-2 focus:ring-zinc-100 transition-all text-lg shadow-sm">
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mb-12">
+        <div id="categoryGrid" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3">
+            <button data-cat="all"
+                class="category-btn active flex items-center justify-center gap-2 py-2.5 border border-zinc-200 rounded-xl hover:border-zinc-400 transition-all text-sm font-medium">
+                <i data-lucide="layout-grid" class="w-4 h-4"></i> 全部
             </button>
-            
-            <aside id="sidebar" class="lg:w-72 w-72 fixed lg:sticky top-0 lg:top-8 left-0 h-full lg:h-auto z-50 lg:z-auto transform -translate-x-full lg:translate-x-0 transition-transform duration-300">
-                <div class="bg-white dark:bg-dark-card rounded-2xl shadow-lg border border-gray-200 dark:border-dark-border p-6 h-full lg:h-auto overflow-y-auto lg:mt-0 mt-16">
-                    <div class="flex items-center justify-between mb-6">
-                        <h2 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                            <i class="fas fa-layer-group text-blue-500"></i>
-                            分类筛选
-                        </h2>
-                        <button id="closeSidebar" class="lg:hidden p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors">
-                            <i class="fas fa-times text-gray-500"></i>
-                        </button>
-                    </div>
-                    <div id="categoryList" class="space-y-1">
-                    </div>
-                    
-                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
-                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-star text-yellow-500 text-xs"></i>
-                            其他筛选
-                        </h3>
-                        <label class="flex items-center cursor-pointer py-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-lg px-2 -mx-2 transition-colors">
-                            <input type="checkbox" id="featuredFilter" class="w-4 h-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700">
-                            <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">仅显示精选</span>
-                        </label>
-                    </div>
-                    
-                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
-                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-thumbs-up text-green-500 text-xs"></i>
-                            评分筛选
-                        </h3>
-                        <div class="space-y-1">
-                            <label class="flex items-center cursor-pointer py-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-lg px-2 -mx-2 transition-colors">
-                                <input type="checkbox" class="rating-filter w-4 h-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700" value="4.5">
-                                <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">4.5 分以上</span>
-                            </label>
-                            <label class="flex items-center cursor-pointer py-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-lg px-2 -mx-2 transition-colors">
-                                <input type="checkbox" class="rating-filter w-4 h-4 text-blue-600 rounded border-gray-300 dark:border-gray-600 dark:bg-gray-700" value="4.0">
-                                <span class="ml-2 text-sm text-gray-600 dark:text-gray-300">4.0 分以上</span>
-                            </label>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-dark-border">
-                        <h3 class="font-semibold mb-3 text-gray-900 dark:text-white text-sm flex items-center gap-2">
-                            <i class="fas fa-tags text-purple-500 text-xs"></i>
-                            热门标签
-                        </h3>
-                        <div id="tagList" class="flex flex-wrap gap-2">
-                        </div>
-                    </div>
-                </div>
-                <!-- 移动端遮罩 -->
-                <div id="sidebarOverlay" class="hidden fixed inset-0 bg-black/50 z-[-1] lg:hidden"></div>
-            </aside>
-            
-            <div class="flex-1 min-w-0">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
-                    <h2 id="resultTitle" class="text-2xl font-bold text-gray-800 dark:text-white flex items-center gap-2">
-                        <i class="fas fa-th-large text-blue-500 text-xl"></i>
-                        <span>全部工具</span>
-                    </h2>
-                    
-                    <div class="flex items-center gap-3 flex-wrap">
-                        <!-- 视图切换按钮 -->
-                        <div class="flex bg-white dark:bg-dark-card rounded-lg border border-gray-200 dark:border-dark-border p-1">
-                            <button id="gridViewBtn" class="view-btn active p-2 rounded-md text-gray-600 dark:text-gray-300" aria-label="网格视图">
-                                <i class="fas fa-th-large"></i>
-                            </button>
-                            <button id="listViewBtn" class="view-btn p-2 rounded-md text-gray-600 dark:text-gray-300" aria-label="列表视图">
-                                <i class="fas fa-list"></i>
-                            </button>
-                        </div>
-                        
-                        <select id="sortSelect" class="bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border text-gray-700 dark:text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-3 py-2">
-                            <option value="default">默认排序</option>
-                            <option value="rating_desc">评分最高</option>
-                            <option value="name_asc">名称 (A-Z)</option>
-                            <option value="newest">最新收录</option>
-                        </select>
-                        <span id="resultCount" class="text-gray-500 dark:text-gray-400 whitespace-nowrap text-sm bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full"></span>
-                    </div>
-                </div>
-                
-                <div id="toolsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                </div>
-                
-                <div id="noResults" class="hidden text-center py-16">
-                    <div class="empty-state inline-block">
-                        <i class="fas fa-search text-6xl text-gray-300 dark:text-gray-600 mb-4"></i>
-                        <p class="text-xl text-gray-500 dark:text-gray-400 font-medium">没有找到匹配的工具</p>
-                        <p class="text-gray-400 dark:text-gray-500 mt-2">尝试调整搜索关键词或筛选条件</p>
-                        <button onclick="resetFilters()" class="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
-                            <i class="fas fa-redo mr-2"></i>重置筛选
-                        </button>
-                    </div>
-                </div>
+        </div>
+    </section>
+
+    <main class="max-w-6xl mx-auto px-6 pb-20">
+
+        <div id="featuredWrapper">
+            <div class="section-title">
+                <i data-lucide="award" class="w-6 h-6 text-amber-500"></i>
+                <span>精选推荐</span>
             </div>
+            <div id="featuredGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"></div>
+        </div>
+
+        <div class="section-title border-t border-zinc-50 pt-12">
+            <i data-lucide="list" class="w-6 h-6"></i>
+            <span id="listTitle">全部工具</span>
+        </div>
+        <div id="allGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+        <div id="noResults" class="hidden text-center py-20 text-zinc-400">
+            没有找到相关的工具
         </div>
     </main>
-    
-    <!-- 返回顶部按钮带进度环 -->
-    <button id="backToTop" class="back-to-top hidden fixed bottom-8 right-8 bg-gray-900 dark:bg-blue-600 text-white p-4 rounded-full shadow-lg z-50" aria-label="回到顶部">
-        <svg class="progress-ring" width="44" height="44" viewBox="0 0 44 44">
-            <circle cx="22" cy="22" r="18"></circle>
-        </svg>
-        <i class="fas fa-arrow-up absolute inset-0 m-auto text-sm"></i>
-    </button>
-    
-    <footer class="bg-white dark:bg-dark-card border-t border-gray-200 dark:border-dark-border py-12 mt-12 transition-colors duration-300">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                        <span class="text-2xl">🚀</span>
-                        快点 AI 导航
-                    </h3>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">发现最好的 AI 工具，提升你的工作效率</p>
-                    <div class="flex gap-3 mt-4">
-                        <a href="https://github.com/muzihuaner/ainav" target="_blank" class="p-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white transition-colors" aria-label="GitHub">
-                            <i class="fab fa-github text-xl"></i>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-gray-900 dark:text-white mb-4">快速链接</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">首页</a></li>
-                        <li><a href="https://github.com/muzihuaner/ainav/issues" target="_blank" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">提交工具</a></li>
-                        <li><a href="https://github.com/muzihuaner/ainav/issues" target="_blank" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">反馈建议</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-gray-900 dark:text-white mb-4">热门分类</h4>
-                    <ul class="space-y-2" id="footerCategories">
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-semibold text-gray-900 dark:text-white mb-4">关于</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">关于我们</a></li>
-                        <li><a href="#" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">联系方式</a></li>
-                        <li><a href="#" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">隐私政策</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="pt-8 border-t border-gray-200 dark:border-dark-border text-center">
-                <p class="text-gray-600 dark:text-gray-400 text-sm">© 2026 快点 AI 导航. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-    
+
     <script>
-        let aiData = [];
-        let currentCategory = '全部';
-        let searchQuery = '';
-        let minRating = 0;
-        let featuredOnly = false;
-        let currentSort = 'default';
-        let selectedTag = null;
-        let currentView = 'grid'; // 'grid' or 'list'
-        
-        // Dark Mode Logic
-        const themeToggle = document.getElementById('themeToggle');
-        const html = document.documentElement;
-        
-        // Check local storage or system preference
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            html.classList.add('dark');
-        } else {
-            html.classList.remove('dark');
-        }
-        
-        themeToggle.addEventListener('click', () => {
-            if (html.classList.contains('dark')) {
-                html.classList.remove('dark');
-                localStorage.theme = 'light';
-            } else {
-                html.classList.add('dark');
-                localStorage.theme = 'dark';
-            }
-        });
+        const categoryMap = {
+            "chat": "AI对话", "writing": "AI写作", "image": "AI图像", "video": "AI视频",
+            "audio": "AI音频", "code": "AI编程", "office": "AI办公", "design": "AI设计",
+            "agent": "AI智能体", "search": "AI搜索", "learning": "AI学习", "model": "AI模型", "detection": "AI检测", "prompt": "AI提示词"
+        };
 
-        // 页面加载完成后隐藏加载器
-        function hideLoader() {
-            const loader = document.getElementById('pageLoader');
-            if (loader) {
-                loader.classList.add('hidden');
-            }
-        }
+        let allTools = [];
+        let currentCategory = 'all';
 
-        // 设置搜索
-        function setSearch(query) {
-            const searchInput = document.getElementById('searchInput');
-            if (searchInput) {
-                searchInput.value = query;
-                searchQuery = query;
-                renderTools();
-            }
-        }
-        window.setSearch = setSearch;
-
-        // 重置筛选
-        function resetFilters() {
-            currentCategory = '全部';
-            searchQuery = '';
-            minRating = 0;
-            featuredOnly = false;
-            selectedTag = null;
-            document.getElementById('searchInput').value = '';
-            document.getElementById('featuredFilter').checked = false;
-            document.querySelectorAll('.rating-filter').forEach(cb => cb.checked = false);
-            renderCategories();
-            renderTags();
-            renderTools();
-        }
-        window.resetFilters = resetFilters;
-
-        // 侧边栏切换
-        const sidebarToggle = document.getElementById('sidebarToggle');
-        const closeSidebar = document.getElementById('closeSidebar');
-        const sidebar = document.getElementById('sidebar');
-        const sidebarOverlay = document.getElementById('sidebarOverlay');
-
-        function openSidebar() {
-            sidebar.classList.remove('-translate-x-full');
-            sidebarOverlay.classList.remove('hidden');
-        }
-
-        function closeSidebarFn() {
-            sidebar.classList.add('-translate-x-full');
-            sidebarOverlay.classList.add('hidden');
-        }
-
-        if (sidebarToggle) {
-            sidebarToggle.addEventListener('click', openSidebar);
-        }
-
-        if (closeSidebar) {
-            closeSidebar.addEventListener('click', closeSidebarFn);
-        }
-
-        if (sidebarOverlay) {
-            sidebarOverlay.addEventListener('click', closeSidebarFn);
-        }
-
-        // 视图切换
-        const gridViewBtn = document.getElementById('gridViewBtn');
-        const listViewBtn = document.getElementById('listViewBtn');
-        const toolsGrid = document.getElementById('toolsGrid');
-
-        function setView(view) {
-            currentView = view;
-            if (view === 'list') {
-                toolsGrid.classList.remove('grid-cols-1', 'md:grid-cols-2', 'xl:grid-cols-3');
-                toolsGrid.classList.add('grid-cols-1');
-                listViewBtn.classList.add('active');
-                gridViewBtn.classList.remove('active');
-            } else {
-                toolsGrid.classList.remove('grid-cols-1');
-                toolsGrid.classList.add('grid-cols-1', 'md:grid-cols-2', 'xl:grid-cols-3');
-                gridViewBtn.classList.add('active');
-                listViewBtn.classList.remove('active');
-            }
-        }
-
-        if (gridViewBtn) {
-            gridViewBtn.addEventListener('click', () => setView('grid'));
-        }
-
-        if (listViewBtn) {
-            listViewBtn.addEventListener('click', () => setView('list'));
-        }
-
-        async function loadData() {
+        async function init() {
             try {
-                const response = await fetch('ai.json');
-                aiData = await response.json();
+                const res = await fetch('ai_tools_full.json');
+                allTools = await res.json();
                 renderCategories();
-                renderTags();
-                renderTools();
-                renderFooterCategories();
-                hideLoader();
-                initScrollAnimations();
-            } catch (error) {
-                console.error('加载数据失败:', error);
-                hideLoader();
-            }
-        }
-        
-        function getCategories() {
-            const categories = new Set(aiData.map(item => item.category));
-            return ['全部', ...Array.from(categories)];
+                renderUI();
+            } catch (e) { console.error("加载失败", e); }
         }
 
-        function getTags() {
-            const tagCounts = {};
-            aiData.forEach(item => item.tags.forEach(tag => {
-                tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-            }));
-            
-            return Object.entries(tagCounts)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 15)
-                .map(entry => entry[0]);
-        }
-        
         function renderCategories() {
-            const categories = getCategories();
-            const categoryList = document.getElementById('categoryList');
-            
-            categoryList.innerHTML = categories.map(category => `
-                <button
-                    class="category-btn w-full text-left px-4 py-2.5 rounded-lg font-medium transition-all text-sm flex items-center justify-between ${category === currentCategory ? 'active' : 'text-gray-700 dark:text-gray-300'}"
-                    onclick="filterByCategory('${category}')"
-                >
-                    <span>${category}</span>
-                    <span class="count-badge">${category === '全部' ? aiData.length : aiData.filter(item => item.category === category).length}</span>
-                </button>
-            `).join('');
-        }
-
-        function renderTags() {
-            const tags = getTags();
-            const tagList = document.getElementById('tagList');
-            
-            tagList.innerHTML = tags.map(tag => `
-                <button
-                    class="text-xs px-2.5 py-1 rounded transition-all duration-200 ${selectedTag === tag ? 'bg-blue-600 text-white shadow-sm' : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}"
-                    onclick="filterByTag('${tag}')"
-                >
-                    ${tag}
-                </button>
-            `).join('');
-            
-            if (selectedTag) {
-                tagList.innerHTML += `
-                    <button class="text-xs px-2.5 py-1 rounded bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 hover:bg-red-200 dark:hover:bg-red-900/50 transition-colors" onclick="filterByTag(null)">
-                        <i class="fas fa-times mr-1"></i>清除
-                    </button>
-                `;
-            }
-        }
-
-        function renderFooterCategories() {
-            const categories = getCategories().filter(c => c !== '全部').slice(0, 6);
-            const footerCategories = document.getElementById('footerCategories');
-            if (footerCategories) {
-                footerCategories.innerHTML = categories.map(category => `
-                    <li><a href="#" onclick="filterByCategory('${category}'); window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="footer-link text-gray-600 dark:text-gray-400 text-sm block">${category}</a></li>
-                `).join('');
-            }
-        }
-        
-        function renderTools() {
-            const toolsGrid = document.getElementById('toolsGrid');
-            const noResults = document.getElementById('noResults');
-            const resultCount = document.getElementById('resultCount');
-            const resultTitle = document.getElementById('resultTitle');
-            
-            let filteredData = aiData.filter(item => {
-                const matchCategory = currentCategory === '全部' || item.category === currentCategory;
-                const matchSearch = searchQuery === '' ||
-                    item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    item.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                    item.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
-                const matchRating = item.rating >= minRating;
-                const matchFeatured = !featuredOnly || item.featured;
-                const matchTag = !selectedTag || item.tags.includes(selectedTag);
-                
-                return matchCategory && matchSearch && matchRating && matchFeatured && matchTag;
+            const container = document.getElementById('categoryGrid');
+            Object.keys(categoryMap).forEach(key => {
+                const btn = document.createElement('button');
+                btn.className = "category-btn flex items-center justify-center gap-2 py-2.5 border border-zinc-200 rounded-xl hover:border-zinc-400 transition-all text-sm font-medium text-zinc-600";
+                btn.innerHTML = categoryMap[key];
+                btn.onclick = () => {
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active', 'border-zinc-900', 'text-zinc-900'));
+                    btn.classList.add('active', 'border-zinc-900', 'text-zinc-900');
+                    currentCategory = key;
+                    document.getElementById('listTitle').innerText = categoryMap[key] || "全部工具";
+                    renderUI(document.getElementById('searchInput').value);
+                };
+                container.appendChild(btn);
             });
+        }
 
-            // Sorting
-            filteredData.sort((a, b) => {
-                switch(currentSort) {
-                    case 'rating_desc':
-                        return b.rating - a.rating;
-                    case 'name_asc':
-                        return a.name.localeCompare(b.name, 'zh-CN');
-                    case 'newest':
-                        return 0;
-                    default:
-                        return 0;
-                }
-            });
-            
-            if (currentSort === 'newest') {
-                filteredData.reverse();
-            }
-            
-            resultCount.textContent = `共 ${filteredData.length} 个工具`;
-            resultTitle.innerHTML = `<i class="fas fa-th-large text-blue-500 text-xl"></i><span>${currentCategory === '全部' ? '全部工具' : currentCategory}</span>`;
-            
-            if (filteredData.length === 0) {
-                toolsGrid.innerHTML = '';
-                noResults.classList.remove('hidden');
-                return;
-            }
-            
-            noResults.classList.add('hidden');
-            
-            const isList = currentView === 'list';
-            
-            toolsGrid.innerHTML = filteredData.map((item, index) => `
-                <div class="tool-card bg-white dark:bg-dark-card rounded-xl shadow-sm border border-gray-200 dark:border-dark-border overflow-hidden fade-in transition-colors duration-200" style="animation-delay: ${index * 0.05}s">
-                    <div class="p-5 ${isList ? 'flex items-center gap-4' : ''}">
-                        <div class="${isList ? 'flex-shrink-0' : ''}">
-                            <div class="flex items-start justify-between mb-3">
-                                <div class="flex items-center">
-                                    <div class="tool-icon">
-                                        ${item.logo ? `<img src="${item.logo}" alt="${item.name}" class="w-8 h-8 rounded-lg object-cover" onerror="this.parentElement.innerHTML='<span class=\\'text-lg font-semibold\\'>${item.name.charAt(0)}</span>'">` : `<span class="text-lg font-semibold">${item.name.charAt(0)}</span>`}
-                                    </div>
-                                    <div class="ml-3">
-                                        <h3 class="font-semibold text-gray-900 dark:text-white">${item.name}</h3>
-                                        <div class="flex items-center mt-0.5">
-                                            <span class="rating-star text-sm">
-                                                ${'★'.repeat(Math.floor(item.rating))}${'☆'.repeat(5 - Math.floor(item.rating))}
-                                            </span>
-                                            <span class="text-xs text-gray-500 dark:text-gray-400 ml-1.5">${item.rating}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                ${item.featured ? '<span class="featured-badge text-white text-xs px-2 py-1 rounded-full font-medium ml-2 inline-flex items-center"><i class="fas fa-crown mr-1"></i>精选</span>' : ''}
-                            </div>
-                            
-                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-2">${item.description}</p>
-                            
-                            <div class="flex flex-wrap gap-1.5 mb-4">
-                                ${item.tags.slice(0, 3).map(tag => `
-                                    <span class="tag text-xs px-2.5 py-1 rounded-full">${tag}</span>
-                                `).join('')}
-                            </div>
+        // 卡片渲染模板
+        function createCardHtml(tool) {
+            const isFeatured = tool.tags.includes('精选');
+            return `
+                <a href="${tool.url || '#'}" target="_blank" class="card-anim group border border-zinc-100 rounded-[1.5rem] p-6 hover:shadow-xl hover:border-transparent transition-all bg-white flex flex-col h-full">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex items-center gap-3">
+                            <img src="${tool.icon}" class="w-10 h-10 rounded-xl border border-zinc-50 object-cover" onerror="this.src='https://ui-avatars.com/api/?name=${tool.name}'">
+                            <h3 class="font-bold text-lg group-hover:text-black transition-colors">${tool.name}</h3>
                         </div>
-                        
-                        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="visit-btn block w-full text-center py-2.5 px-4 rounded-xl font-medium text-sm text-white">
-                            <span class="flex items-center justify-center gap-2">
-                                访问网站
-                                <i class="fas fa-external-link-alt text-xs"></i>
-                            </span>
-                        </a>
+                        ${isFeatured ? `<span class="text-[10px] px-2 py-0.5 border border-amber-200 bg-amber-50 text-amber-600 rounded font-bold uppercase">精选</span>` : ''}
                     </div>
-                </div>
-            `).join('');
+                    <p class="text-zinc-500 text-sm mb-6 line-clamp-2 h-10 leading-relaxed">${tool.description}</p>
+                    <div class="flex flex-wrap gap-2 mb-8 flex-grow">
+                        ${tool.tags.filter(t => t !== '精选').slice(0, 3).map(tag => `
+                            <span class="px-2.5 py-1 bg-zinc-50 text-zinc-400 text-[11px] rounded-lg font-medium border border-zinc-100/50 uppercase tracking-tight">${tag}</span>
+                        `).join('')}
+                    </div>
+                    <div class="flex items-center justify-center gap-1 w-full py-2.5 bg-zinc-50 rounded-xl text-zinc-400 text-sm font-medium group-hover:bg-zinc-900 group-hover:text-white transition-all">
+                        访问工具 <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                    </div>
+                </a>
+            `;
         }
-        
-        function filterByCategory(category) {
-            currentCategory = category;
-            renderCategories();
-            renderTools();
-            // 移动端关闭侧边栏
-            if (window.innerWidth < 1024) {
-                closeSidebarFn();
-            }
-        }
-        window.filterByCategory = filterByCategory;
 
-        function filterByTag(tag) {
-            selectedTag = selectedTag === tag ? null : tag;
-            renderTags();
-            renderTools();
-        }
-        window.filterByTag = filterByTag;
-        
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            searchQuery = e.target.value;
-            renderTools();
-        });
-        
-        document.getElementById('sortSelect').addEventListener('change', (e) => {
-            currentSort = e.target.value;
-            renderTools();
-        });
-        
-        document.querySelectorAll('.rating-filter').forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
-                const checked = Array.from(document.querySelectorAll('.rating-filter:checked'))
-                    .map(cb => parseFloat(cb.value));
-                minRating = checked.length > 0 ? Math.max(...checked) : 0;
-                renderTools();
+        function renderUI(filterText = '') {
+            const fGrid = document.getElementById('featuredGrid');
+            const aGrid = document.getElementById('allGrid');
+            const fWrapper = document.getElementById('featuredWrapper');
+
+            // 1. 获取基础过滤后的数据
+            const filtered = allTools.filter(t => {
+                const matchesCat = currentCategory === 'all' || t.category === currentCategory;
+                const matchesSearch = t.name.toLowerCase().includes(filterText.toLowerCase()) ||
+                    t.description.toLowerCase().includes(filterText.toLowerCase());
+                return matchesCat && matchesSearch;
             });
-        });
-        
-        document.getElementById('featuredFilter').addEventListener('change', (e) => {
-            featuredOnly = e.target.checked;
-            renderTools();
-        });
-        
-        // 滚动触发动画
-        function initScrollAnimations() {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, { threshold: 0.1 });
 
-            document.querySelectorAll('.tool-card').forEach(card => {
-                observer.observe(card);
-            });
-        }
+            // 2. 提取精选工具（用于顶部橱窗）
+            const featuredList = filtered.filter(t => t.tags.includes('精选'));
 
-        // 返回顶部按钮带进度环
-        const backToTopBtn = document.getElementById('backToTop');
-        const progressCircle = backToTopBtn?.querySelector('circle');
-        
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 100;
-            
-            // 更新进度环
-            if (progressCircle) {
-                const circumference = 2 * Math.PI * 18; // r=18
-                const offset = circumference - (scrollPercent / 100) * circumference;
-                progressCircle.style.strokeDashoffset = offset;
-            }
-            
-            // 显示/隐藏按钮
-            if (scrollTop > 300) {
-                backToTopBtn.classList.remove('hidden');
-                backToTopBtn.classList.add('visible');
+            // 3. 渲染精选区 (如果没有精选内容则隐藏)
+            if (featuredList.length > 0) {
+                fWrapper.classList.remove('hidden');
+                fGrid.innerHTML = featuredList.map(t => createCardHtml(t)).join('');
             } else {
-                backToTopBtn.classList.add('hidden');
-                backToTopBtn.classList.remove('visible');
+                fWrapper.classList.add('hidden');
             }
-        });
-        
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-        
-        // 初始化
-        loadData();
+
+            // 4. 渲染全部工具区 (这里直接渲染所有 filtered 数据)
+            aGrid.innerHTML = filtered.map(t => createCardHtml(t)).join('');
+
+            // 5. 空状态处理
+            document.getElementById('noResults').classList.toggle('hidden', filtered.length > 0);
+
+            lucide.createIcons();
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => renderUI(e.target.value));
+
+        init();
     </script>
 </body>
+
 </html>
