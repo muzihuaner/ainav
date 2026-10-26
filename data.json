@@ -4478,5 +4478,17 @@
     ],
     "category": "prompt",
     "url": "https://promptpal.net"
+  },
+  {
+    "name": "agent-qa",
+    "description": "用自然语言测试 Web、Android 和 iOS 应用，结合持久记忆与验证后的自我改进，支持 CLI 和 MCP。",
+    "icon": "https://www.vostride.com/icon.png?icon.1muy1ymeud8i8.png",
+    "tags": [
+      "应用测试",
+      "持久记忆",
+      "MCP"
+    ],
+    "category": "agent",
+    "url": "https://vostride.com"
   }
 ]
